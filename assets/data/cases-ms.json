@@ -1,0 +1,65 @@
+{
+  "C1": {
+    "title": "Kemalangan Dua Relau Muat Satu Bekas (CDC)",
+    "course": [
+      "15:48, pekerja kawalan Zhou Jiapeng mendapati arus angkat tali pinggang tinggi dan penggera, serta-merta hubungi elektrisian;",
+      "He Dianhe menjalankan pemeriksaan berkala UPS di bilik PLC CDC, elektrisian mendapati perlindungan UPS utama/sandaran bertindak;",
+      "Elektrisian memeriksa terminal positif/negatif kumpulan bateri, alat pencekak tersentuh rangka logam bateri menyebabkan litar pintas, UPS terpadam, pekerja kawalan Wang Chao hubungi elektrisian putus bekalan dan hidupkan semula UPS;",
+      "16:05, selepas komputer industri hidup semula monitor menunjukkan injap sistem CDC tertutup, pekerja kawalan menghantar parameter peralatan pengembang dan mengubah parameter operasi kilun dan pengangkat;",
+      "16:10, pekerja kawalan sahkan tiada penggera relau muat dan pengangkat kemudian anjur pemuatan, 17:02 bekas arang dipasang, akhirnya dua relau arang dimuatkan ke dalam bekas yang sama."
+    ],
+    "causes": [
+      "Pekerja operasi memeriksa terminal bateri dan alat pencekak tersentuh rangka logam bateri menyebabkan litar pintas, UPS terpadam — pelanggaran baik pulih elektrik ialah punca langsung;",
+      "Pekerja kawalan kurang pengalaman rawatan pengecualian, penyeliaan keliru, gagal mengenal pasti kerosakan dan tidak lapor ke atasan — rawatan pengecualian tidak betul ialah punca utama;",
+      "Kakitangan kawalan belakang kilun sedikit, proses rawatan kerosakan keliru."
+    ],
+    "lessons": [
+      "Baik pulih elektrik mesti guna alat penebat, jalankan putus bekalan, pasang papan dan ujian dengan ketat, dilarang kerja pelanggaran dengan elektrik;",
+      "Selepas sistem terhenti pengecualian, mesti sahkan keadaan peralatan dan syarat interlock proses sepenuhnya, dilarang mulakan semula pengeluaran secara buta;",
+      "Perkukuh latihan rawatan pengecualian jawatan kawalan dan latihan kecemasan, sempurnakan mekanisme laporan pengecualian, hapus lapor lewat dan sembunyi;",
+      "Baik pulih jawatan kritikal (UPS, PLC, sistem kawalan) perlu pelan khusus dan pengesahan dua orang."
+    ]
+  },
+  "C2": {
+    "title": "Kemalangan Bendalir Pusaran Terjepit Benda Asing",
+    "course": [
+      "05:48, pekerja kawalan Zhang Jiuan mendapati peralatan bendalir pusaran tiba-tiba lapor kerosakan dan terhenti, serta-merta maklum ketua pasukan Wu Yongcai melalui walkie-talkie;",
+      "05:51, pekerja jawatan Jin Hua dan Ma Rongbo ke tapak sahkan, set suis penukaran ke kedudukan henti, cuba pusing manual Songsang dan depan-belakang, dapati hanya gerakan jarak kecil;",
+      "05:53, hubungi elektrisian bilik bekalan untuk reset kerosakan bendalir pusaran, suis tapak tukar ke operasi tepi mesin, ujian senti depan-belakang tiga kali, semua hanya gerakan jarak kecil;",
+      "Berdasarkan fenomena ditentukan terjepit benda asing, ketua pasukan serta-merta hubungi penghantaran syif dan penyelia, dan hubungi pembakar arang untuk tangguh keluaran;",
+      "Pemeriksaan dan rawatan benda asing yang terjepit seterusnya, mulakan semula pengeluaran."
+    ],
+    "causes": [
+      "Corong terima arang, konkrit tuang bekas arang dan konkrit tuang tudung habuk rosak dan tercicit membentuk benda asing yang menjepit;",
+      "Pekerja tidak mahir proses rawatan bendalir pusaran terjepit, masa rawatan agak panjang;",
+      "Pintu akses manusia lorong bercabang sukar dibuka dan tiada lubang pemeriksaan, tidak mudah kenal pasti lokasi kekit."
+    ],
+    "lessons": [
+      "Periksa dan sahkan corong terima arang, konkrit tuang bekas arang dan konkrit tuang tudung habuk setiap syif, konkrit pintu relau hilang dicabut serta-minta;",
+      "Peralatan pengecualian diproses mengikut proses: henti→putus bekalan→pusing dan senti sahkan→lapor→rawatan, dilarang pusing paksa;",
+      "Sempurnakan pelan rawatan kekit dan latih tiga syif, kurangkan masa rawatan pengecualian;",
+      "Selepas ubah suai baik pulih (lubang pemeriksaan pintu akses, pembesaran mulut longkang) dimasukkan standard pemeriksaan."
+    ]
+  },
+  "C3": {
+    "title": "Kemalangan Bekas Arang Melekit Arang",
+    "course": [
+      "19:48, relau terakhir siang 7-57, kenderaan pengangkut CDC ke kedudukan terima arang, bekas arang berputar biasa menerima arang;",
+      "Melalui kamera, ketinggian kek arang tidak sekata, sebelah utara jelas berjuntung, proses terima arang habuk dan api terbakar teruk;",
+      "Zhao Chunsheng dan Wu Yongcai serta-merta ke tapak, awal ditentukan arang mentah;",
+      "Selepas terima arang, pemeriksaan mendapati kamera lubang pemeriksaan kedudukan terima rosak dibakar; bekas arang dinaikkan dengan api panjang jelas keluar dari celah tudung bekas, lubang kalis letupan dan injap dasar;",
+      "Proses muat arang tidak dengar bunyi arang jatuh ke relau CDC biasa, selepas bekas jatuh api masih keluar; penyelia kawasan dan penghantaran kilang ke tapak, hubungi relau arang tangguh keluaran."
+    ],
+    "causes": [
+      "Kematangan arang kurang baik (arang mentah) menyebabkan bekas melekit arang dan pelepasan tidak lengkap, punca utama kemalangan;",
+      "Keadaan plat tolak arang tidak baik (tidak digilap dan dilicin dengan minyak) memburukkan pelekit;",
+      "Pekerja kurang pengalaman menilai kematangan kek arang, pengesanan dan rawatan pengecualian lewat."
+    ],
+    "lessons": [
+      "Sebelum tolak arang perhatikan kematangan kek arang 6~8 jam, sahkan separuh jam sebelum tolak; jika kematangan sebelah mesin kurang, tunda sehingga matang;",
+      "Plat tolak arang digilap dan dilincir dengan minyak berkala, plat baharu 1-3 relau pertama guna kelajuan rendah dan kawal arus muat;",
+      "Pematangan semula perhatikan pemantauan video dan pengesahan tapak, lapor penghantaran dan atasan serta-minta;",
+      "Perkukuh latihan proses jawatan penyelaras api, tingkatkan keupayaan menilai kematangan arang."
+    ]
+  }
+}

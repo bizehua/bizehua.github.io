@@ -1,0 +1,1144 @@
+{
+ "A1": {
+  "q": "Cara operasi dua ruang kilun kapur dwibilah Maerz ialah:",
+  "o": [
+   "Kedua-dua ruang membakar serentak",
+   "Satu ruang membakar, satu standby tanpa pergantian",
+   "Berselang-seli antara fasa pembakaran dan fasa penyerapan haba, berganti berkala",
+   "Hanya fasa pembakaran, tiada fasa penyerapan haba"
+  ],
+  "e": "Dua ruang kilun bekerja berselang-seli: satu ruang membakar (on-gas) manakala satu ruang menyerap haba (regeneration), berganti setiap 10~12 minit untuk pengeluaran berterusan dan pemulihan haba."
+ },
+ "A2": {
+  "q": "Suhu bahan dalam zon pembakaran kilun biasanya mencapai:",
+  "o": [
+   "600~800℃",
+   "800~900℃",
+   "1100~1200℃",
+   "Melebihi 1400℃"
+  ],
+  "e": "Suhu penguraian batu kapur kira-kira 900℃, suhu bahan zon pembakaran kilun Maerz dikawal 1100~1200℃, permukaan badan kilun dan paip gas buangan boleh melebihi 200℃ — mesti elakkan lecur."
+ },
+ "A3": {
+  "q": "Kandungan utama dalam gas converter yang menyebabkan keracunan di kawasan kerja ialah:",
+  "o": [
+   "CO (karbon monoksida)",
+   "CO₂ (karbon dioksida)",
+   "H₂S (hidrogen sulfida)",
+   "CH₄ (metana)"
+  ],
+  "e": "Gas converter mempunyai kandungan CO tinggi, tidak berwarna dan berbau, mengikat hemoglobin menyebabkan kekurangan oksigen tisu — punca utama keracunan di kawasan kilun."
+ },
+ "A4": {
+  "q": "Dalam had dedahan pekerjaan kebangsaan, had dedahan jangka pendek (PC-STEL) karbon monoksida ialah:",
+  "o": [
+   "10mg/m³",
+   "20mg/m³",
+   "30mg/m³",
+   "50mg/m³"
+  ],
+  "e": "GBZ 2.1 menetapkan PC-TWA CO 20mg/m³ dan PC-STEL 30mg/m³; kerja di kawasan gas mesti kawal masa dedahan dan bawa pengesan CO."
+ },
+ "A5": {
+  "q": "Sebelum memasuki ruang terhad untuk bekerja, julat kandungan oksigen yang lulus ialah:",
+  "o": [
+   "16%~19%",
+   "19.5%~23.5%",
+   "18%~22%",
+   "23%~25%"
+  ],
+  "e": "Oksigen bawah 19.5% ialah persekitaran kekurangan oksigen, melebihi 23.5% ialah persekitaran kaya oksigen — kedua-duanya dilarang bekerja."
+ },
+ "A6": {
+  "q": "Kerja ruang terhad mesti mematuhi prinsip \"udarakan dahulu, uji kemudian, bekerja selepas itu\".",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Udara dulu, uji kemudian, bekerja akhir — prosedur asas kerja ruang terhad, tiada langkah boleh dilangkau."
+ },
+ "A7": {
+  "q": "Selepas kerja ruang terad terganggu, pekerja mesti:",
+  "o": [
+   "Teruskan kerja langsung",
+   "Udara semula dan uji lulus sebelum masuk",
+   "Maklum pengawas sahaja boleh masuk",
+   "Masuk dengan tiket kali terakhir"
+  ],
+  "e": "Persekitaran gas dalam ruang terhad boleh berubah selepas gangguan, mesti udara dan uji semula sebelum masuk."
+ },
+ "A8": {
+  "q": "Apabila penggera alat pernafasan tekanan positif berbunyi, tekanan silinder lebih kurang:",
+  "o": [
+   "1MPa",
+   "5MPa",
+   "10MPa",
+   "15MPa"
+  ],
+  "e": "Silinder 6.8L/30MPa biasa, tekanan penggera kira-kira 5MPa; apabila penggera berbunyi mesti keluar serta-merta ke kawasan selamat."
+ },
+ "A9": {
+  "q": "Kerja ketinggian pada ketinggian melebihi 5m hingga 15m tergolong dalam:",
+  "o": [
+   "Kerja ketinggian Tahap 1",
+   "Kerja ketinggian Tahap 2",
+   "Kerja ketinggian Tahap 3",
+   "Kerja ketinggian Khas"
+  ],
+  "e": "Penggredan kerja ketinggian: 2~5m Tahap 1, 5~15m Tahap 2, 15~30m Tahap 3, melebihi 30m Khas."
+ },
+ "A10": {
+  "q": "Prinsip \"Sepuluh Tidak Angkat\" kerja kren termasuk yang berikut:",
+  "o": [
+   "Isyarat arahan tidak jelas tidak angkat",
+   "Muatan melebihi had atau berat tidak jelas tidak angkat",
+   "Tali dan alat angkat tidak memenuhi standard tidak angkat",
+   "Orang berdiri di atas muatan atau ada benda longgar tidak angkat"
+  ],
+  "e": "Sepuluh Tidak Angkat juga termasuk ikatan tidak kukuh, condong seret, benda tajam tanpa pelapik, bekas berlebih, benda tertanam, angin kuat Tahap 6 ke atas dan cahaya kurang."
+ },
+ "A11": {
+  "q": "Semasa bekerja di kawasan gas dan ruang terhad, mesti bawa pengesan CO bersama.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Pengesan CO ialah peralatan menyelamat nyawa di kawasan gas; periksa bateri dan keadaan sebelum kerja, keluar serta-minta apabila berbunyi."
+ },
+ "A12": {
+  "q": "Dalam rekod pemeriksaan peralatan, suhu dan tekanan peralatan perlu ditulis:",
+  "o": [
+   "Angka khusus, tidak boleh tulis \"normal\" sahaja",
+   "Tulis \"normal\" sudah cukup",
+   "Boleh dibiarkan kosong",
+   "Tulis mengikut anggaran"
+  ],
+  "e": "Standard standard menerangkan suhu dan tekanan peralatan mesti ditulis angka untuk memastikan data benar dan boleh disemak."
+ },
+ "A13": {
+  "q": "Kandungan mesyuarat pra-syif termasuk:",
+  "o": [
+   "Panggilan dan pengesahan kehadiran",
+   "Kenal pasti kerja berisiko tinggi syif ini",
+   "Susun langkah keselamatan terperinci",
+   "Anjur ikrar keselamatan berkumpul"
+  ],
+  "e": "Mesyuarat pra-syif dianjur ketua pasukan: kerja berisiko mesti dikenal pasti, langkah keselamatan mesti disusun, ikrar keselamatan mesti diadakan."
+ },
+ "A14": {
+  "q": "Laporan analisis kemalangan peralatan mesti dikesan dari tiga aspek:",
+  "o": [
+   "Pemeriksaan jawatan, pemeriksaan profesional, rondaan paket mesin",
+   "Keselamatan, peralatan, proses",
+   "Pelan, pelaksanaan, ringkasan",
+   "Orang, mesin, bahan"
+  ],
+  "e": "Standard standard memerlukan analisis kemalangan dikesan dari tiga aspek: pemeriksaan jawatan, pemeriksaan profesional dan rondaan paket mesin untuk mengenal pasti lubang pengurusan."
+ },
+ "A15": {
+  "q": "Berikut merupakan peralatan khas:",
+  "o": [
+   "Kren",
+   "Dandang",
+   "Bekas tekanan",
+   "Lift"
+  ],
+  "e": "Peralatan khas perlu daftar dan pemeriksaan berkala, operator mesti berlesen."
+ },
+ "A16": {
+  "q": "Pekerja memeriksa alat perlindungan dan peralatan jawatannya setiap syif sekurang-kurangnya:",
+  "o": [
+   "1 kali",
+   "2 kali",
+   "3 kali",
+   "1 kali seminggu"
+  ],
+  "e": "Pekerja memeriksa sekurang-kurangnya 3 kali setiap syif dan mengisi borang pemeriksaan jawatan; bahagian \"dua fokus satu besar\" perlu rondaan berterusan."
+ },
+ "A17": {
+  "q": "Semasa serah tugas syif, bahaya yang dikenalpasti belum dibaiki dan kerja pembaikan berbaki perlu dimaklumkan kepada petugas syif akan datang.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Taklimat keselamatan serah tugas syif ialah keperluan jelas terma mesyuarat keselamatan dalam standard, untuk mencegah bahaya hilang kawalan."
+ },
+ "A18": {
+  "q": "Penunjuk jarum tolok pemadam api di zon mana menunjukkan tekanan normal:",
+  "o": [
+   "Zon merah",
+   "Zon hijau",
+   "Zon kuning",
+   "Zon putih"
+  ],
+  "e": "Zon merah tekanan kurang, zon kuning tekanan berlebih, zon hijau normal; pengecualian perlu diganti atau dibaiki serta-merta."
+ },
+ "A19": {
+  "q": "Keperluan pengurusan jadual betul-salah operasi jawatan ialah:",
+  "o": [
+   "Diarkib sahaja, tidak perlu dipasang",
+   "Dipasang di dinding dan pekerja mesti menguasai",
+   "Ambil gambar simpan sahaja",
+   "Tidak perlu disediakan"
+  ],
+  "e": "Jadual betul-salah mesti dipasang di dinding, lengkap, jawatan faktor bahaya utama mesti ada, pekerja yang gagal menunjukkan kefahaman dikenakan penalti."
+ },
+ "A20": {
+  "q": "Kerja berhampiran permukaan badan kilun dan kawasan pembuangan abu, kemalangan utama yang perlu dielakkan ialah:",
+  "o": [
+   "Keracunan CO",
+   "Lecur suhu tinggi",
+   "Renjatan elektrik",
+   "Pekak bunyi"
+  ],
+  "e": "Permukaan badan kilun, paip gas buangan dan kawasan pembuangan abu bersuhu tinggi, pakai pakaian penebat, kekalkan jarak selamat, kerja selepas henti mesin dan penurunan suhu."
+ },
+ "A21": {
+  "q": "Apabila mendapati kebocoran gas, boleh telefon bimbit terus di tempat kebocoran.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Kawasan kebocoran dilarang guna alat komunikasi bukan kalis letupan dan nyalaan; keluarkan ke sisi angin atas yang selamat dahulu kemudian lapor."
+ },
+ "A22": {
+  "q": "Kesalahan berikut dalam tanggungjawab pengawas kerja ruang terhad ialah:",
+  "o": [
+   "Mengawas sepenuhnya dan tidak boleh meninggalkan jawatan",
+   "Menguji perubahan gas berterusan",
+   "Masuk ke dalam ruang terhad untuk membantu kerja",
+   "Kekalkan hubungan boleh dipercayai dengan pekerja"
+  ],
+  "e": "Pengawas dilarang masuk ke dalam ruang terhad, mesti mengawas sepenuhnya di luar dan kekalkan hubungan."
+ },
+ "A23": {
+  "q": "Sebelum memasuki ruang terad bekerja, taklimat keselamatan dan taklimat teknikal perlu diberikan kepada:",
+  "o": [
+   "Ketua kerja",
+   "Pengawas",
+   "Pekerja di tapak",
+   "Pekerja penyelamat"
+  ],
+  "e": "Empat kategori orang mesti semua dapat taklimat dan taklimat serta latihan dan peperiksaan, tidak boleh kurang satu."
+ },
+ "A24": {
+  "q": "Kerja but/flange injap goggle gas converter di kawasan kapur, jenis kemalangan utama yang perlu dielakkan ialah:",
+  "o": [
+   "Kebakaran, keracunan dan letupan gas",
+   "Jatuh dari ketinggian",
+   "Kena objek",
+   "Kemalangan kenderaan"
+  ],
+  "e": "Kerja ini bersentuhan langsung dengan gas converter, mesti ada kebenaran kerja berbahaya, pakai pengesan gas CO, laksanakan langkah kalis letupan dan anti-keracunan."
+ },
+ "A25": {
+  "q": "Apabila mendapati seseorang keracunan CO, langkah pertama di tapak ialah:",
+  "o": [
+   "Jalankan pernafasan buatan serta-merta",
+   "Bawa mangsa keluar ke kawasan berudara segar dengan segera",
+   "Tunggu pekerja penyelamat profesional",
+   "Beri mangsa minum air"
+  ],
+  "e": "Keluar dari sumber racun dahulu kemudian beri pertolongan; penyelamat mesti pakai alat pernafasan tekanan positif untuk elakkan keracunan berantai."
+ },
+ "A26": {
+  "q": "Selepas seseorang terkena renjatan elektrik, sebelum menyelamatkan perlu potong bekalan elektrik atau angkat wayar dengan bahan penebat kering.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Sebelum memutus bekalan elektrik dilarang sentuh mangsa secara langsung untuk elakkan penyelamat terkena renjatan berantai."
+ },
+ "A27": {
+  "q": "Semasa menggunakan pemadam api untuk memadam api peringkat awal, orang perlu berdiri di:",
+  "o": [
+   "Sisi angin bawah",
+   "Sisi angin atas",
+   "Mana-mana arah",
+   "Betul-betul di bawah"
+  ],
+  "e": "Berdiri sisi angin atas mengelakkan asap dan api menghadap, memastikan keberkesanan pemadaman dan keselamatan diri."
+ },
+ "A28": {
+  "q": "Sebelum memasuki dalam kilun untuk baik pulih, langkah keselamatan yang mesti dijalankan:",
+  "o": [
+   "Henti mesin dan potong sumber gas",
+   "Pengudaraan paksa dan penggantian",
+   "Ujian gas lulus",
+   "Kelulusan kerja ruang terhad dan pengawas khusus"
+  ],
+  "e": "Dalam kilun ialah ruang terhad tipikal, empat prosedur mesti semua dilaksanakan sebelum masuk."
+ },
+ "A29": {
+  "q": "Kemalangan utama yang perlu dielakkan di kawasan sistem suapan (angkat tali pinggang, tali pinggang) ialah:",
+  "o": [
+   "Kemalangan mekanikal (himpit)",
+   "Lemas",
+   "Sengatan haba",
+   "Sebab sejuk"
+  ],
+  "e": "Kawasan sistem suapan ada banyak bahagian bergerak, sebelum kerja mesti henti mesin, putus bekalan, pasang papan tanda, dilarang melintas tali pinggang berjalan."
+ },
+ "A30": {
+  "q": "Pemberian alat pelindung perlu ditandatangani oleh pekerja dan pemakaian di tapak mesti memenuhi keperluan.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Pengurusan alat pelindung perlu daftar, rekod pengeluaran bertandatangan, ganti lama dengan baharu, pemakaian di tapak tidak memenuhi dikenakan penalti setiap orang."
+ },
+ "B1": {
+  "q": "Kawasan kerja tidak mewujudkan daftar ruang terhad, dalam penerimaan tergolong:",
+  "o": [
+   "Item potongan biasa",
+   "Item veto satu undi",
+   "Item bonus",
+   "Tidak berkaitan"
+  ],
+  "e": "Standard standard menjelaskan \"tiada daftar ruang terhad\" ialah item veto, mencetuskan kegagalan penerimaan."
+ },
+ "B2": {
+  "q": "Berikut merupakan item veto satu undi penerimaan:",
+  "o": [
+   "Tiada daftar bahaya",
+   "Tiada fail latihan keselamatan",
+   "Tiada pelan kecemasan",
+   "Tiada daftar peralatan khas"
+  ],
+  "e": "Item veto juga termasuk: tiada carta organisasi, tiada rekod cuti, tiada kad pemeriksaan, tiada daftar peralatan, tiada jadual betul-salah, tiada daftar pemeriksaan keselamatan, tiada daftar alat pelindung, tiada daftar pihak berkaitan."
+ },
+ "B3": {
+  "q": "Pengenalan bahaya dan langkah kawalan perlu dinilai semula setiap:",
+  "o": [
+   "Setiap suku",
+   "Setiap separuh tahun",
+   "Setiap tahun",
+   "Setiap dua tahun"
+  ],
+  "e": "Standard standard memerlukan pengenalan, ringkasan, penilaian bahaya dinilai semula setiap tahun dan simpan versi terkini."
+ },
+ "B4": {
+  "q": "Cara pengurusan untuk bahaya utama yang dikenal pasti ialah:",
+  "o": [
+   "Pengurusan seragam",
+   "Kawalan berperingkat",
+   "Taklimat lisan",
+   "Hanya pasang tanda tanda"
+  ],
+  "e": "Bahaya utama perlu kawalan berperingkat dengan langkah keselamatan khusus dan dilaksanakan."
+ },
+ "B5": {
+  "q": "Kandungan pemeriksaan pelaksanaan langkah pengurusan bahaya termasuk:",
+  "o": [
+   "Penyediaan dan penyelenggaraan alat penyelamat",
+   "Pengukuran, pemindahan jarak jauh dan rekod berterusan parameter penting",
+   "Kelulusan dan pemeriksaan proses kerja berbahaya",
+   "Pemeriksaan harian pelaksanaan langkah lain"
+  ],
+  "e": "Kesemua empat kandungan ialah keperluan jelas standard, perlu terbentuk rekod."
+ },
+ "B6": {
+  "q": "Kekerapan latihan pelan tindak balas di tapak ialah:",
+  "o": [
+   "Bulanan",
+   "Suku tahunan",
+   "Sekurang-kurangnya setiap enam bulan",
+   "Tahunan"
+  ],
+  "e": "Standard standard memerlukan pelan tindak balas di tapak dianjur sekurang-kurangnya setiap enam bulan."
+ },
+ "B7": {
+  "q": "Arkib serta-merta bahan latihan kecemasan termasuk:",
+  "o": [
+   "Pelan kecemasan atau pelan tindak balas di tapak",
+   "Pelan latihan",
+   "Kehadiran latihan dan rekod latihan",
+   "Ringkasan dan penilaian keberkesanan, bahan imej"
+  ],
+  "e": "Termasuk rekod proses (sekurang-kurangnya 2 orang jejak membentuk rekod); masalah dikesan kemas kini teks pelan dalam seminggu dan semua pekerja dilatih dalam 8 hari."
+ },
+ "B8": {
+  "q": "Kekerapan latihan kecemasan jawatan kritikal ialah:",
+  "o": [
+   "Sekurang-kurangnya 1 kali setahun, 1 jam sesi",
+   "Sekurang-kurangnya 2 kali setahun, minimum 2 jam sesi",
+   "1 kali setiap dua tahun",
+   "Latihan semasa masuk kerja sahaja"
+  ],
+  "e": "Orang berkaitan satu latihan kecemasan setahun, jawatan kritikal sekurang-kurangnya 2 kali setahun, setiap sesi minimum 2 jam pembelajaran."
+ },
+ "B9": {
+  "q": "Lima unsur borang pemeriksaan keselamatan ialah:",
+  "o": [
+   "Item pemeriksaan, standard pemeriksaan, keadaan pemeriksaan, masa pemeriksaan, pemeriksa",
+   "Pemeriksa, yang diperiksa, masa, lokasi, kandungan",
+   "Pelan, pelaksanaan, pembaikan, semakan, penilaian",
+   "Penyediaan, pemeriksaan, kelulusan, pengedaran, latihan"
+  ],
+  "e": "Lima unsur tidak boleh kurang satu, kandungan pemeriksaan mesti berpadanan dengan penguraian tanggungjawab keselamatan."
+ },
+ "B10": {
+  "q": "Keperluan ketua siang memegang borang memeriksa jawatan kawasan setiap hari ialah:",
+  "o": [
+   "Periksa sekurang-kurangnya 1 jawatan",
+   "Periksa sekurang-kurangnya 3 jawatan dan tandatangan di jawatan (tandatangan bersama)",
+   "Periksa sekali sebulan",
+   "Dibiarkan ditandatangani ketua pasukan"
+  ],
+  "e": "Ketua siang periksa sekurang-kurangnya 3 jawatan sehari, isi borang sepadan keadaan sebenar, dilarang tandatangan ganti."
+ },
+ "B11": {
+  "q": "Untuk alat dan bahagian bahan kimia berbahaya \"dua fokus satu besar\", cara rondaan operator di tapak ialah:",
+  "o": [
+   "1 kali setiap syif",
+   "3 kali setiap syif",
+   "Rondaan berterusan",
+   "1 kali seminggu"
+  ],
+  "e": "Standard standard memerlukan rondaan berterusan untuk bahagian tersebut."
+ },
+ "B12": {
+  "q": "Keperluan pengurusan daftar pembaikan bahaya termasuk:",
+  "o": [
+   "Jalankan analisis punca",
+   "Yang boleh dibaiki susun langkah, laksanakan masa dan pihak bertanggungjawab",
+   "Yang tidak boleh dibaiki lapor peringkat demi peringkat",
+   "Jejak semakan dan pertanggungjawaban"
+  ],
+  "e": "Keputusan pemeriksaan perlu berkait dengan ganjaran dan hukuman, bahaya besar atau bahaya lama tidak dibaiki akan dinilai ketat."
+ },
+ "B13": {
+  "q": "Keperluan rekod latihan pekerja baharu ialah:",
+  "o": [
+   "Ada latihan masuk kilang sahaja",
+   "Ada rekod latihan masuk kilang dan latihan bimbingan",
+   "Tiada rekod diperlukan",
+   "Taklimat lisan sahaja"
+  ],
+  "e": "Tiada rekod latihan masuk kilang dan bimbingan dikenakan potongan, rekod latihan dimasukkan fail seorang seorang."
+ },
+ "B14": {
+  "q": "Mod pengurusan fail latihan ialah:",
+  "o": [
+   "Seorang seorang satu fail",
+   "Satu pasukan satu fail",
+   "Ringkasan tahunan satu fail",
+   "Tidak perlu fail"
+  ],
+  "e": "Standard standard memerlukan fail latihan seorang seorang, diarkib dwi hujung kertas dan elektronik."
+ },
+ "B15": {
+  "q": "Keperluan bahasa carta organisasi kawasan ialah:",
+  "o": [
+   "Cina sahaja",
+   "Dwibahasa Cina-Inggeris",
+   "Inggeris sahaja",
+   "Tiada keperluan"
+  ],
+  "e": "Carta organisasi perlu dwibahasa Cina-Inggeris, tiada rosak, halangan atau luput."
+ },
+ "B16": {
+  "q": "Keperluan pengurusan pihak berkaitan masuk kawasan bekerja termasuk:",
+  "o": [
+   "Taklimat dan latihan keselamatan sebelum masuk",
+   "Pengesahan langkah keselamatan kontraktor sebelum kerja",
+   "Pengawasan dan pemeriksaan semasa kerja",
+   "Pemeriksaan pembersihan dan pemulihan kemudahan selepas kerja"
+  ],
+  "e": "Pihak berkaitan khidmat jangka panjang sekurang-kurangnya setahun sekali, perubahan persekitaran dimaklumkan semula serta-merta; kerja berbahaya pihak berkaitan perlu kelulusan."
+ },
+ "B17": {
+  "q": "Daftar peralatan khas perlu merangkumi peralatan:",
+  "o": [
+   "Kren, jentera angkat",
+   "Dandang",
+   "Bekas tekanan",
+   "Lift"
+  ],
+  "e": "Daftar perlu dikemas kini serta-merta, daftar alat kecemasan juga perlu merangkumi alat pernafasan, pengesan gas CO, pemadam api, injap keselamatan, jangka tekanan."
+ },
+ "B18": {
+  "q": "Unsur yang perlu ada dalam daftar alat dan peralatan penyelamat kecemasan ialah:",
+  "o": [
+   "Nama alat dan kuantiti sahaja",
+   "Lokasi alat, kuantiti, pihak bertanggungjawab, nombor telefon",
+   "Lokasi simpanan sahaja",
+   "Tarikh beli sahaja"
+  ],
+  "e": "Dibina mengikut templat syarikat, pemeriksaan dan penyelenggaraan berkala serta rekod."
+ },
+ "B19": {
+  "q": "Tempoh kemas kini teks pelan selepas latihan kecemasan mengenal pasti masalah ialah:",
+  "o": [
+   "Dalam seminggu",
+   "Dalam 3 hari",
+   "Dalam sebulan",
+   "Tidak perlu kemas kini"
+  ],
+  "e": "Kemas kini teks pelan dalam seminggu, dan semua pekerja dilatih dan diperiksa dalam 8 hari."
+ },
+ "B20": {
+  "q": "Pihak berkaitan mengalami kecederaan ringan di kawasan tanggungjawab, terus dikenakan item veto.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Pihak berkaitan: kecederaan ringan 2 mata, kecederaan sederhana 5 mata, kecederaan berat 20 mata, kecederaan berat ke atas baru item veto."
+ },
+ "B21": {
+  "q": "Pengurusan kawasan kerja tidak mencukupi menyebabkan kemalangan kecederaan ringan ke atas di kawasan tanggungjawab, dikenakan item veto.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Standard standard menjelaskan kemalangan kecederaan ringan ke atas di kawasan tanggungjawab kawasan kerja mencetuskan veto."
+ },
+ "B22": {
+  "q": "Rekod yang perlu lengkap dalam daftar kemalangan:",
+  "o": [
+   "Laporan siasatan kemalangan",
+   "Rekod pertanggungjawaban",
+   "Rekod pemantauan pelaksanaan langkah pencegahan",
+   "Borang kehadiran latihan"
+  ],
+  "e": "Borang kehadiran latihan tergolong arkib latihan kecemasan, bukan kandungan daftar kemalangan."
+ },
+ "B23": {
+  "q": "Keperluan teras pengurusan alat pelindung ialah:",
+  "o": [
+   "Beli dan tidak perlu keluarkan",
+   "Ada daftar, rekod pengeluaran bertandatangan, ganti lama dengan baharu, pemakaian di tapak memenuhi",
+   "Keluarkan berlebihan tidak perlu rekod",
+   "Pekerja sediakan sendiri"
+  ],
+  "e": "Pemakaian alat pelindung di tapak tidak memenuhi dikenakan penalti setiap orang, perlu pemeriksaan berkekalan."
+ },
+ "B24": {
+  "q": "Keperluan pengurusan prosedur operasi keselamatan termasuk:",
+  "o": [
+   "Wujud daftar prosedur",
+   "Prosedur, papan maklumat, papan ikrar keselamatan dipasang",
+   "Pekerja menguasai prosedur jawatan",
+   "Ada rekod pemeriksaan dan tiada pelanggaran di tapak"
+  ],
+  "e": "Tiada prosedur operasi keselamatan ialah item veto; pekerja yang gagal menunjukkan kefahaman dikenakan penalti setiap orang."
+ },
+ "B25": {
+  "q": "Keperluan asas pengurusan penetapan ialah:",
+  "o": [
+   "Susun secara rawak",
+   "Kebersihan ada pembahajan zon, ada pihak bertanggungjawab, barang penetapan piawai",
+   "Hanya peralatan perlu bersih",
+   "Kemas sapu sebelum penerimaan"
+  ],
+  "e": "Tanggungjawab pengurusan tapak diuraikan ke jawatan, perubahan masuk/keluar pekerja perlu dikemas kini, elakkan lubang pengurusan."
+ },
+ "B26": {
+  "q": "Kandungan keperluan mesyuarat selepas syif ialah:",
+  "o": [
+   "Panggilan sahaja",
+   "Kira bilangan orang, komen pelaksanaan langkah keselamatan, lapor keadaan \"tiga pelanggaran\"",
+   "Susun pengeluaran sahaja",
+   "Tiada rekod diperlukan"
+  ],
+  "e": "Mesyuarat selepas syif perlu terbentuk rekod, sepadan dengan daftar penilaian."
+ },
+ "B27": {
+  "q": "Keperluan aktiviti keselamatan mingguan pasukan termasuk:",
+  "o": [
+   "Ringkas kerja keselamatan minggu lepas",
+   "Susun aktiviti keselamatan minggu depan",
+   "Rekod lengkap",
+   "Ketua siang periksa sekurang-kurangnya sekali sebulan"
+  ],
+  "e": "Aktiviti keselamatan mingguan tidak diadakan dikenakan potongan setiap kali, keadaan pemeriksaan ketua siang perlu jejak."
+ },
+ "B28": {
+  "q": "Kekerapan mesyuarat keselamatan pasukan ialah:",
+  "o": [
+   "Aktiviti keselamatan mingguan sekali, mesyuarat keselamatan bulanan sekali",
+   "Suku tahunan sekali",
+   "Setahun sekali sahaja",
+   "Tiada kekerapan tetap"
+  ],
+  "e": "Mesyuarat pra dan selepas syif setiap syif, aktiviti keselamatan mingguan mingguan, mesyuarat keselamatan bulanan bulanan."
+ },
+ "B29": {
+  "q": "Pengurusan latihan memerlukan pelaksanaan seorang seorang satu fail, rekod latihan perlu guna templat seragam.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Tidak melaksanakan seorang seorang, tidak guna templat seragam, kurang hujung kertas atau elektronik dikenakan potongan."
+ },
+ "B30": {
+  "q": "Keperluan pengurusan pelan kecemasan ialah:",
+  "o": [
+   "Simpan di kabinet selepas disediakan",
+   "Diedarkan ke jawatan dan rekod pengedaran diarkib",
+   "Hanya pihak pengurusan pegang",
+   "Guna templat dalam talian terus"
+  ],
+  "e": "Pelan perlu diedarkan ke jawatan dan ada rekod pengedaran; tiada pelan kecemasan ialah item veto."
+ },
+ "C1": {
+  "q": "Kemas kini berlaku keracunan CO, langkah pertolongan pertama di tapak ialah:",
+  "o": [
+   "Jalankan pernafasan mulut-ke-mulut serta-minta",
+   "Bawa mangsa keluar ke kawasan berudara segar dengan segera",
+   "Tunggu kakitangan perubatan sampai",
+   "Beri mangsa makan ubat"
+  ],
+  "e": "Keluar dari sumber racun dahulu kemudian beri pertolongan; penyelamat perlu pakai alat pernafasan tekanan positif, elakkan tindakan buta."
+ },
+ "C2": {
+  "q": "Langkah pertolongan di tapak mangsa keracunan CO termasuk:",
+  "o": [
+   "Keluarkan ke kawasan berudara segar",
+   "Kekalkan saluran pernafasan lancar dan panaskan badan",
+   "Pernafasan dan degupan berhenti jalankan CPR serta-merta",
+   "Lapor dan hubungi kakitangan perubatan serentak"
+  ],
+  "e": "Keracunan berat perlu oksigen segera, beri pertolongan sambil lapor, tidak boleh lengah."
+ },
+ "C3": {
+  "q": "Orang pengsan dalam ruang terhad, pengawas perlu pakai topeng penapis dan masuk serta-merta.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Dilarang bertindak buta! Pekerja penyelamat mesti pakai alat pernafasan tekanan positif, ikat tali keselamatan, pengawas luar, beri pertolongan saintifik mengikut pelan."
+ },
+ "C4": {
+  "q": "Semasa memasuki ruang terhad untuk menyelamatkan, perlu pakai:",
+  "o": [
+   "Topeng penapis",
+   "Alat pernafasan tekanan positif",
+   "Tuala basah",
+   "Tiada perlindungan"
+  ],
+  "e": "Dalam persekitaran kekurangan oksigen atau beracun topeng penapis tidak berkesan, mesti guna alat pernafasan tekanan positif."
+ },
+ "C5": {
+  "q": "Kaedah pertolongan betul untuk lecur suhu tinggi ialah:",
+  "o": [
+   "Sapu kicap, ubat gigi",
+   "Bilas dengan air paip mengalir, tutup dengan pembalut bersih kemudian ke hospital",
+   "Sapu ubat ungu serta-minta",
+   "Cucuk melecur"
+  ],
+  "e": "Selepas lecur dilarang sapu kicap/ubat gigi; bilas air sejuk, tutup bersih, ke hospital serta-merta."
+ },
+ "C6": {
+  "q": "Apabila pakaian badan menyala, tindakan betul ialah:",
+  "o": [
+   "Lari pantas sambil menjerit",
+   "Golek di tempat untuk padam api atau tutup dengan pakaian basah",
+   "Tepuk dengan tangan",
+   "Lompat ke dalam peralatan berhampiran"
+  ],
+  "e": "Berjalan membantu pembakaran; perlu golek di tempat, tutup dengan bahan basah, dilarang tepuk dengan tangan langsung."
+ },
+ "C7": {
+  "q": "Tindakan betul semasa melarikan diri dari kebakaran:",
+  "o": [
+   "Rendah badan dan meliuk mengikut laluan pemindahan",
+   "Tutup mulut dan hidung dengan tuala basah",
+   "Naik lift untuk turun cepat",
+   "Tidak ingat harta, keluar dan lapor"
+  ],
+  "e": "Semasa kebakaran dilarang naik lift, elakkan terperangkap bekalan elektrik terputus."
+ },
+ "C8": {
+  "q": "Apabila mendapati kebocoran gas banyak, pertama kali perlu:",
+  "o": [
+   "Cari titik kebocoran di tempat",
+   "Keluar ke kawasan selamat sisi angin atas, lapor, pasang kawasan larangan",
+   "Hidupkan kipas untuk cairkan",
+   "Teruskan kerja"
+  ],
+  "e": "Selamatkan nyawa dahulu: keluar, lapor, larangan, nyalaan — dikendalikan oleh profesional."
+ },
+ "C9": {
+  "q": "Dalam kawasan larangan kebocoran gas, dilarang:",
+  "o": [
+   "Orang mendekati",
+   "Nyalaan dan kerja elektrik bukan kalis letupan",
+   "Ambil gambar rekod",
+   "Pengudaraan"
+  ],
+  "e": "Campuran gas dan udara mencapai had letupan bersumber api meletup, kawasan larangan dilarang semua nyalaan dan operasi bukan kalis letupan."
+ },
+ "C10": {
+  "q": "Urutan betul pertolangan renjatan elektrik ialah:",
+  "o": [
+   "Tarik mangsa terus",
+   "Potong bekalan→nilai kesedaran dan pernafasan→CPR",
+   "Picit hidung dahulu",
+   "Pindahkan ke katil dahulu"
+  ],
+  "e": "Sebelum memutus bekalan dilarang sentuh mangsa; pernafasan dan degupan berhenti jalankan CPR serta-minta dan hubungi nombor kecemasan."
+ },
+ "C11": {
+  "q": "Kekerapan kemasan dada CPR ialah:",
+  "o": [
+   "60~80 kali/minit",
+   "80~100 kali/minit",
+   "100~120 kali/minit",
+   "Semakin cepat semakin baik"
+  ],
+  "e": "Kekerapan kemasan 100~120 kali/minit, kedalaman 5~6 cm, pastikan dada kembali penuh setiap kali."
+ },
+ "C12": {
+  "q": "Tempoh kemas kini teks pelan selepas latihan kecemasan mengenal pasti masalah ialah:",
+  "o": [
+   "Dalam seminggu",
+   "Dalam 3 hari",
+   "Dalam sebulan",
+   "Batal serta-minta selepas latihan"
+  ],
+  "e": "Kemas kini teks pelan dalam seminggu, 8 hari latih dan periksa semua pekerja."
+ },
+ "C13": {
+  "q": "Kandungan kad tindak balas kecemasan perlu ada:",
+  "o": [
+   "Ciri risiko",
+   "Langkah tindak balas di tapak",
+   "Proses pelaporan",
+   "Perkara dilarang"
+  ],
+  "e": "Empat unsur lengkap, langkah jelas, pastikan pekerja faham dan boleh guna."
+ },
+ "C14": {
+  "q": "Semasa kerja ketinggian platform badan kilun, tali pingkeluk perlu:",
+  "o": [
+   "Rendah guna tinggi",
+   "Tinggi guna rendah, ikat pada komponen kukuh",
+   "Ikat pada objek bergerak",
+   "Tidak perlu ikat"
+  ],
+  "e": "Tinggi guna rendah mengurangkan hentakan jatuh; dilarang ikat pada komponen bergerak dan tidak kukuh."
+ },
+ "C15": {
+  "q": "Tindakan betul rawatan lecur di tapak:",
+  "o": [
+   "Buka pakaian basah cecair panas dengan berhati-hati",
+   "Bilas air sejuk 15~30 minit",
+   "Tutup luka dengan pembalut bersih",
+   "Ke hospital secepat mungkin"
+  ],
+  "e": "Pakaian melekit dilarang koyak, perlu potong; luka tidak sapu ubat, tidak letak ais, elakkan jangkitan dan kerosakan dalaman."
+ },
+ "C16": {
+  "q": "Masa ujian gas kerja ruang terhad ialah:",
+  "o": [
+   "Ujian sekali sebelum kerja sahaja",
+   "Sebelum kerja, semasa kerja, selepas kerja semua diuji",
+   "Ujian selepas kerja sahaja",
+   "Nilai mengikut pengalaman"
+  ],
+  "e": "Ujian berterusan atau berkala semasa kerja, sahkan tiada pengecualian sebelum pemulihan selepas kerja."
+ },
+ "C17": {
+  "q": "Sebelum pakai alat pernafasan tekanan positif, perlu periksa tekanan silinder, penggera dan kedapatan topeng.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Tiga pemeriksaan tidak boleh kurang; topeng perlu sepadan bentuk muka, injap hembusan dan sedutan berfungsi normal."
+ },
+ "C18": {
+  "q": "Semasa kerja dengan alat pernafasan tekanan positif penggera berbunyi, perlu:",
+  "o": [
+   "Percepatkan kelajuan kerja",
+   "Keluar serta-minta ke kawasan selamat",
+   "Tutup penggera dan terus kerja",
+   "Buka topeng untuk udara"
+  ],
+  "e": "Penggera menunjukkan baki tidak cukup, perlu keluar mengikut laluan penarikan, ganti silinder sebelum kembali."
+ },
+ "C19": {
+  "q": "Kandungan laporan kemalangan perlu ada:",
+  "o": [
+   "Masa dan lokasi kemalangan",
+   "Kecederaan dan punca awal",
+   "Proses ringkas",
+   "Langkah yang telah diambil"
+  ],
+  "e": "Laporan perlu tepat dan segera, dilarang lapor lewat, kurang, bohong dan sembunyi."
+ },
+ "C20": {
+  "q": "Selepas kemalangan kecederaan ringan ke atas, di tapak pertama kali perlu:",
+  "o": [
+   "Bersihkan tapak dan mulakan semula pengeluaran",
+   "Selamatkan mangsa, lindungi tapak dan lapor serta-minta",
+   "Rundingan secara peribadi",
+   "Tunggu statistik akhir bulan"
+  ],
+  "e": "Kemalangan kecederaan ringan ke atas dikenakan item veto, mesti lapor serta-minta dan bekerjasama siasatan."
+ },
+ "C21": {
+  "q": "Semasa pertolongan pertama di tapak boleh pindahkan mangsa secara rawak, asalkan cepat ke hospital.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Mangsa disyaki tulang belakang dan patah tulang tidak boleh dipindahkan rawak, guna kaedah pembetulan dan pemindahan piawai mengikut kecederaan."
+ },
+ "C22": {
+  "q": "Langkah penggunaan pemadam api serbuk ringkas kepada:",
+  "o": [
+   "Kocak, cabut, bidik, tekan",
+   "Angkat, cabut, genggam, tekan",
+   "Buka, tutup, keluar, lapor",
+   "Periksa, lihat, kocak, sembur"
+  ],
+  "e": "Angkat pemadam, cabut pin keselamatan, genggam muncung bidik akar api, tekan pemegang untuk sapu."
+ },
+ "C23": {
+  "q": "Langkah penggunaan alat pernafasan tekanan positif termasuk:",
+  "o": [
+   "Periksa tekanan silinder dan keadaan keseluruhan",
+   "Pakai topeng dan periksa kedapatan",
+   "Hidupkan injap bekalan dan sahkan pernafaan lancar",
+   "Pantau tekanan semasa kerja dan keluar apabila penggera berbunyi"
+  ],
+  "e": "Pakai mengikut langkah piawai, selepas guna cas semula, basuh, daftar rekod pemeriksaan."
+ },
+ "C24": {
+  "q": "Sebelum memasuki paip gas buangan suhu tinggi dan pembersih habuk, pertama kali perlu:",
+  "o": [
+   "Masuk terus",
+   "Henti mesin, turunkan suhu dan uji lulus kemudian urus ruang terhad",
+   "Pakai sarung tangan sahaja",
+   "Bilangkan bahagian luar paip dengan air"
+  ],
+  "e": "Peralatan ini ruang terhad dan ada baki haba tinggi, perlu turunkan suhu, udara, uji, kelulusan, pengawas kemudian masuk."
+ },
+ "C25": {
+  "q": "Alat penyelamat kecemasan perlu diperiksa, diselenggara dan direkod secara berkala, pastikan keadaan baik.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Standard standard memerlukan pemeriksaan dan penyelenggaraan berkala kemudahan dan alat kecemasan, rekod disimpan."
+ },
+ "C26": {
+  "q": "Sebelum guna pengesan CO mudah alih, perlu dalam udara bersih:",
+  "o": [
+   "Matikan bekalan terus",
+   "Hidupkan pemanasan dan periksa bateri serta titik sifar",
+   "Buka kerangka untuk periksa",
+   "Lap probe dengan kain basah"
+  ],
+  "e": "Hidupkan dalam udara bersih untuk pemanasan dan pemeriksaan titik sifar, pastikan ukuran tepat; alat perlu dikalibrasi berkala."
+ },
+ "C27": {
+  "q": "Prinsip penarikan kecemasan kawasan gas termasuk:",
+  "o": [
+   "Keluar ke sisi angin atas",
+   "Keluar cepat mengikut laluan selamat",
+   "Tidak naik lift, tidak berjalan songsang",
+   "Keluar, lapor dan daftar di titik kumpulan"
+  ],
+  "e": "Dilarang suis peralatan dan guna nyalaan di kawasan kebocoran, elakkan letupan."
+ },
+ "C28": {
+  "q": "Persediaan keselamatan sebelum penyelamatan ruang terhad termasuk:",
+  "o": [
+   "Pengudaraan paksa dan ujian gas",
+   "Penyelamat pakai alat pernafasan tekanan positif",
+   "Ikat tali keselamatan dan kekalkan hubungan",
+   "Pengawas dan penerimaan luar dilantik"
+  ],
+  "e": "Penyelamatan mesti \"persediaan sebelum tindakan\", elakkan kemalangan berkembang."
+ },
+ "C29": {
+  "q": "Selepas latihan kecemasan, ringkasan dan penilaian perlu serta-minta dan bahan diarkibkan.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Ringkasan latihan, borang penilaian keberkesanan dan bahan imej diarkib serta-minta sebagai asas pembaikan."
+ },
+ "C30": {
+  "q": "Semasa asap merebak dan pekerja lecur di tapak, tindakan utama ialah:",
+  "o": [
+   "Padam peralatan dahulu",
+   "Keluar dan lapor dahulu, elakkan kemalangan berkembang",
+   "Ambil gambar rekod dahulu",
+   "Urus pekerja sendiri tanpa lapor"
+  ],
+  "e": "Urutan rawatan utamakan keselamatan nyawa: keluar, lapor, larangan, pertolongan saintifik."
+ },
+ "D1": {
+  "q": "Pernyataan yang paling tepat mengenai dasar kerja selamat dan pengeluaran ialah:",
+  "o": [
+   "Orang sebagai fokus, keselamatan diutamakan, pencegahan utama",
+   "Keselamatan diutamakan, pencegahan utama, pengawasan kerajaan",
+   "Keselamatan diutamakan, pencegahan utama, pengurusan menyeluruh",
+   "Keselamatan diutamakan, pencegahan utama, pencegahan berkumpulan"
+  ],
+  "e": "Akta Keselamatan menetapkan dasar kerja selamat: keselamatan diutamakan, pencegahan sebagai langkah utama, pengurusan secara menyeluruh."
+ },
+ "D2": {
+  "q": "Kemudahan keselamatan projek baharu, ubah suai dan perluasan mesti dilaksanakan \"serentak\" dengan projek utama. Manakah antara berikut BUKAN kandungan \"serentak\":",
+  "o": [
+   "Reka bentuk serentak",
+   "Pembinaan serentak",
+   "Penerimaan serentak",
+   "Digunakan dan dilaksanakan serentak"
+  ],
+  "e": "\"Serentak\" bermaksud reka bentuk, pembinaan dan penggunaan serentak; tidak termasuk penerimaan."
+ },
+ "D3": {
+  "q": "Apakah cara pengendalian yang betul apabila pengurus keselamatan mendapati masalah keselamatan semasa pemeriksaan:",
+  "o": [
+   "Lapor serta-minta ke jabatan pengawasan",
+   "Lapor dahulu kepada ketua utama syarikat",
+   "Lapor dahulu kepada pihak bertanggungjawab syarikat",
+   "Proses serta-merta; yang tidak boleh diproses lapor kepada pihak bertanggungjawab syarikat"
+  ],
+  "e": "Pengurus keselamatan mesti memproses masalah serta-merta dan melaporkan yang tidak boleh diproses."
+ },
+ "D4": {
+  "q": "Apakah cara pengendalian yang betul apabila pekerja mendapati bahaya kemalangan atau faktor tidak selamat:",
+  "o": [
+   "Cuba sendiri hapuskan bahaya",
+   "Henti kerja serta-minta",
+   "Maklum rakan kemudian terus kerja",
+   "Lapor serta-minta kepada pengurus keselamatan tapak atau ketua unit"
+  ],
+  "e": "Pekerja mesti melaporkan bahaya kepada pengurus keselamatan tapak atau ketua unit serta-minta."
+ },
+ "D5": {
+  "q": "Pernyataan yang BETUL mengenai penubuhan organisasi kecemasan:",
+  "o": [
+   "Semua unit pengeluaran mesti menubuhkan organisasi kecemasan",
+   "Unit pengeluaran, operasi dan penyimpanan bahan berbahaya serta perlombongan dan peleburan logam mesti menubuhkannya",
+   "Unit kecil bahan berbahaya tidak perlu menubuhkan atau melantik kakitangan",
+   "Hanya perusahaan peleburan logam perlu menubuhkannya"
+  ],
+  "e": "Unit berisiko tinggi mesti menubuhkan organisasi kecemasan; unit kecil boleh lantik kakitangan kecemasan sambilan."
+ },
+ "D6": {
+  "q": "Menurut Akta Keselamatan, unit pengeluaran lain (selain perlombongan, peleburan logam, pembinaan, pengangkutan jalan dan bahan berbahaya) dengan pekerja melebihi berapa orang, mesti menubuhkan jabatan pengurusan keselamatan atau melantik kakitangan sepenuh masa:",
+  "o": [
+   "100 orang",
+   "400 orang",
+   "300 orang",
+   "200 orang"
+  ],
+  "e": "Unit lain dengan pekerja melebihi 100 orang mesti menubuhkan jabatan atau melantik kakitangan sepenuh masa."
+ },
+ "D7": {
+  "q": "Menurut Akta Keselamatan, kakitangan operasi khas mesti menjalani latihan kerja selamat khusus dan memperoleh (　) sebelum bekerja:",
+  "o": [
+   "Sijil operasi kerja khas",
+   "Sijil lulus latihan",
+   "Kelayakan bersesuaian",
+   "Sijil operasi kerja khas (sebenar)"
+  ],
+  "e": "Kakitangan operasi khas mesti memperoleh kelayakan bersesuaian sebelum bekerja."
+ },
+ "D8": {
+  "q": "Unit pengeluaran mesti menubuhkan sistem pengurusan siasatan bahaya kemalangan pengeluaran, mengambil langkah teknologi dan (　) untuk mengenal pasti dan menghapuskan bahaya:",
+  "o": [
+   "Kecemasan",
+   "Penyelamatan",
+   "Pengurusan",
+   "Pelan"
+  ],
+  "e": "Sistem siasatan bahaya mengambil langkah teknologi dan pengurusan."
+ },
+ "D9": {
+  "q": "Menurut Akta Keselamatan, unit pengeluaran mesti memasang (　) yang jelas di tempat operasi dan kemudahan berisiko tinggi:",
+  "o": [
+   "Tanda penggunaan selamat",
+   "Tanda amaran keselamatan",
+   "Tanda lulus keselamatan",
+   "Tanda pemeriksaan keselamatan"
+  ],
+  "e": "Tempat berisiko tinggi mesti dipasang tanda amaran keselamatan yang jelas."
+ },
+ "D10": {
+  "q": "Selepas kemalangan pengeluaran berlaku, kakitangan di tapak kemalangan mesti melapor serta-minta kepada:",
+  "o": [
+   "Ketua unit sendiri",
+   "Kesatuan pekerja bandar",
+   "Jabatan pengawasan keselamatan tempatan",
+   "Kerajaan tempatan"
+  ],
+  "e": "Kakitangan tapak melapor kepada ketua unit; ketua unit melapor ke kerajaan mengikut peraturan."
+ },
+ "D11": {
+  "q": "Menurut Akta Keselamatan, apabila pekerja mendapati kecemasan yang mengancam keselamatan diri secara langsung:",
+  "o": [
+   "Ambil semua cara teknikal untuk berhadapan",
+   "Lapor serta-minta kepada pengurus keselamatan tapak",
+   "Ambil perlindungan peribadi kemudian tunggu di tapak",
+   "Berhak henti kerja atau keluar tapak selepas mengambil tindakan kecemasan"
+  ],
+  "e": "Pekerja ada hak mengelakkan kecemasan: henti kerja atau keluar selepas tindakan kecemasan."
+ },
+ "D12": {
+  "q": "Perusahaan metalurgi dengan pekerja melebihi 300 orang mesti melantik kakitangan pengurusan keselamatan sepenuh masa tidak kurang daripada (　) pekerja:",
+  "o": [
+   "2‰",
+   "3‰",
+   "3%",
+   "2%"
+  ],
+  "e": "Perusahaan metalurgi >300 pekerja: minimum 3‰ kakitangan pengurusan keselamatan sepenuh masa."
+ },
+ "D13": {
+  "q": "Kumpulan habuk biasa berikut yang SEMUA boleh meletup:",
+  "o": [
+   "Habuk kertas, habuk bijih emas, habuk bahan letupan",
+   "Habuk arang, habuk bijian, habuk simen, habuk kapas",
+   "Habuk makanan, habuk kapas, habuk tembakau, habuk kaca",
+   "Habuk logam aluminium, habuk arang, habuk bijian, habuk kayu"
+  ],
+  "e": "Habuk aluminium, arang, bijian dan kayu boleh meletup; habuk simen dan kaca tidak mudah terbakar."
+ },
+ "D14": {
+  "q": "Kumpulan tempat berikut yang SEMUA tergolong ruang tertutup:",
+  "o": [
+   "Relau, menara, dandang, tangki, bilik stor",
+   "Parit, lubang, perigi, kolam, bilik dandang",
+   "Relau, menara, parit, lubang, bilik elektrik",
+   "Dandang, tangki, perigi, kolam, bilang instrumen"
+  ],
+  "e": "Ruang tertutup: terasing, keluar masuk terhad, pengudaraan semula jadi kurang — seperti relau, menara, tangki, bilik stor."
+ },
+ "D15": {
+  "q": "Bilik stesen gas mesti ada sistem pengudaraan dan kedudukan inlet/outlet betul. Yang mematuhi peraturan:",
+  "o": [
+   "Inlet dan outlet di bahagian bawah bilik",
+   "Inlet di bahagian bawah, outlet di bahagian atas",
+   "Inlet di bahagian atas, outlet di bahagian bawah",
+   "Inlet dan outlet di bahagian atas"
+  ],
+  "e": "Inlet di bawah, outlet di atas, membentuk aliran melalui untuk elakkan gas terkumpul."
+ },
+ "D16": {
+  "q": "Kerja api tanpa penggantian dan bawah tekanan pada peralatan mudah terbakar/meletup hendaklah diuruskan sebagai kerja api Tahap 1.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Kerja api bawah tekanan tanpa penggantian ialah kerja api Tahap Khas (tertinggi), bukan Tahap 1."
+ },
+ "D17": {
+  "q": "Tali pingkeluk yang terkena hentaman berat masih boleh digunakan jika rupa luar tidak berubah.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Tali pingkeluk terkena hentakan berat mesti dibuang walaupun rupa luar tidak berubah."
+ },
+ "D18": {
+  "q": "Bilik operasi dan bilik bertugas tidak sepatutnya dibina di atas paip oksigen atau gas.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Bilik operasi tidak boleh di atas paip gas — elakkan gas bocor masuk bilik."
+ },
+ "D19": {
+  "q": "Kad kerja selamat kerja api Khas/Tahap 1/Tahap 2 hendaklah ditanda dengan penanda yang jelas.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Kad kerja api berbeza peringkat mesti ada penanda jelas."
+ },
+ "D20": {
+  "q": "Tidak boleh menjalankan kerja but/flange blind dua tempat atau lebih pada paip yang sama serentak.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Kerja but/flange pada paip sama dilarang dua tempat atau lebih serentak."
+ },
+ "D21": {
+  "q": "Kad kerja api Khas diluluskan oleh pengurus kilang atau jurutera utama.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Kad kerja api Khas perlu kelulusan pengurus kilang atau jurutera utama."
+ },
+ "D22": {
+  "q": "Apabila dua atau lebih jentera angkat berjalan di landasan sama, mesti pasang peranti anti-perlanggaran.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Jentera angkat di landasan sama mesti ada peranti anti-perlanggaran."
+ },
+ "D23": {
+  "q": "Bahaya biasa dibaiki serta-minta oleh ketua bengkel/kawasan; bahaya besar diselesaikan oleh ketua utama unit dengan pelan rawatan.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Bahaya biasa: baiki serta-minta; bahaya besar: pelan rawakan oleh ketua utama."
+ },
+ "D24": {
+  "q": "Kad kerja ruang terhad tidak boleh diubah; perubahan perlu pengesahan pengeluar dan tidak boleh ditandatangani orang lain.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Kad ruang terhad: tidak ubah, tidak tandatangan ganti; perubahan perlu pengesahan pengeluar."
+ },
+ "D25": {
+  "q": "Semasa kerja api Khas, sistem mesti dikekalkan tekanan positif; kerja api tekanan negatif dilarang.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Kerja api Khas mesti tekanan positif; negati akan sedut udara membentuk campuran meletup."
+ },
+ "D26": {
+  "q": "Semasa membilas dan menggantikan gas dalam kemudahan gas, udara boleh digunakan sebagai medium penggantian.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Guna stim atau nitrogen; udara DILARANG (membentuk campuran meletup)."
+ },
+ "D27": {
+  "q": "Sebelum mengangkat peralatan penting, objek teliti atau muatan besar di lokasi kompleks, mesti sediakan langkah keselamatan teknikal khusus.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Angkat peralatan penting/kompleks perlu langkah keselamatan khusus."
+ },
+ "D28": {
+  "q": "Lima Peraturan Kerja Ruang Terhad: kelulusan kerja wajib, dilarang masuk sendiri; mesti \"udarakan dahulu, uji kemudian, bekerja\".",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Lima mesti/lima dilarang: kelulusan, udara-uji-kerja, pengawasan, latihan, persiapan kecemasan."
+ },
+ "D29": {
+  "q": "Unit pengeluaran boleh menggantikan alat pelindung yang sepatutnya dibekalkan dengan wang tunai atau barang lain.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Alat pelindung mesti dibekalkan fizikal; dilarang ganti dengan wang atau barang."
+ },
+ "D30": {
+  "q": "Selepas kemalangan, orang tidak berkaitan mesti disebarkan dan tapak kemalangan dilindungi dengan berkesan.",
+  "o": [
+   "Betul",
+   "Salah"
+  ],
+  "e": "Sebarkan orang tidak berkaitan dan lindungi tapak untuk siasatan."
+ }
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工艺风险知识库 · Pangkalan Risiko Proses</title>
+<meta name="description" content="麦尔兹双膛石灰窑作业区工艺风险知识库：基于HIRARC风险辨识与隐患台账，覆盖CO中毒、高温灼烫、有限空间、机械伤害等16类风险的管控措施">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='18' font-size='18'>⚠️</text></svg>">
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="page">
+  <div class="breadcrumb"><a href="../index.html">首页 Utama</a><span>›</span><a href="safety.html">安全管理 Keselamatan</a><span>›</span>工艺风险知识库 Pangkalan risiko</div>
+
+  <div class="panel panel-pad" style="border-left:5px solid var(--c-danger)">
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <h1 style="font-size:21px;font-weight:800">⚠️ 工艺风险知识库 <span class="ms" style="font-size:14px">Pangkalan Risiko Proses</span></h1>
+      <span class="badge danger">否决项 Item veto：无危险源台账 Tiada daftar bahaya</span>
+    </div>
+    <p class="mt-8" style="font-size:14px;color:var(--c-text-2)">
+      依据作业区《HIRARC 风险辨识表》（2025-09 评估、每年评审）、危险作业审批台账与月度隐患治理台账整理，覆盖 <b>16 类风险</b>。危险源辨识不全、安全措施不落实、危险作业无审批均按验收标准第 23~24 项考核；员工抽查不掌握每人次扣分。
+      <span class="ms">Berdasarkan Jadual Pengenalan Risiko HIRARC kawasan (dinilai 2025-09, semakan tahunan), daftar kelulusan kerja berbahaya dan daftar pembaikan bahaya bulanan — meliputi <b>16 jenis risiko</b>. Pengenalan bahaya tidak lengkap, langkah keselamatan tidak dilaksana, kerja berbahaya tanpa kelulusan akan dinilai mengikut klausa 23–24; pekerja yang tidak menguasai akan ditolak markah setiap orang.</span>
+    </p>
+  </div>
+
+  <!-- 隐患统计看板 -->
+  <section class="section">
+    <div class="section-head"><h2>隐患治理数据看板<span class="ms">Papan Data Pembaikan Bahaya</span></h2><span class="sub" id="statSub">条目按区域与责任班组分布 · 可按月份切换<span class="ms">Taburan mengikut zon &amp; pasukan · boleh tukar bulan</span></span></div>
+    <div class="filter-bar" id="monthBar">
+      <span class="f-label">统计月份 Bulan</span>
+      <div style="display:flex;flex-wrap:wrap;gap:6px" id="monthChips"></div>
+    </div>
+    <div class="grid g-3">
+      <div class="panel panel-pad center">
+        <div class="stat-big" id="statTotal" data-count="0">0</div>
+        <p class="muted mt-8" id="statNote" style="font-size:12.5px"></p>
+        <div class="mt-14" style="text-align:left">
+          <p class="muted" style="font-size:12px;margin-bottom:6px">典型隐患条目 Bahaya tipikal</p>
+          <div style="display:flex;flex-wrap:wrap;gap:5px" id="statTypical"></div>
+        </div>
+      </div>
+      <div class="panel panel-pad">
+        <p class="strong" style="margin-bottom:10px">按隐患区域分布 <span class="muted" style="font-weight:400">Mengikut zon</span></p>
+        <div class="stat-bars" id="statArea"></div>
+      </div>
+      <div class="panel panel-pad">
+        <p class="strong" style="margin-bottom:10px">按责任班组分布 <span class="muted" style="font-weight:400">Mengikut pasukan</span></p>
+        <div class="stat-bars" id="statTeam"></div>
+      </div>
+    </div>
+    <p class="muted mt-14" id="statSource" style="font-size:11.5px"></p>
+  </section>
+
+  <!-- 风险库 -->
+  <section class="section">
+    <div class="section-head"><h2>风险清单与管控措施<span class="ms">Senarai Risiko &amp; Langkah Kawalan</span></h2><span class="sub">点击分类筛选，支持关键词搜索<span class="ms">Klik kategori untuk tapis, sokongan carian kata kunci</span></span></div>
+    <div class="filter-bar">
+      <span class="f-label">风险类别 Kategori</span>
+      <div style="display:flex;flex-wrap:wrap;gap:6px" id="catChips"></div>
+    </div>
+    <div class="filter-bar">
+      <span class="f-label">风险等级 Tahap</span>
+      <div style="display:flex;flex-wrap:wrap;gap:6px" id="levelChips"></div>
+      <input class="f-search" id="riskSearch" type="search" placeholder="搜索风险 / 作业活动 / 隐患… Cari risiko / aktiviti…">
+    </div>
+    <div class="risk-grid" id="riskGrid"></div>
+    <p class="muted mt-14" id="riskCount"></p>
+  </section>
+
+  <!-- 危险作业入口 -->
+  <section class="section">
+    <div class="section-head"><h2>八类危险作业许可<span class="ms">Permit 8 Jenis Kerja Berbahaya</span></h2><span class="sub">危险作业无审批、安全措施不落实按条款23~24考核<span class="ms">Kerja berbahaya tanpa kelulusan atau langkah keselamatan tidak dilaksana dinilai mengikut klausa 23–24</span></span></div>
+    <div class="grid g-4">
+      <a class="board-card" href="../downloads/form-hazardous-work-permit.pdf"><div class="b-icon">🔥</div><h3 style="font-size:14.5px">动火作业<span class="ms">Kerja Api</span></h3><p class="b-desc">特级/一级/二级分级审批<span class="ms">Kelulusan 3 peringkat</span></p><span class="b-go">审批表下载 Muat turun →</span></a>
+      <a class="board-card" href="confined-space.html"><div class="b-icon">🕳️</div><h3 style="font-size:14.5px">受限空间作业<span class="ms">Ruang Terhad</span></h3><p class="b-desc">先通风、再检测、后作业<span class="ms">Ventilasi → uji → kerja</span></p><span class="b-go">专题页 Halaman →</span></a>
+      <a class="board-card" href="../downloads/form-hazardous-work-permit.pdf"><div class="b-icon">🧗</div><h3 style="font-size:14.5px">高处作业<span class="ms">Kerja Ketinggian</span></h3><p class="b-desc">2m以上分级管理<span class="ms">Berperingkat dari 2m</span></p><span class="b-go">审批表下载 Muat turun →</span></a>
+      <a class="board-card" href="../downloads/form-hazardous-work-permit.pdf"><div class="b-icon">🏗️</div><h3 style="font-size:14.5px">起重 / 吊装<span class="ms">Mengangkat</span></h3><p class="b-desc">执行起重十不吊<span class="ms">10 larangan mengangkat</span></p><span class="b-go">审批表下载 Muat turun →</span></a>
+      <a class="board-card" href="../downloads/form-hazardous-work-permit.pdf"><div class="b-icon">⛏️</div><h3 style="font-size:14.5px">动土作业<span class="ms">Kerja Galian</span></h3><p class="b-desc">地下设施交底确认<span class="ms">Sahkan kemudahan bawah tanah</span></p><span class="b-go">审批表下载 Muat turun →</span></a>
+      <a class="board-card" href="../downloads/form-hazardous-work-permit.pdf"><div class="b-icon">🚧</div><h3 style="font-size:14.5px">断路作业<span class="ms">Potong Jalan</span></h3><p class="b-desc">交通组织与警戒<span class="ms">Atur trafik &amp; kawad</span></p><span class="b-go">审批表下载 Muat turun →</span></a>
+      <a class="board-card" href="../downloads/form-hazardous-work-permit.pdf"><div class="b-icon">🔩</div><h3 style="font-size:14.5px">抽堵盲板<span class="ms">Plat Buta</span></h3><p class="b-desc">煤气眼睛阀高风险作业<span class="ms">Injap mata gas — risiko tinggi</span></p><span class="b-go">审批表下载 Muat turun →</span></a>
+      <a class="board-card" href="../downloads/form-hazardous-work-permit.pdf"><div class="b-icon">🔌</div><h3 style="font-size:14.5px">临时用电<span class="ms">Elektrik Sementara</span></h3><p class="b-desc">一机一闸一保护<span class="ms">1 mesin 1 suis 1 perlindungan</span></p><span class="b-go">审批表下载 Muat turun →</span></a>
+    </div>
+  </section>
+</main>
+
+<div id="app-tabbar" class="tabbar"></div>
+<div id="app-footer"></div>
+
+<script src="../assets/js/main.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var state = { cat: "all", level: "all", kw: "", ms: {} };
+
+  Promise.all([
+    fetch("../assets/data/risks.json").then(function (r) { return r.json(); }),
+    fetch("../assets/data/risks-ms.json").then(function (r) { return r.json(); }).catch(function () { return {}; }),
+    fetch("../assets/data/hazard-stats.json").then(function (r) { return r.json(); }).catch(function () { return null; })
+  ])
+    .then(function (res) {
+      var data = res[0];
+      state.ms = res[1] || {};
+      var hs = res[2];
+
+      /* ---- 隐患统计看板（月份可切换） ---- */
+      function statBars(el, rows) {
+        var max = Math.max.apply(null, rows.map(function (x) { return x.count; })) || 1;
+        el.innerHTML = rows.map(function (x) {
+          return '<div class="stat-row"><span class="s-name">' + x.name + '</span><div class="s-track"><div class="s-bar" style="width:' +
+            Math.round(x.count / max * 100) + '%"></div></div><span class="s-num">' + x.count + "</span></div>";
+        }).join("");
+      }
+      function popEl(el, val) {
+        el.textContent = val;
+        el.classList.remove("stat-pop");
+        void el.offsetWidth;
+        el.classList.add("stat-pop");
+      }
+      function renderStats(key) {
+        if (!hs) return;
+        var st = key === "year" ? hs.year : hs.months.filter(function (m) { return String(m.month) === key; })[0];
+        if (!st) return;
+        popEl(document.getElementById("statTotal"), st.total);
+        document.getElementById("statNote").innerHTML =
+          (key === "year" ? "2026年1-9月隐患治理台账合计（累计" + st.total + "项，每月440~541项，逐项登记、整改、验收、销号）"
+            : st.label + "隐患治理台账（逐项登记、整改、验收、销号）") +
+          '<span class="ms">' + (key === "year" ? "Jumlah daftar Jan–Sep 2026 (" + st.total + " item; 440–541 item sebulan; daftar, baiki, sah & tutup satu per satu)" : "Daftar pembaikan bahaya " + st.label + " (daftar, baiki, sah & tutup satu per satu)") + "</span>";
+        document.getElementById("statTypical").innerHTML = st.typical.map(function (t) {
+          return '<span class="badge info">' + t + "</span>";
+        }).join("");
+        statBars(document.getElementById("statArea"), st.byArea);
+        statBars(document.getElementById("statTeam"), st.byTeam);
+        document.getElementById("statSource").textContent = hs.meta.zh + " ｜ " + hs.meta.ms;
+        document.getElementById("statSub").innerHTML =
+          (key === "year" ? "2026年1-9月合计 · 条目按区域与责任班组分布" : st.label + " · 条目按区域与责任班组分布") +
+          '<span class="ms">' + (key === "year" ? "Jumlah Jan–Sep 2026 · taburan zon & pasukan" : st.label + " · taburan zon & pasukan") + "</span>";
+        document.querySelectorAll("#monthChips .chip").forEach(function (c) {
+          c.classList.toggle("on", c.getAttribute("data-m") === key);
+        });
+      }
+      if (hs) {
+        var chips = [{ key: "year", label: "全年汇总 Jumlah (1-9月)" }].concat(
+          hs.months.map(function (m) { return { key: String(m.month), label: m.label.replace("2026年", "") + " (" + m.total + "项)" }; })
+        );
+        document.getElementById("monthChips").innerHTML = chips.map(function (c) {
+          return '<button class="chip" data-m="' + c.key + '">' + c.label + "</button>";
+        }).join("");
+        Array.prototype.forEach.call(document.querySelectorAll("#monthChips .chip"), function (b) {
+          b.addEventListener("click", function () { renderStats(b.getAttribute("data-m")); });
+        });
+        renderStats("year");
+      }
+
+      /* ---- 筛选 chips ---- */
+      var cats = [{ id: "all", name: "全部 Semua", color: "" }].concat(data.categories);
+      document.getElementById("catChips").innerHTML = cats.map(function (c) {
+        return '<button class="chip" data-cat="' + c.id + '">' + c.name + "</button>";
+      }).join("");
+      var levels = ["all", "极高", "高", "中"];
+      var levelName = { all: "全部等级 Semua", "极高": "极高 Sangat Tinggi", "高": "高 Tinggi", "中": "中 Sederhana" };
+      document.getElementById("levelChips").innerHTML = levels.map(function (l) {
+        return '<button class="chip" data-level="' + l + '">' + levelName[l] + "</button>";
+      }).join("");
+
+      function bindChips() {
+        Array.prototype.forEach.call(document.querySelectorAll("[data-cat]"), function (b) {
+          b.addEventListener("click", function () {
+            state.cat = b.getAttribute("data-cat");
+            document.querySelectorAll("#catChips .chip").forEach(function (x) { x.classList.remove("on"); });
+            b.classList.add("on"); render();
+          });
+        });
+        Array.prototype.forEach.call(document.querySelectorAll("[data-level]"), function (b) {
+          b.addEventListener("click", function () {
+            state.level = b.getAttribute("data-level");
+            document.querySelectorAll("#levelChips .chip").forEach(function (x) { x.classList.remove("on"); });
+            b.classList.add("on"); render();
+          });
+        });
+      }
+      bindChips();
+      document.querySelector('#catChips .chip').classList.add("on");
+      document.querySelector('#levelChips .chip').classList.add("on");
+
+      var search = document.getElementById("riskSearch");
+      search.addEventListener("input", function () { state.kw = search.value.trim(); render(); });
+
+      var levelCls = { "极高": "danger", "高": "warn", "中": "info" };
+      var levelMs = { "极高": "Sangat Tinggi", "高": "Tinggi", "中": "Sedang" };
+      function catOf(id) {
+        for (var i = 0; i < data.categories.length; i++) if (data.categories[i].id === id) return data.categories[i];
+        return { name: id, color: "#64748b" };
+      }
+
+      function render() {
+        var list = data.risks.filter(function (r) {
+          if (state.cat !== "all" && r.cat !== state.cat) return false;
+          if (state.level !== "all" && r.level !== state.level) return false;
+          if (state.kw) {
+            var ms = state.ms[r.id] || {};
+            var hay = (r.title + r.activity + r.cause + r.effect + r.controls.join("") + (ms.title || "") + (ms.activity || "") + (ms.cause || "") + (ms.effect || "") + (ms.controls || []).join("")).toLowerCase();
+            if (hay.indexOf(state.kw.toLowerCase()) === -1) return false;
+          }
+          return true;
+        });
+        document.getElementById("riskGrid").innerHTML = list.map(function (r) {
+          var c = catOf(r.cat);
+          var ms = state.ms[r.id] || {};
+          var msCtrls = ms.controls || [];
+          return '<article class="panel panel-pad risk-card">' +
+            '<div class="rc-head"><span class="rc-id">' + r.id + '</span><h3>' + r.title +
+            (ms.title ? '<span class="ms">' + ms.title + "</span>" : "") + "</h3>" +
+            '<span class="badge ' + (levelCls[r.level] || "info") + ' rc-level">' + r.level + " " + (levelMs[r.level] || "") + "</span></div>" +
+            '<div class="rc-row"><b>风险类别 Kategori：</b><span style="color:' + c.color + ';font-weight:700">' + c.name + "</span></div>" +
+            '<div class="rc-row"><b>作业活动 Aktiviti：</b><span>' + r.activity + (ms.activity ? '<span class="ms">' + ms.activity + "</span>" : "") + "</span></div>" +
+            '<div class="rc-row"><b>产生原因 Punca：</b><span>' + r.cause + (ms.cause ? '<span class="ms">' + ms.cause + "</span>" : "") + "</span></div>" +
+            '<div class="rc-row"><b>可能导致 Kesan：</b><span>' + r.effect + (ms.effect ? '<span class="ms">' + ms.effect + "</span>" : "") + "</span></div>" +
+            '<div class="rc-row"><b>管控措施 Kawalan：</b></div><ul class="rc-controls">' +
+            r.controls.map(function (x, i) { return "<li>" + x + (msCtrls[i] ? '<span class="ms">' + msCtrls[i] + "</span>" : "") + "</li>"; }).join("") + "</ul>" +
+            '<div class="rc-foot"><span style="font-size:11.5px;color:var(--c-text-3)">PPE：</span>' +
+            r.ppe.map(function (p) { return '<span class="rc-ppe">' + p + "</span>"; }).join("") +
+            '<span class="badge info" style="margin-left:auto">' + r.clause + "</span></div>" +
+            '<p class="muted" style="font-size:11px;margin-top:6px">数据来源 Sumber：' + r.source + "</p>" +
+            "</article>";
+        }).join("");
+        document.getElementById("riskCount").textContent =
+          "共 " + list.length + " 项风险（全库 " + data.risks.length + " 项）｜ " + data.meta.note +
+          '<span class="ms">Jumlah ' + list.length + " risiko (keseluruhan " + data.risks.length + ")</span>";
+        if (window.refreshMotion) window.refreshMotion();
+      }
+      render();
+    })
+    .catch(function () {
+      document.getElementById("riskGrid").innerHTML =
+        '<div class="alert danger"><span class="a-icon">✕</span><div>风险数据加载失败，请确认 assets/data/risks.json 文件存在。<span class="ms">Gagal memuat data risiko; pastikan fail wujud.</span></div></div>';
+    });
+});
+</script>
+</body>
+</html>

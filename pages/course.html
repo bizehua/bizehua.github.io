@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>课程学习 · Pembelajaran Kursus</title>
+<meta name="description" content="石灰作业区安全培训课程学习页：章节内容、学习要点与自测入口">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='18' font-size='18'>📖</text></svg>">
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="page">
+  <div class="breadcrumb"><a href="../index.html">首页 Utama</a><span>›</span><a href="courses.html">课程库 Katalog</a><span>›</span><span id="bcName">课程 Kursus</span></div>
+
+  <div id="courseRoot"></div>
+</main>
+
+<div id="app-tabbar" class="tabbar"></div>
+<div id="app-footer"></div>
+
+<script src="../assets/js/main.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var id = new URLSearchParams(window.location.search).get("id");
+
+  fetch("../assets/data/courses.json")
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var course = null, cat = null;
+      data.categories.forEach(function (c) {
+        c.courses.forEach(function (x) {
+          if (x.id === id) { course = x; cat = c; }
+        });
+      });
+      var root = document.getElementById("courseRoot");
+      if (!course) {
+        root.innerHTML =
+          '<div class="panel panel-pad"><h1 style="font-size:20px;font-weight:900">课程未找到<span class="ms">Kursus tidak dijumpai</span></h1>' +
+          '<p class="mt-8" style="font-size:14px;color:var(--c-text-2)">请从 <a href="courses.html">课程库 Katalog</a> 选择课程开始学习。<span class="ms">Sila pilih kursus dari katalog untuk mula belajar.</span></p></div>';
+        return;
+      }
+      document.getElementById("bcName").innerHTML = course.name.zh + '<span class="ms" style="display:inline;margin-left:4px">' + course.name.ms + "</span>";
+      document.title = course.name.zh + " · 课程学习 Pembelajaran";
+
+      var lvlZh = course.level.zh, lvlMs = course.level.ms;
+      var levelCls = lvlZh === "必修" ? "danger" : (lvlZh === "重点" ? "warn" : "info");
+      var html =
+        '<section class="course-hero">' +
+        '<div class="ch-kicker">' + cat.icon + " " + cat.name.zh + " / " + cat.name.ms + (cat.focus ? " · 重点板块 Fokus" : "") + "</div>" +
+        "<h1>" + course.name.zh + '<span class="ms" style="font-size:15px;-webkit-text-fill-color:#8fd8ee">' + course.name.ms + "</span></h1>" +
+        '<p class="ch-goal">' + course.goal.zh + '<span class="ms">' + course.goal.ms + "</span></p>" +
+        '<div class="ch-meta">' +
+        '<span class="hm">📖 ' + course.lessons + " 个章节 Bab</span>" +
+        '<span class="hm">⏱ 约 ' + course.minutes + " 分钟 Minit</span>" +
+        '<span class="hm" style="color:#ffd84d">' + lvlZh + " " + lvlMs + "</span>" +
+        '<span class="hm">📄 ' + course.file + "</span>" +
+        "</div></section>";
+
+      html += '<div class="section" style="display:grid;grid-template-columns:1fr 300px;gap:20px;align-items:start" id="courseBody"><div>';
+
+      course.chapters.forEach(function (ch, i) {
+        html +=
+          '<div class="lesson-block"><div class="lb-head"><div class="lb-no">' + String(i + 1).padStart(2, "0") + "</div>" +
+          "<h3>" + ch.title.zh + '<span class="ms" style="font-size:12.5px;font-weight:600">' + ch.title.ms + "</span></h3></div>" +
+          '<div class="lesson-points">' +
+          ch.points.map(function (p) { return '<div class="lesson-point">' + p.zh + '<span class="ms">' + p.ms + "</span></div>"; }).join("") +
+          "</div></div>";
+      });
+
+      html +=
+        '<div class="panel panel-pad" style="border-left:5px solid var(--c-accent)">' +
+        '<h3 style="font-size:16px;font-weight:900">🎯 学完自测 / Ujian Kendiri</h3>' +
+        '<p class="mt-8" style="font-size:13.5px;color:var(--c-text-2)">完成课程学习后，参加在线模拟考试检验掌握情况。考试随机抽题、自动评分、逐题解析，合格线 80 分，成绩记录于本机浏览器。<span class="ms">Selepas menamatkan kursus, sertai peperiksaan dalam talian untuk menguji kefahaman. Soalan rawak, markah automatik, garis panduan lulus 80 markah.</span></p>' +
+        '<div class="mt-14" style="display:flex;gap:10px;flex-wrap:wrap">' +
+        '<a class="btn accent" href="quiz.html">📝 开始模拟考试 Mula Peperiksaan</a>' +
+        '<a class="btn ghost" href="emergency-cards.html">🆘 应急处置卡<span class="ms">Kad kecemasan</span></a>' +
+        '<a class="btn ghost" href="risk-library.html">⚠️ 风险知识库<span class="ms">Pangkalan risiko</span></a>' +
+        "</div></div>";
+
+      html += "</div><aside>";
+      /* 目录 */
+      html += '<div class="panel course-toc"><div class="panel-title"><span class="dot"></span>课程目录 / Isi Kandungan</div><div class="panel-pad" style="padding-top:9px;padding-bottom:9px">' +
+        course.chapters.map(function (ch, i) {
+          return '<a class="ct-item" href="#ch' + i + '"><span class="ct-no">' + (i + 1) + "</span>" + ch.title.zh +
+            '<span class="ms">' + ch.title.ms + "</span></a>";
+        }).join("") + "</div></div>";
+      /* 学习提示 */
+      html +=
+        '<div class="panel mt-14"><div class="panel-title"><span class="dot"></span>学习提示 / Petua Belajar</div><div class="panel-pad">' +
+        '<ul style="font-size:13px;color:var(--c-text-2)">' +
+        "<li>学习记录、签到表纳入<b>一人一档</b>培训档案；<span class=\"ms\">Rekod &amp; kehadiran dimasukkan dalam fail satu orang satu fail.</span></li>" +
+        "<li>重点章节做好笔记，班组安全活动组织讨论；<span class=\"ms\">Buat nota bab penting; bincang dalam aktiviti keselamatan pasukan.</span></li>" +
+        "<li>有疑问及时向作业长或安全管理人员反馈；<span class=\"ms\">Tanya ketua kawasan atau pegawai keselamatan jika ragu.</span></li>" +
+        "<li>源文件存放于工作域对应文件夹，可对照原文学习。<span class=\"ms\">Fail asal disimpan dalam folder kerja untuk rujukan.</span></li>" +
+        "</ul></div></div>";
+      html += "</aside></div>";
+
+      root.innerHTML = html;
+
+      /* 锚点 id */
+      course.chapters.forEach(function (ch, i) {
+        var blocks = root.querySelectorAll(".lesson-block");
+        if (blocks[i]) blocks[i].id = "ch" + i;
+      });
+
+      if (window.refreshMotion) window.refreshMotion();
+    })
+    .catch(function () {
+      document.getElementById("courseRoot").innerHTML =
+        '<div class="alert danger"><span class="a-icon">✕</span><div>课程数据加载失败，请确认 assets/data/courses.json 文件存在。<span class="ms">Gagal memuat data kursus; pastikan fail wujud.</span></div></div>';
+    });
+});
+</script>
+</body>
+</html>

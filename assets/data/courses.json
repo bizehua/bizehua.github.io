@@ -1,0 +1,1030 @@
+{
+ "meta": {
+  "title": {
+   "zh": "石灰作业区安全培训课程库",
+   "ms": "Katalog Kursus Latihan Keselamatan Kawasan Kapur"
+  },
+  "note": {
+   "zh": "课程内容提取自作业区实际文件：安全规程、操作规程、应急预案、管理制度（培训教材汇总）等，中马双语对照，便于外劳员工学习。",
+   "ms": "Kandungan kursus diekstrak dari fail sebenar kawasan kerja: prosedur keselamatan, prosedur operasi, pelan kecemasan dan sistem pengurusan, dalam dwibahasa Cina-Melayu untuk memudahkan pekerja asing."
+  }
+ },
+ "categories": [
+  {
+   "id": "safety",
+   "name": {
+    "zh": "安全学习",
+    "ms": "Pembelajaran Keselamatan"
+   },
+   "icon": "🛡️",
+   "focus": true,
+   "desc": {
+    "zh": "岗位安全规程、煤气安全、应急预案、危险源、有限空间等——按岗位原版规程编写，必须人人掌握。",
+    "ms": "Prosedur keselamatan jawatan, keselamatan gas CO, pelan kecemasan, bahaya dan ruang terhad — ditulis mengikut prosedur asal setiap jawatan, mesti dikuasai semua pekerja."
+   },
+   "courses": [
+    {
+     "id": "post-safety-rules",
+     "name": {
+      "zh": "岗位安全操作规程（按岗位原版）",
+      "ms": "Prosedur Operasi Keselamatan Jawatan (Versi Asal)"
+     },
+     "file": "3、安全管理/2安全规程/2安全规程/（11个岗位规程）",
+     "lessons": 6,
+     "minutes": 45,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "按岗位掌握原版安全操作规程的核心条款，做到规程上墙、员工掌握、现场无违章。",
+      "ms": "Menguasai peraturan utama prosedur operasi keselamatan mengikut jawatan, memastikan prosedur dipasang di dinding, pekerja menguasai, dan tiada pelanggaran di tapak."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "第一章 · 通用要求（所有岗位）",
+        "ms": "Bab 1 · Keperluan Umum (Semua Jawatan)"
+       },
+       "points": [
+        {
+         "zh": "上岗前严格穿戴好各种劳动保护用品，遵守公司各项规章制度。",
+         "ms": "Pakai alat pelindung diri dengan betol sebelum memasuki kawasan kerja dan patuhi semua peraturan syarikat."
+        },
+        {
+         "zh": "现场违章行为一人次即考核；员工抽查不掌握本岗位规程，每人次考核。",
+         "ms": "Pelanggaran di tapak akan dikenakan penalti; pekerja yang gagal menunjukkan kefahaman prosedur jawatan akan dikenakan penalti."
+        },
+        {
+         "zh": "转岗人员须开展新岗位规程培训并考试后方可上岗；新员工有三级安全教育及师带徒记录。",
+         "ms": "Pekerja pertukaran jawatan mesti menjalani latihan dan peperiksaan prosedur baharu; pekerja baharu perlu rekod latihan keselamatan tiga peringkat dan bimbingan."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第二章 · 看火工（煤气核心岗位）",
+        "ms": "Bab 2 · Pekerja Pengawas Api (Jawatan Teras Gas CO)"
+       },
+       "points": [
+        {
+         "zh": "引煤气之前用氮气吹扫管道，并经煤防站人员检测合格后方可送气。",
+         "ms": "Bilaskan paip dengan gas nitrogen sebelum mengalirkan gas CO, dan mesti lulus pemeriksaan pihak pengesanan gas CO (COPU) sebelum mengalirkan gas."
+        },
+        {
+         "zh": "经常检查煤气管道及各阀门是否漏气，发现问题及时上报、及时处理。",
+         "ms": "Periksa paip gas dan semua injap dari masa ke masa untuk kebocoran; laporkan dan baiki masalah dengan segera."
+        },
+        {
+         "zh": "大修时切断煤气应先关蝶阀，后关眼镜阀；引气时顺序相反。",
+         "ms": "Semasa overhaul besar, potong gas CO dengan menutup injap butterfly dahulu, kemudian injap goggle; urutan songsang semasa mengalirkan gas."
+        },
+        {
+         "zh": "进入煤气区域必须佩戴检测仪、两人以上作业；发现有人煤气中毒时，佩戴好空气呼吸器将中毒人员抬到通风处，并及时通知煤防站组织抢救。",
+         "ms": "Masuk kawasan gas mesti membawa pengesan gas CO dan bekerja sekurang-kurangnya 2 orang; jika ada keracunan CO, pakai alat pernafasan, bawa mangsa ke kawasan berudara dan maklumkan COPU serta-merta."
+        },
+        {
+         "zh": "清理拨火孔时穿好防烫鞋、戴好护目镜和防烫手套，并关闭空气炮气源。",
+         "ms": "Semasa membersihkan lubang api, pakai kasut anti-scald, gogal dan sarung tangan anti-scald, dan tutup sumber udara air cannon."
+        },
+        {
+         "zh": "打开窑体人孔前必须与主控确认窑内压力为零，方可打开。",
+         "ms": "Sebelum membuka lubang akses badan kilun, mesti dapat pengesahan dari kawalan utama bahawa tekanan dalam kilun adalah sifar."
+        },
+        {
+         "zh": "做好卷扬钢丝绳的润滑和松动检查，避免卷扬料车托底；钢丝绳老化情况做好记录，出现断股及时联系停车处理。",
+         "ms": "Periksa pelinciran dan kelonggatan wayar gelendong, elakkan troli sentak bawah; rekod penuaan wayar dan hentikan mesin serta-merta jika ada pemutusan urat wayar."
+        },
+        {
+         "zh": "【CO浓度作业时限】24ppm以内连续作业不超过8小时；24~40ppm不超过1小时；40~80ppm不超过30分钟；80~160ppm不超过15分钟；重复作业间隔2小时以上轮换；CO超过50ppm且氧含量低于19.5%必须佩戴空气呼吸器作业。",
+         "ms": "[Had Masa Kerja mengikut Kepekatan CO] ≤24ppm: tidak melebihi 8 jam; 24~40ppm: tidak melebihi 1 jam; 40~80ppm: tidak melebihi 30 minit; 80~160ppm: tidak melebihi 15 minit; selang 2 jam sebelum mengulang; jika CO >50ppm dan oksigen <19.5% mesti pakai alat pernafasan."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第三章 · 中控工（工艺参数标准）",
+        "ms": "Bab 3 · Pekerja Kawalan Utama (Parameter Proses)"
+       },
+       "points": [
+        {
+         "zh": "穿戴好劳动保护用品进入工作现场；严禁在操作台上摆放水或其他液体。",
+         "ms": "Pakai alat pelindung diri sebelum masuk kawasan kerja; dilarang meletakkan air atau cecair lain di atas panel kawalan."
+        },
+        {
+         "zh": "工作期间注意力集中，严禁睡岗及干与工作无关的事。",
+         "ms": "Fokus semasa bekerja; dilarang tidir di jawatan atau melakukan perkara tidak berkaitan."
+        },
+        {
+         "zh": "启停设备前必须与现场确认到位，避免发生伤人事故。",
+         "ms": "Sebelum memulakan atau menghentikan peralatan, mesti dapat pengesahan dengan kakitangan di tapak untuk elakkan kemalangan."
+        },
+        {
+         "zh": "生产前先进行打压实验，与现场联系确认无跑风点位后再生产。",
+         "ms": "Jalankan ujian tekanan sebelum produksi; pastikan tiada kebocoran dengan pengesahan kakitangan tapak sebelum bermula produksi."
+        },
+        {
+         "zh": "【温度标准】出灰平台温度超150℃时立即加大冷却风用量，降低产量、延长出灰时间。",
+         "ms": "[Had Suhu] Jika suhu platform pembuangan abu melebihi 150℃, teruskan penambahan udara penyejuk, kurangkan keluaran dan lanjutkan masa pembuangan abu."
+        },
+        {
+         "zh": "【温度标准】废气温度超180℃时减小冷风用量，提高窑顶料面。",
+         "ms": "[Had Suhu] Jika suhu gas buangan melebihi 180℃, kurangkan penggunaan udara sejuk dan naikkan paras bahan di puncak kilun."
+        },
+        {
+         "zh": "【压力标准】窑压低于10kPa及时联系看火工检查窑体跑风情况；窑压高于35kPa及时降低产量，检查除尘运行情况。",
+         "ms": "[Had Tekanan] Jika tekanan kilun kurang 10kPa, hubungi pekerja pengawas api untuk periksa kebocoran badan kilun; jika melebihi 35kPa, kurangkan keluaran dan periksa operasi pembersih habuk."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第四章 · 窑顶布料工",
+        "ms": "Bab 4 · Pekerja Penyebaran Bahan di Puncak Kilun"
+       },
+       "points": [
+        {
+         "zh": "布料时先启动旋转料斗电机，通过可逆皮带将两个料斗装满，再打开窑顶进料阀，然后放下旋转料斗。",
+         "ms": "Semasa menyebar bahan, mulakan motor hoberi berputar dahulu, isi dua hoberi melalui tali pinggang boleh songsang, kemudian buka injap suapan puncak kilun dan turunkan hoberi berputar."
+        },
+        {
+         "zh": "及时清理石料称传感器积灰杂物，避免计量错误导致石料加多后外溢砸伤人员。",
+         "ms": "Bersihkan habuk dan serpihan pada sensor timbang batu dengan segera untuk elakkan ralat ukuran yang menyebabkan limpahan bahan dan kemalangan."
+        },
+        {
+         "zh": "上料过程中严禁肢体接触皮带运转部位，严禁直接跨越皮带，必须走专用通道。",
+         "ms": "Dilarang menyentuh bahagian tali pinggang yang bergerak semasa penyuapan; dilarang melintas tali pinggang secara langsung, mesti gunakan laluan khas."
+        },
+        {
+         "zh": "严禁在液压设备动作路线逗留；处理设备故障时停机关闭液压油路，并设专人监护。",
+         "ms": "Dilarang berada di laluan operasi peralatan hidraulik; semasa membaiki kerosakan, hentikan mesin, tutup litar minyak hidraulik dan lantik pengawas khusus."
+        },
+        {
+         "zh": "设备处于自动运行时严禁擅自现场操作。",
+         "ms": "Dilarang beroperasi secara solo di tapak apabila peralatan berjalan dalam mod automatik."
+        },
+        {
+         "zh": "皮带划破必须立即停机，检查处理后方可重新运行；及时更换坏的或不转的托辊。",
+         "ms": "Jika tali pinggang terkoyak, hentikan mesin serta-merta dan hanya jalankan semula selepas pemeriksaan; ganti roller rosak atau tidak berputar dengan segera."
+        },
+        {
+         "zh": "煤气报警仪报警时及时上报主控室；煤气浓度超过50ppm立即撤离现场。",
+         "ms": "Apabila pengesan gas CO berbunyi, laporkan ke bilik kawalan utama serta-merta; jika kepekatan melebihi 50ppm, keluar dari tapak serta-merta."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第五章 · 上料 / 筛分 / 下料 / 放料 / 料场岗位",
+        "ms": "Bab 5 · Jawatan Suapan / Penapis / Pembuangan / Pelepasan / Padang"
+       },
+       "points": [
+        {
+         "zh": "上料前检查设备无异常后打铃3次警告无关人员请勿靠近皮带，再按顺序依次启动7#→6#→5#→4#皮带、振筛、3#→2#→1#皮带、振动给料机上料；停机时等皮带物料运完后按相反顺序依次停机。",
+         "ms": "Sebelum menyuap, periksa peralatan tiada masalah, bunyi loceng 3 kali untuk amaran, kemudian mulakan tali pinggang 7#→6#→5#→4#, pengayak getar, tali pinggang 3#→2#→1# dan peng suap getar; hentikan mengikut urutan songsang selepas bahan dijalankan."
+        },
+        {
+         "zh": "严禁在皮带运转时清理滚筒粘料、跨越皮带；必须停机后处理。",
+         "ms": "Dilarang membersihkan kekit pada roller atau melintas tali pinggang semasa berjalan; mesti hentikan mesin dahulu."
+        },
+        {
+         "zh": "成品下料岗位负责块灰仓、面灰仓料位监测与成品贮运；负责1-8#皮带机、电机振动给料机操作监控，检查报警铃与事故拉绳是否灵敏可靠。",
+         "ms": "Jawatan pembuangan produk bertanggungjawab memantau paras silo blok/permukaan dan penyimpanan produk; mengawasi tali pinggang 1-8# dan peng suap getar, periksa kepekaan loceng alarm dan tali tarik kecemasan."
+        },
+        {
+         "zh": "料场岗位负责原料验收、堆放与取用，保持通道畅通；车辆卸料时人员远离车厢扇形作业区。",
+         "ms": "Jawatan padang bahan bertanggungjawab pemeriksaan, penyusunan dan pengambilan bahan, pastikan laluan lancar; pekerja menjauh dari kawasan sektor trak semasa muatan diturunkan."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第六章 · 组长 / 料场组长 / 设备岗位",
+        "ms": "Bab 6 · Ketua Pasukan / Ketua Padang / Jawatan Peralatan"
+       },
+       "points": [
+        {
+         "zh": "组长对本班组安全生产负责；熟知本岗位安全操作规程，带头遵守并组织员工学习和执行，对规程不符合项及时提出整改意见。",
+         "ms": "Ketua pasukan bertanggungjawab ke atas keselamatan pasukan; menguasai prosedur keselamatan, mematuhi dan menganjurkan pekerja belajar serta melaksanakan, mencadangkan penambahbaikan jika prosedur tidak sesuai."
+        },
+        {
+         "zh": "组长对班组新员工和转岗员工进行安全教育培训，对培训效果负责；组织开好班前、班后会，组织开展岗位应急处置演练。",
+         "ms": "Ketua pasukan melatih pekerja baharu dan pertukaran jawatan serta bertanggungjawab ke atas keberkesanan latihan; menganjurkan mesyuarat sebelum/selepas syif dan latihan tindak balas kecemasan jawatan."
+        },
+        {
+         "zh": "组长定期做好班前、班中、经常性安全检查；发生工伤事故时积极抢救伤员、保护现场、立即汇报。",
+         "ms": "Ketua pasukan menjalankan pemeriksaan keselamatan tetap sebelum/semasa syif; semasa kemalangan, beri pertolongan, lindungi tapak dan lapor serta-merta."
+        },
+        {
+         "zh": "电动葫芦：不得超载吊装；不得将吊载在其他作业者头上通过；长期停用后重新使用应按规程试车，无异常方可投用。",
+         "ms": "Hoist elektrik: dilarang muatan melebihi had; dilarang membawa muatan di atas kepala pekerja lain; selepas tidak digunakan lama, jalankan ujian mengikut prosedur sebelum guna semula."
+        },
+        {
+         "zh": "电动三轮车：司机必须经专门培训考核合格后方可驾驶；驾驶前对刹车、喇叭、灯光、后视镜、胎压、电量全面检查，严禁带病使用；车厢最多载2人，严禁人货混载。",
+         "ms": "Trikayak elektrik: pemandu mesti dilatih dan lulus peperiksaan; periksa brek, hon, lampu, cermin, tekanan tayar dan bateri sebelum memandu; maksimum 2 penumpang, dilarang bawa orang bersama barang."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gas-safety",
+     "name": {
+      "zh": "煤气（CO）安全管理",
+      "ms": "Keselamatan Gas Karbon Monoksida (CO)"
+     },
+     "file": "东钢集团有限公司煤气安全管理暂行规定",
+     "lessons": 4,
+     "minutes": 25,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握煤气三级危险区划分、动火作业管理与CO防护要求，杜绝CO中毒与煤气爆炸事故。",
+      "ms": "Menguasai pembahagian tiga zon bahaya gas, pengurusan kerja api dan perlindungan CO untuk mencegah keracunan dan letupan gas."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "第一章 · 煤气设施与三级危险区",
+        "ms": "Bab 1 · Kemudahan Gas dan Tiga Zon Bahaya"
+       },
+       "points": [
+        {
+         "zh": "煤气设施：所有流过煤气的设施，包括与其相连的其他介质（蒸汽、氮气、水等）的管路、设备与煤气介质第一个切断装置，都视为煤气设施。",
+         "ms": "Kemudahan gas: semua kemudahan yang mengalirkan gas, termasuk paip dan peralatan media lain (stim, nitrogen, air) bersambung serta perangkat pemotong pertama, dianggap sebagai kemudahan gas."
+        },
+        {
+         "zh": "一级危险区：煤气设施内部；二级危险区：煤气设施5米之内（含5米）；三级危险区：煤气设施30米内（含30米）。",
+         "ms": "Zon bahaya Tahap 1: dalam kemudahan gas; Tahap 2: dalam 5 meter (termasuk 5m); Tahap 3: dalam 30 meter (termasuk 30m)."
+        },
+        {
+         "zh": "麦尔兹窑以转炉煤气为燃料，CO含量高、无色无味——石灰入户转炉煤气眼睛阀抽堵盲板作业属典型高风险作业。",
+         "ms": "Kilun Maerz menggunakan gas converter sebagai bahan api, kandungan CO tinggi dan tidak berwarna/berbau — kerja but/flange injap goggle gas converter di kawasan kapur ialah kerja berisiko tinggi."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第二章 · 动火作业与CO防护",
+        "ms": "Bab 2 · Kerja Api dan Perlindungan CO"
+       },
+       "points": [
+        {
+         "zh": "煤气设施动火作业：使用气焊、电焊、气割、喷灯等能直接或间接产生明火和火花的作业。",
+         "ms": "Kerja api kemudahan gas: kerja menggunakan kimpalan gas/elektrik, pemotongan gas, atau torch yang menghasilkan nyalaan dan percikan."
+        },
+        {
+         "zh": "煤气区域动火必须办理特级/一级动火许可，作业前隔离、吹扫、置换并检测合格，消防器材与专人监护到位。",
+         "ms": "Kerja api di kawasan gas mesti dapat kebenaran khas/Tahap 1; asing, bilas, ganti dan uji sebelum kerja, peralatan pemadam dan pengawas khusus mesti ada."
+        },
+        {
+         "zh": "进入煤气区域随身携带CO报警仪，报警立即撤离至上风侧；严禁在泄漏现场拨打手机、开关电器、使用明火。",
+         "ms": "Bawa pengesan CO di kawasan gas, keluar ke sisi angin atas serta-merta jika berbunyi; dilarang telefon, suis peralatan atau nyalaan di tempat kebocoran."
+        },
+        {
+         "zh": "我国职业接触限值：CO的PC-TWA为20mg/m³、PC-STEL为30mg/m³。",
+         "ms": "Had dedahan pekerjaan: PC-TWA CO 20mg/m³, PC-STEL CO 30mg/m³."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "emergency-plan",
+     "name": {
+      "zh": "应急预案与演练",
+      "ms": "Pelan Kecemasan dan Latihan"
+     },
+     "file": "东钢石灰作业区停电应急预案 / 安全生产事故综合预案",
+     "lessons": 3,
+     "minutes": 25,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握停电等突发事件的标准化处置流程，理解预案—演练—评估—改进闭环。",
+      "ms": "Menguasai prosedur tindak balas piawai untuk kejadian seperti pemadaman elektrik dan memahami kitaran pelan-latihan-penilaian-penambahbaikan."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "第一章 · 停电应急处置七步流程（原版）",
+        "ms": "Bab 1 · Prosedur 7 Langkah Tindak Balas Pemadaman Elektrik (Versi Asal)"
+       },
+       "points": [
+        {
+         "zh": "第1步 停电发生：正常生产中突然停电。",
+         "ms": "Langkah 1 Pemadaman berlaku: produksi berjalan normal apabila elektrik terpadam secara tiba-tiba."
+        },
+        {
+         "zh": "第2步 发现与初期处理：各岗位立即用对讲机向值班组长报告；值班组长通知作业长、调度，命令各岗位把运转设备操作箱转换开关打至零位。",
+         "ms": "Langkah 2 Pengesalan & tindakan awal: setiap jawatan lapor kepada ketua syif melalui walkie-talkie; ketua syif maklumkan penyelia dan penghantaran, perintah semua jawatan set suis kotak operasi ke kedudukan sifar."
+        },
+        {
+         "zh": "第3步 报警：值班组长宣布启动作业区级紧急停电应急预案；调度室向厂部、生产处、能源中心汇报。",
+         "ms": "Langkah 3 Penggera: ketua syif isytihar pelan kecemasan pemadaman peringkat kawasan; bilik penghantaran lapor ke jabatan kilang, pengeluaran dan tenaga."
+        },
+        {
+         "zh": "第4步 命令下达：值班组长命令各岗位按职责分工各就各位，开展事故处理。",
+         "ms": "Langkah 4 Arahan: ketua syif perintah setiap jawatan bertugas mengikut pembahagian tanggungjawab dan mulakan rawatan kemalangan."
+        },
+        {
+         "zh": "第5步 预案实施（煤气系统）：立即切断煤气系统——先关煤气加压站进口蝶阀，再堵煤气主管道盲板阀，完成后连接氮气管道吹扫（看火工负责）。",
+         "ms": "Langkah 5 Pelaksanaan (sistem gas): potong sistem gas serta-merta — tutup injap butterfly import stesen mampat gas dahulu, kemudian but injap blind paip utama, kemudian sambung paip nitrogen untuk pembilasan (pekerja pengawas api bertanggungjawab)."
+        },
+        {
+         "zh": "第6步 窑体保护：主控工利用UPS电源保存数据，自动设备全部切换手动；开启柴油备用风机观察悬挂缸冷却风出口温度，调节风量使悬挂缸冷却风出口温度低于200℃，防止高温状态下窑体变形弯曲。",
+         "ms": "Langkah 6 Perlindungan kilun: kawalan utama simpa data dengan UPS, tukar semua peralatan automatik ke manual; hidupkan pam diesel sandaran dan pantau suhu udara pendingin silinder gantung, kawal aliran udara supaya suhu keluaran di bawah 200℃ untuk elakkan kilun hebat berubah bentuk."
+        },
+        {
+         "zh": "第7步 监护与恢复：成品下料工观察皮带上石灰温度，按调度指令有序复产并记录。",
+         "ms": "Langkah 7 Pemantauan & pemulihan: pekerja pembuangan produk pantau suhu kapur di tali pinggang, mulakan semula pengeluaran mengikut arahan penghantaran dan rekodkan."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第二章 · 演练与资料归档",
+        "ms": "Bab 2 · Latihan dan Arkib"
+       },
+       "points": [
+        {
+         "zh": "现场处置方案至少每半年演练一次；演练资料七类归档：预案文本、演练方案、培训记录、演练签到、过程记录、总结评估、影像资料。",
+         "ms": "Pelan tindak balas dilaksanakan sekurang-kurangnya setiap enam bulan; tujuh kategori arkib latihan: teks pelan, pelan latihan, rekod latihan, kehadiran latihan, rekod proses, penilaian ringkasan dan bahan imej."
+        },
+        {
+         "zh": "关键岗位每年至少2次应急培训、每次不少于2学时；发现问题一周内更新预案文本，8天内对全员培训考试。",
+         "ms": "Jawatan kritikal sekurang-kurangnya 2 latihan kecemasan setahun, setiap sesi minimum 2 jam pembelajaran; masalah dikesan dikemas kini dalam seminggu dan semua pekerja diperiksa dalam 8 hari."
+        },
+        {
+         "zh": "应急处置次序以人身安全为先：先撤离、再报告、后科学施救；严禁盲目施救。",
+         "ms": "Keutamaan tindak balas: keselamatan nyawa dahulu — keluarkan, lapor, kemudian beri pertolongan saintifik; dilarang bertindak buta."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "training-mgmt",
+     "name": {
+      "zh": "培训与交接班管理",
+      "ms": "Pengurusan Latihan dan Serah Tugas Syif"
+     },
+     "file": "A1-004焦电部培训管理办法 / A1-003焦电部交接班管理办法",
+     "lessons": 3,
+     "minutes": 20,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握培训四类型与交接班标准流程，理解一人一档培训档案与班前会纪律要求。",
+      "ms": "Menguasai empat jenis latihan dan prosedur serah tugas syif, memahami keperluan fail latihan seorang seorang dan disiplin mesyuarat pra-syif."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "第一章 · 培训类型（JD-101-2017-A1-004）",
+        "ms": "Bab 1 · Jenis Latihan (JD-101-2017-A1-004)"
+       },
+       "points": [
+        {
+         "zh": "培训分为四种：入厂培训、岗前培训、岗位培训、专业培训。",
+         "ms": "Latihan dibahagikan kepada empat: latihan masuk kilang, latihan pra-jawatan, latihan jawatan dan latihan profesional."
+        },
+        {
+         "zh": "入厂培训：使新入企员工对企业形成初步了解；内容为安全内容与分厂初级工艺流程；由综合室各部门集中组织实施。",
+         "ms": "Latihan masuk kilang: memberi pemahaman awal syarikat; kandungan keselamatan dan proses asas kawasan; dianjurkan berkumpul oleh bilik integrasi."
+        },
+        {
+         "zh": "岗前培训：促使员工尽快了解熟悉岗位、进入角色，内容以岗位职责为主。",
+         "ms": "Latihan pra-jawatan: membolehkan pekerja cepat memahami jawatan dan masuk peranan, kandungan tertumpu pada tanggungjawab jawatan."
+        },
+        {
+         "zh": "培训记录、签到表、课件纳入一人一档档案，纸质+电子双端存档。",
+         "ms": "Rekod latihan, kehadiran dan bahan kursus disimpan dalam fail perjawatan, diarkibkan dalam bentuk kertas dan elektronik."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第二章 · 交接班管理（JD-101-2021-A1-003）",
+        "ms": "Bab 2 · Pengurusan Serah Tugas Syif (JD-101-2021-A1-003)"
+       },
+       "points": [
+        {
+         "zh": "班组员工必须在接班前30分钟穿戴好劳保用品到达交接班室，准时召开班前会；值班作业长须在接班前40分钟到达。",
+         "ms": "Kakitangan pasukan mesti sampai di bilik serah tugas 30 minit sebelum syif dengan alat pelindung lengkap untuk mesyuarat pra-syif; penyelia syif mesti sampai 40 minit sebelum syif."
+        },
+        {
+         "zh": "标准时序（以早8:00班为例）：7:20值班作业长到厂交接，7:30开班前会，7:50上岗交接，8:10交接完毕，回交接班室开班会后下班。",
+         "ms": "Urutan piawai (contoh syif 8:00 pagi): 7:20 penyelia sampai serah tugas, 7:30 mesyuarat pra-syif, 7:50 mula tugas, 8:10 selesai serah tugas, kembali ke bilik untuk mesyuarat selepas syif."
+        },
+        {
+         "zh": "未按要求时间到达交接班室，一次考核2分，由值班长检查监督执行，并在绩效中体现。",
+         "ms": "Ketinggalan waktu ketibaan dikenakan 2 mata penalti, diperiksa dan dilaksanakan oleh ketua syif, ditunjukkan dalam prestasi."
+        },
+        {
+         "zh": "交接班内容含：本班排查未整改隐患、检修遗留事项等，须向接班人员说明（安全交底）。",
+         "ms": "Kandungan serah tugas: bahaya yang dikenalpasti belum dibaiki dan kerja pembaikan berbaki mesti dimaklumkan kepada petugas syif akan datang (taklimat keselamatan)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "accident-mgmt",
+     "name": {
+      "zh": "生产事故管理",
+      "ms": "Pengurusan Kemalangan Pengeluaran"
+     },
+     "file": "东钢集团有限公司生产事故管理暂行规定（第一次修订）",
+     "lessons": 3,
+     "minutes": 15,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握事故定性、定级、汇报、调查、处理的管理依据，理解四不放过原则。",
+      "ms": "Menguasai asas pengurusan penentuan jenis/peringkat, pelaporan, siasatan dan rawatan kemalangan, memahami prinsip Empat Tidak Lepas."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "第一章 · 总则与事故台账",
+        "ms": "Bab 1 · Peraturan Am dan Daftar Kemalangan"
+       },
+       "points": [
+        {
+         "zh": "任何事故原则上不得降级处理；事故处罚采取行政与经济处罚并行的原则。",
+         "ms": "Tiada kemalangan boleh dikurangkan peringkat; hukuman kemalangan menggunakan prinsip hukuman tadbir dan kewangan secara selari."
+        },
+        {
+         "zh": "本规定为公司各类事故定性、定级、汇报、调查、处理的管理依据；生产技术部负责三级及以上事故的审定与下发。",
+         "ms": "Peraturan ini ialah asas pengurusan penentuan jenis/peringkat, pelaporan, siasatan dan rawatan kemalangan; jabatan teknikal pengeluaran mengesahkan dan mengeluarkan kemalangan Tahap 3 ke atas."
+        },
+        {
+         "zh": "建立作业区事故台账：事故调查报告、责任追究记录、防范措施落实追踪记录齐全；工艺质量事故有分析报告、整改措施与培训记录。",
+         "ms": "Wujudkan daftar kemalangan kawasan: laporan siasatan, rekod pertanggungjawaban dan rekod pemantauan langkah pencegahan lengkap; kemalangan proses/kualiti ada laporan analisis, langkah pembaikan dan rekod latihan."
+        },
+        {
+         "zh": "四不放过：事故原因未查清不放过、责任人员未处理不放过、整改措施未落实不放过、有关人员未受到教育不放过。",
+         "ms": "Empat Tidak Lepas: punca belum diketahui tidak lepas, pihak bertanggungjawab belum dikenakan tindakan tidak lepas, langkah pembaikan belum dilaksanakan tidak lepas, pekerja belum dilatih tidak lepas."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "high-work",
+     "name": {
+      "zh": "高处作业安全管理",
+      "ms": "Keselamatan Kerja Ketinggian"
+     },
+     "file": "东钢集团有限公司高处作业安全管理办法",
+     "lessons": 3,
+     "minutes": 15,
+     "level": {
+      "zh": "重点",
+      "ms": "Penting"
+     },
+     "goal": {
+      "zh": "掌握高处作业定义、分级与安全带使用要求，防范高处坠落与物体打击。",
+      "ms": "Menguasai definisi, penggredan dan keperluan penggunaan tali pingkeluk kerja ketinggian untuk mencegah kemalangan jatuh dan terkena objek."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "第一章 · 定义与现场要求",
+        "ms": "Bab 1 · Definisi dan Keperluan Tapak"
+       },
+       "points": [
+        {
+         "zh": "高处作业：凡距坠落高度基准面2m及其以上、有可能坠落的高处进行的作业；坠落基准面为从作业位置到最低坠落着落点的水平面。",
+         "ms": "Kerja ketinggian: kerja di ketinggian 2m dan ke atas dari paras rujukan jatuh yang berisiko jatuh; paras rujukan jatuh ialah paras mendatar dari kedudukan kerja ke titik pendaratan terendah."
+        },
+        {
+         "zh": "分级管理：2~5m一级、5~15m二级、15~30m三级、30m以上特级，级别越高审批越严。",
+         "ms": "Pengurusan peringkat: 2~5m Tahap 1, 5~15m Tahap 2, 15~30m Tahap 3, 30m ke atas Khas; peringkat tinggi kelulusan lebih ketat."
+        },
+        {
+         "zh": "安全带高挂低用，挂在牢固构件上；6级以上大风、暴雨天气停止高处作业；工具系防坠绳，严禁抛掷物料。",
+         "ms": "Tali pingkeluk guna tinggi-rendah, ikat pada struktur kukuh; hentikan kerja ketinggian semasa angin kuat Tahap 6 dan hujan lebat; alat diikat tali anti-jatuh, dilarang buang bahan."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "name": {
+    "zh": "人员管理",
+    "ms": "Pengurusan Pekerja"
+   },
+   "icon": "👷",
+   "focus": false,
+   "desc": {
+    "zh": "组织机构、岗位职责、考勤请销假、薪酬绩效与培训管理，夯实作业区组织与人员基础。",
+    "ms": "Organisasi, tanggungjawab jawatan, kehadiran dan cuti, gaji dan prestasi serta pengurusan latihan, memperkukuh asas organisasi dan pekerja kawasan."
+   },
+   "courses": [
+    {
+     "id": "hr-org",
+     "name": {
+      "zh": "组织机构与岗位职责",
+      "ms": "Organisasi dan Tanggungjawab Jawatan"
+     },
+     "file": "1、人事管理/1、组织管理",
+     "lessons": 3,
+     "minutes": 12,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握组织机构中英双语张贴要求与岗位说明书版本控制。",
+      "ms": "Menguasai keperluan papan organisasi dwibahasa dan kawalan versi penerangan jawatan."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "组织机构与岗位说明书",
+        "ms": "Organisasi dan Penerangan Jawatan"
+       },
+       "points": [
+        {
+         "zh": "组织机构图（中英文）张贴合理位置，无破损、无遮挡、不过期；编制变更后7个工作日内同步更新。",
+         "ms": "Carta organisasi (Cina-Inggeris) dipasang di lokasi sesuai, tiada rosak/halangan/luput; kemas kini dalam 7 hari bekerja selepas perubahan."
+        },
+        {
+         "zh": "中英文版岗位说明书职责齐全、格式统一；现场公示岗位名称、系统岗位名称、岗位说明书权责三者一致。",
+         "ms": "Penerangan jawatan dwibahasa lengkap dan format seragam; nama jawatan di tapak, sistem dan penerangan mesti konsisten."
+        },
+        {
+         "zh": "随机抽查员工：须掌握直属上级岗位名称及姓名、本岗位及作业区通用岗位职责。",
+         "ms": "Pemeriksaan rawak pekerja: mesti tahu nama jawatan dan nama penyelia langsung serta tanggungjawab jawatan sendiri dan am."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hr-attendance",
+     "name": {
+      "zh": "考勤与请销假",
+      "ms": "Kehadiran dan Urusan Cuti"
+     },
+     "file": "A1-006焦电部考勤管理办法",
+     "lessons": 2,
+     "minutes": 10,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握请销假流程与考勤异常处理。",
+      "ms": "Menguasai prosedur permohonan cuti dan rawatan pengecualian kehadiran."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "请销假管理",
+        "ms": "Pengurusan Cuti"
+       },
+       "points": [
+        {
+         "zh": "纸质版请销假记录与ERP考勤系统相符；病假、婚假、产假/陪产假、丧假、灾难假须附有关证件。",
+         "ms": "Rekod cuti kertas mesti sama dengan sistem ERP; cuti sakit, kahwin, bersalin/bersama, kematian dan bencana perlu dokumen sokongan."
+        },
+        {
+         "zh": "员工缺勤发生后3个工作日内完成处理（奖惩/改进提醒）；考勤结算节点后的异常须清零。",
+         "ms": "Ketidakhadiran mesti diproses dalam 3 hari bekerja (ganjaran/peringkatan); pengecualian selepas tutup tempoh kehadiran mesti diselesaikan."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hr-performance",
+     "name": {
+      "zh": "薪酬绩效管理",
+      "ms": "Pengurusan Gaji dan Prestasi"
+     },
+     "file": "A1-002焦电部奖励细则",
+     "lessons": 2,
+     "minutes": 10,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握奖金分配扣除规则与绩效面谈要求。",
+      "ms": "Menguasai peraturan pengagihan dan potongan bonus serta keperluan temuduga prestasi."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "奖金与绩效规则",
+        "ms": "Peraturan Bonus dan Prestasi"
+       },
+       "points": [
+        {
+         "zh": "奖金类分配/扣除规则上墙；绩效管理有痕迹、有员工确认签字；月度绩效不达标者须有绩效面谈及改进计划。",
+         "ms": "Peraturan pengagihan/potongan bonus dipasang; pengurusan prestasi ada jejak dan tandatangan pekerja; pekerja tidak mencapai prestasi perlukan temuduga dan pelan penambahbaikan."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "equipment",
+   "name": {
+    "zh": "设备管理",
+    "ms": "Pengurusan Peralatan"
+   },
+   "icon": "🔧",
+   "focus": false,
+   "desc": {
+    "zh": "点检、台账、备件、检修、制度、绩效、卫生七位一体，保障麦尔兹窑系统设备稳定运行。",
+    "ms": "Pemeriksaan, daftar, alat ganti, baik pulih, sistem, prestasi dan kebersihan — menjamin operasi stabil peralatan kilun Maerz."
+   },
+   "courses": [
+    {
+     "id": "equip-inspection",
+     "name": {
+      "zh": "设备点检标准（原版）",
+      "ms": "Standard Pemeriksaan Peralatan (Versi Asal)"
+     },
+     "file": "2、设备管理/1设备点检",
+     "lessons": 4,
+     "minutes": 20,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握原版点检标准与记录要求：温度压力写数字、记录真实可追溯。",
+      "ms": "Menguasai standard pemeriksaan asal dan keperluan rekod: suhu dan tekanan ditulis angka, rekod benar dan boleh disemak."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "第一章 · 点检标准与记录要求",
+        "ms": "Bab 1 · Standard Pemeriksaan dan Keperluan Rekod"
+       },
+       "points": [
+        {
+         "zh": "点检标准、给油脂标准、维修技术标准齐全；点检卡按标准配齐，无点检卡为否决项。",
+         "ms": "Standard pemeriksaan, standard pelinciran dan standard penyelenggaraan lengkap; kad pemeriksaan lengkap mengikut standard, tiada kad = item veto."
+        },
+        {
+         "zh": "设备温度、压力写数字，严禁只写“正常”；窑体测温记录按班真实填写。",
+         "ms": "Suhu dan tekanan peralatan ditulis angka, dilarang tulis \"normal\" sahaja; rekod suhu badan kilun diisi benar setiap syif."
+        },
+        {
+         "zh": "点检计划齐全并按计划执行、记录存档；设备异常有记录、有维修更换计划。",
+         "ms": "Pelan pemeriksaan lengkap dan dilaksanakan mengikut pelan dengan rekod diarkib; kerosakan peralatan ada rekod dan pelan baik pulih/penggantian."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第二章 · 工艺点检记录（原版表单）",
+        "ms": "Bab 2 · Rekod Pemeriksaan Proses (Borang Asal)"
+       },
+       "points": [
+        {
+         "zh": "主控麦尔兹窑操作记录：按班填写换向操作、温度压力参数、异常处置。",
+         "ms": "Rekod operasi kilun Maerz kawalan utama: isi operasi songsang, parameter suhu/tekanan dan rawatan pengecualian setiap syif."
+        },
+        {
+         "zh": "煤气水封检查记录表：每班检查水封高度与溢流情况，保持正常水封高度。",
+         "ms": "Borang rekod pemeriksaan segel air gas: periksa ketinggian dan limpahan segel air setiap syif, kekalkan paras normal."
+        },
+        {
+         "zh": "热值、主管煤气压力记录表：按班记录煤气热值与压力，异常及时调整并上报。",
+         "ms": "Borang rekod nilai haba dan tekanan gas utama: rekod setiap syif, laras dan lapor pengecualian serta-merta."
+        },
+        {
+         "zh": "煤压机运行情况记录、柴油机试车记录按制度要求填写留存。",
+         "ms": "Rekod operasi pemampat gas dan rekod ujian enjin diesel diisi dan disimpan mengikut keperluan sistem."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第三章 · 三方分工与考核",
+        "ms": "Bab 3 · Pembahagian Tiga Pihak dan Penilaian"
+       },
+       "points": [
+        {
+         "zh": "三方分工制度：操作、点检、检修各司其职；点检对岗检有专业培训、检查、考核。",
+         "ms": "Sistem pembahagian tiga pihak: operasi, pemeriksaan dan baik pulih masing-masing bertanggungjawab; pemeriksaan ada latihan, siasan dan penilaian profesional."
+        },
+        {
+         "zh": "弄虚作假一次扣20分，是最严厉的设备考核项；无培训、无考核每次扣分。",
+         "ms": "Pemalsuan dikenakan 20 mata sekali gus, penalti peralatan paling ketat; tiada latihan atau penilaian dikenakan penalti setiap kali."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "equipment-ledger",
+     "name": {
+      "zh": "设备台账与备件管理",
+      "ms": "Daftar Peralatan dan Pengurusan Alat Ganti"
+     },
+     "file": "2、设备管理/2、设备台账 / 3、设备备件",
+     "lessons": 2,
+     "minutes": 12,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握设备台账编审批要求与机旁库账物一致管理。",
+      "ms": "Menguasai keperluan penyediaan/kelulusan daftar peralatan dan pengurusan stor tepi mesin."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "台账与备件",
+        "ms": "Daftar dan Alat Ganti"
+       },
+       "points": [
+        {
+         "zh": "重点设备、天车、电葫芦、电机、减速机、工具台账齐全；含编号、更新时间、编制/审核/批准人员。",
+         "ms": "Daftar peralatan utama, kren, hoist elektrik, motor, peredam kelajuan dan alat lengkap; ada nombor, tarikh kemas kini dan penyedia/pemeriksa/pelulus."
+        },
+        {
+         "zh": "机旁备件账物一致、消耗有记录、摆放规范；备件申报计划与评审记录齐全。",
+         "ms": "Alat ganti stor tepi mesin sama dengan akaun, penggunaan ada rekod, susunan piawai; pelan permohonan dan rekod penilaian alat ganti lengkap."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "equipment-repair",
+     "name": {
+      "zh": "设备检修与事故分析",
+      "ms": "Baik Pulih Peralatan dan Analisis Kemalangan"
+     },
+     "file": "2、设备管理/4设备检修 事故报告",
+     "lessons": 3,
+     "minutes": 15,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握检修计划体系与设备事故三方面追溯分析法。",
+      "ms": "Menguasai sistem pelan baik pulih dan analisis kebelakangan kemalangan peralatan tiga aspek."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "检修与事故分析",
+        "ms": "Baik Pulih dan Analisis Kemalangan"
+       },
+       "points": [
+        {
+         "zh": "日修、周修、月修计划与检修总结齐全；维修作业标准有培训、有执行情况检查记录。",
+         "ms": "Pelan baik pulih harian/mingguan/bulanan dan ringkasan lengkap; standard kerja baik pulih ada latihan dan rekod pemeriksaan pelaksanaan."
+        },
+        {
+         "zh": "设备事故分析报告严格从岗检、专业点检、包机巡检三方面追溯，找出管理漏洞；未按要求分析按否决项处理。",
+         "ms": "Laporan analisis kemalangan peralatan mesti dikesan dari tiga aspek: pemeriksaan jawatan, pemeriksaan profesional dan rondaan paket mesin; gagal menganalisis = item veto."
+        },
+        {
+         "zh": "整改措施落实记录闭环，有事故学习记录；检修违章教训参见事故案例页（干熄焦两炉装一罐事故）。",
+         "ms": "Rekod pelaksanaan langkah pembaikan lengkap dan ada rekod pembelajaran kemalangan; lihat halaman kes kemalangan untuk pengajaran pelanggaran baik pulih."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "process",
+   "name": {
+    "zh": "工艺管理",
+    "ms": "Pengurusan Proses"
+   },
+   "icon": "⚙️",
+   "focus": false,
+   "desc": {
+    "zh": "麦尔兹双膛窑工艺技术规程、8个岗位操作规程与生产记录管理，按原版制度编号内容编写。",
+    "ms": "Prosedur teknikal kilun Maerz dwi-ruang, prosedur operasi 8 jawatan dan pengurusan rekod pengeluaran, ditulis mengikut nombor sistem asal."
+   },
+   "courses": [
+    {
+     "id": "kiln-operation-rules",
+     "name": {
+      "zh": "岗位操作规程（原版 ZY-W803-GY 系列）",
+      "ms": "Prosedur Operasi Jawatan (Siri ZY-W803-GY Asal)"
+     },
+     "file": "4、工艺管理/1、操作规程/6石灰操作规程/石灰作业区操作规程/（8个岗位）",
+     "lessons": 5,
+     "minutes": 35,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "按岗位掌握原版操作规程：适用范围、工艺流程、技术指标与岗位职责，持证上岗、按章操作。",
+      "ms": "Menguasai prosedur operasi asal mengikut jawatan: skop, carta proses, indeks teknikal dan tanggungjawab jawatan; bekerja dengan lesen dan mengikut prosedur."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "第一章 · 规程体系与产品质量指标",
+        "ms": "Bab 1 · Sistem Prosedur dan Indeks Kualiti Produk"
+       },
+       "points": [
+        {
+         "zh": "8个岗位操作规程均受控管理：制度编号ZY-W803-GY-001~008，编制张磊、批准马永磊，生效日期2021年12月1日。",
+         "ms": "8 prosedur operasi jawatan dikawal: nombor sistem ZY-W803-GY-001~008, disediakan Zhang Lei, diluluskan Ma Yonglei, berkuat kuasa 1 Disember 2021."
+        },
+        {
+         "zh": "【产品质量指标】化学成分：CaO≥85%、SiO₂≤3.0%、MgO≤3.0%、S≤0.035%、P≤0.010%。",
+         "ms": "[Indeks Kualiti Produk] Kandungan kimia: CaO≥85%, SiO₂≤3.0%, MgO≤3.0%, S≤0.035%, P≤0.010%."
+        },
+        {
+         "zh": "【物理性能】残余CO₂≤2.0%、生过烧率≤12.0%、活性度（4NHCL·5min）≥350ml。",
+         "ms": "[Ciri Fizikal] CO₂ baki ≤2.0%, kadar mentah/terbakar ≤12.0%, reaktiviti (4NHCL·5min) ≥350ml."
+        },
+        {
+         "zh": "成品系统流程：窑→给料机→10#皮带→1#斗提机→块灰仓→12#皮带→破碎机→振筛→11#皮带→成品库房/面灰仓；气力输灰外运车辆。",
+         "ms": "Aliran sistem produk: kilun→peng suap→tali pinggang 10#→angkat 1#→silo blok→tali pinggang 12#→penghancur→pengayak→tali pinggang 11#→stor produk/silo permukaan; pemindahan udara ke trak."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第二章 · 看火工与主控操作员（原版要点）",
+        "ms": "Bab 2 · Pekerja Pengawas Api dan Kawalan Utama (Poin Asal)"
+       },
+       "points": [
+        {
+         "zh": "看火工操作规程（ZY-W803-GY-003）：负责窑内燃烧状况观察与调火；工艺流程为窑前石料称→卷扬上料小车→窑顶石料称→给料机→可逆皮带→旋转料斗→窑。",
+         "ms": "Prosedur pekerja pengawas api (ZY-W803-GY-003): memantau dan melaraskan pembakaran dalam kilun; aliran: timbang batu hadapan kilun→troli gelendong→timbang batu puncak→peng suap→tali pinggang boleh songsang→hoberi berputar→kilun."
+        },
+        {
+         "zh": "主控操作员：负责DCS全系统监控，掌握双膛换向、温度压力联锁与异常参数处置；启停设备前与现场双确认。",
+         "ms": "Pekerja kawalan utama: memantau sistem DCS, menguasai songsang dwi-ruang, interlock suhu/tekanan dan rawatan parameter pengecualian; pengesahan dua hala sebelum mulakan/hentikan peralatan."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第三章 · 上料 / 筛分 / 布料岗位",
+        "ms": "Bab 3 · Jawatan Suapan / Penapis / Penyebaran"
+       },
+       "points": [
+        {
+         "zh": "原料上料操作员：负责石灰石上料系统操作监控，打铃警告后按7#→1#皮带顺序启动，严禁皮带运转时跨越、清理。",
+         "ms": "Pekerja suapan bahan: mengawasi sistem suapan batu kapur, bunyi loceng amaran kemudian mulakan tali pinggang 7#→1#, dilarang melintas atau membersihkan semasa tali pinggang bergerak."
+        },
+        {
+         "zh": "原料筛分操作员：负责振筛运行监控与筛下物清理，保持筛面完好，异常停机处理。",
+         "ms": "Pekerja penapis bahan: mengawasi pengayak getar dan membersihkan hasil titisan, kekalkan permukaan pengayak, hentikan mesin untuk rawatan pengecualian."
+        },
+        {
+         "zh": "窑顶布料操作员：按规程操作旋转料斗与可逆皮带，保证两膛布料均匀，及时清理石料称传感器积灰。",
+         "ms": "Pekerja penyebaran puncak kilun: mengendalikan hoberi berputar dan tali pinggang boleh songsang, pastikan penyebaran dua ruang sekata, bersihkan habuk sensor timbang batu."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第四章 · 下料 / 放料 / 料场岗位",
+        "ms": "Bab 4 · Jawatan Pembuangan / Pelepasan / Padang"
+       },
+       "points": [
+        {
+         "zh": "成品下料操作员（ZY-W803-GY-007）：负责块灰仓、面灰仓料位监测与成品贮运、物料破碎，1-8#皮带机与振动给料机操作监控，检查报警铃与事故拉绳灵敏可靠。",
+         "ms": "Pekerja pembuangan produk (ZY-W803-GY-007): memantau paras silo, penyimpanan dan pemindahan produk, pemecahan bahan, mengawasi tali pinggang 1-8# dan peng suap getar, periksa kepekaan loceng alarm dan tali tarik kecemasan."
+        },
+        {
+         "zh": "成品放料操作员（ZY-W803-GY-008）：负责成品放料装车与气力输灰系统操作，控制放料速度，防止粉尘与车辆伤害。",
+         "ms": "Pekerja pelepasan produk (ZY-W803-GY-008): mengendalikan pelepasan produk dan sistem pemindahan udara, kawal kadar pelepasan untuk elakkan habuk dan kemalangan kenderaan."
+        },
+        {
+         "zh": "料场操作员：负责原料验收、堆放、取用与库房管理，保持通道畅通、堆垛稳固。",
+         "ms": "Pekerja padang: bertanggungjawab pemeriksaan, penyusunan, pengambilan bahan dan pengurusan stor, pastikan laluan lancar dan timbunan stabil."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "kiln-process",
+     "name": {
+      "zh": "麦尔兹双膛石灰窑工艺技术规程",
+      "ms": "Prosedur Teknikal Kilun Kapur Dwibilah Maerz"
+     },
+     "file": "东钢麦尔兹石灰窑工艺技术规程 / 麦尔兹石灰窑工艺技术操作规程（中英）",
+     "lessons": 4,
+     "minutes": 30,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握500T燃气麦尔兹窑工艺流程、窑本体结构与双膛交替运行原理，建立工艺安全控制点概念。",
+      "ms": "Menguasai aliran proses kilun gas 500T Maerz, struktur badan kilun dan prinsip operasi dwi-ruang berselang-seli, membina konsep titik kawalan keselamatan proses."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "第一章 · 工艺流程与系统组成",
+        "ms": "Bab 1 · Aliran Proses dan Komponen Sistem"
+       },
+       "points": [
+        {
+         "zh": "500T燃气麦尔兹窑：石灰石经称量上料系统进入窑膛，以转炉煤气为燃料煅烧，成品石灰经出灰、输送进入成品库。",
+         "ms": "Kilun gas 500T Maerz: batu kapur masuk melalui sistem suapan bertimbang, dibakar dengan gas converter, produk kapur dikeluarkan dan dihantar ke stor."
+        },
+        {
+         "zh": "主要系统：窑上料系统、窑本体设备、换热器、引风与除尘系统。",
+         "ms": "Sistem utama: sistem suapan kilun, peralatan badan kilun, penukar haba, sistem pengekutan dan pembersih habuk."
+        },
+        {
+         "zh": "【双膛原理】两膛交替处于燃烧期与蓄热期，约10~12分钟轮换一次，实现连续生产与热量回收。",
+         "ms": "[Prinsip Dwi-Ruang] Dua ruang kilun berselang-seli antara fasa pembakaran dan fasa penyerapan haba, berganti setiap 10~12 minit, mencapai pengeluaran berterusan dan pemulihan haba."
+        }
+       ]
+      },
+      {
+       "title": {
+        "zh": "第二章 · 窑本体与安全控制点",
+        "ms": "Bab 2 · Badan Kilun dan Titik Kawalan Keselamatan"
+       },
+       "points": [
+        {
+         "zh": "窑壳钢结构承受窑衬与物料重量，外部隔热层防止表面高温（表面可达200℃以上，防灼烫）。",
+         "ms": "Struktur keluli kilun menanggung berat lining dan bahan, lapisan penebat luar mengelakkan suhu permukaan tinggi (boleh melebihi 200℃, elakkan lecur)."
+        },
+        {
+         "zh": "煅烧区物料温度1100~1200℃；窑体测温点检每班执行并记录数字，异常上报。",
+         "ms": "Suhu bahan zon pembakaran 1100~1200℃; pemeriksaan suhu badan kilun setiap syif dan rekod angka, lapor pengecualian."
+        },
+        {
+         "zh": "进入窑膛内部检修按有限空间作业管理：审批、通风、检测、监护。",
+         "ms": "Masuk dalam kilun untuk baik pulih diuruskan sebagai kerja ruang terhad: kelulusan, pengudaraan, ujian dan pengawasan."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "process-records",
+     "name": {
+      "zh": "生产记录与工艺事故管理",
+      "ms": "Rekod Pengeluaran dan Pengurusan Kemalangan Proses"
+     },
+     "file": "4、工艺管理/2、生产记录 / 事故管理",
+     "lessons": 2,
+     "minutes": 10,
+     "level": {
+      "zh": "必修",
+      "ms": "Wajib"
+     },
+     "goal": {
+      "zh": "掌握工艺记录填写规范与工艺事故台账管理。",
+      "ms": "Menguasai piawai pengisian rekod proses dan pengurusan daftar kemalangan proses."
+     },
+     "chapters": [
+      {
+       "title": {
+        "zh": "生产记录与事故台账",
+        "ms": "Rekod Pengeluaran dan Daftar Kemalangan"
+       },
+       "points": [
+        {
+         "zh": "生产工艺过程有记录、工艺检查有记录、工艺异常有评审和整改措施；记录按班真实填写。",
+         "ms": "Proses pengeluaran ada rekod, pemeriksaan proses ada rekod, pengecualian proses ada penilaian dan langkah pembaikan; rekod diisi benar setiap syif."
+        },
+        {
+         "zh": "工艺质量事故台账齐全；事故有分析报告、整改措施与培训记录。",
+         "ms": "Daftar kemalangan kualiti proses lengkap; kemalangan ada laporan analisis, langkah pembaikan dan rekod latihan."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

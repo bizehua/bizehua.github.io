@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>课程库 · Katalog Kursus</title>
+<meta name="description" content="石灰作业区安全培训课程库：安全学习、人员管理、设备管理、工艺管理四大类15门课程，内容提取自作业区实际文件">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='18' font-size='18'>📚</text></svg>">
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="page">
+  <div class="breadcrumb"><a href="../index.html">首页 Utama</a><span>›</span>课程库 Katalog Kursus</div>
+
+  <div class="panel panel-pad" style="border-left:5px solid var(--c-cyan)">
+    <h1 style="font-size:21px;font-weight:900">📚 课程库 <span class="ms" style="font-size:14px">Katalog Kursus</span></h1>
+    <p class="mt-8" style="font-size:14px;color:var(--c-text-2)">
+      课程内容提取自作业区<b>安全规程、操作规程、应急预案、管理制度</b>等实际文件，共 <b>4 大类 15 门课程</b>。学习记录按《焦电部内部培训管理办法》纳入一人一档培训档案。
+      <span class="ms">Kandungan kursus diambil daripada <b>prosedur keselamatan, prosedur operasi, pelan kecemasan dan sistem pengurusan</b> sebenar kawasan — jumlah <b>4 kategori, 15 kursus</b>. Rekod pembelajaran dimasukkan ke dalam fail latihan satu orang satu fail mengikut kaedah latihan dalaman Jabatan Kok &amp; Kuasa.</span>
+    </p>
+  </div>
+
+  <div id="courseCats" class="mt-20"></div>
+</main>
+
+<div id="app-tabbar" class="tabbar"></div>
+<div id="app-footer"></div>
+
+<script src="../assets/js/main.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("../assets/data/courses.json")
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var wrap = document.getElementById("courseCats");
+      wrap.innerHTML = data.categories.map(function (cat) {
+        var cards = cat.courses.map(function (c) {
+          var lvlZh = c.level.zh, lvlMs = c.level.ms;
+          var levelCls = lvlZh === "必修" ? "danger" : (lvlZh === "重点" ? "warn" : "info");
+          return (
+            '<a class="course-card" href="course.html?id=' + c.id + '">' +
+            '<div class="cc-top"><span class="cc-no">' + c.lessons + ' 章<span class="ms">bab</span></span>' +
+            '<span class="badge ' + levelCls + '">' + lvlZh + " " + lvlMs + "</span>" +
+            '<span class="badge info">约 ' + c.minutes + " 分钟<span class=\"ms\">~" + c.minutes + " minit</span></span></div>" +
+            "<h3>" + c.name.zh + '<span class="ms">' + c.name.ms + "</span></h3>" +
+            '<p class="cc-goal">' + c.goal.zh + '<span class="ms">' + c.goal.ms + "</span></p>" +
+            '<div class="cc-foot"><span class="cc-start">开始学习 Mula <span class="arr">→</span></span>' +
+            '<span class="cc-file" title="' + c.file + '">源文件 Fail asal：' + c.file + "</span></div>" +
+            "</a>"
+          );
+        }).join("");
+        return (
+          '<section class="course-cat' + (cat.focus ? " safety" : "") + '">' +
+          '<div class="course-cat-head"><div class="cc-icon">' + cat.icon + "</div>" +
+          "<h2>" + cat.name.zh + '<span class="ms" style="display:inline;font-size:13px">' + cat.name.ms + "</span>" + (cat.focus ? ' <span class="badge danger">重点 Fokus</span>' : "") + "</h2>" +
+          '<p class="cc-desc">' + cat.desc.zh + '<span class="ms">' + cat.desc.ms + "</span></p></div>" +
+          '<div class="grid g-3">' + cards + "</div></section>"
+        );
+      }).join("");
+      if (window.refreshMotion) window.refreshMotion();
+    })
+    .catch(function () {
+      document.getElementById("courseCats").innerHTML =
+        '<div class="alert danger"><span class="a-icon">✕</span><div>课程数据加载失败，请确认 assets/data/courses.json 文件存在。<span class="ms">Gagal memuat data kursus; pastikan fail assets/data/courses.json wujud.</span></div></div>';
+    });
+});
+</script>
+</body>
+</html>

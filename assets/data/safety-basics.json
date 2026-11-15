@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": { "zh": "安全基础知识", "ms": "Pengetahuan Asas Keselamatan" },
+    "source": { "zh": "依据作业区《安全知识内容》（2026-09）编制，中马双语对照", "ms": "Berdasarkan Kandungan Pengetahuan Keselamatan kawasan kerja, dwibahasa Cina-Melayu" }
+  },
+  "groups": [
+    {
+      "id": "concept",
+      "name": { "zh": "安全理念与方针", "ms": "Konsep & Dasar Keselamatan" },
+      "icon": "🎯",
+      "items": [
+        { "no": 13, "title": { "zh": "安全生产方针", "ms": "Dasar Keselamatan Pengeluaran" }, "content": { "zh": "安全第一，预防为主，综合治理。", "ms": "Keselamatan diutamakan, pencegahan sebagai langkah utama, dan pengurusan secara menyeluruh." } },
+        { "no": 2, "title": { "zh": "四不伤害", "ms": "Empat Tidak Mencederakan" }, "content": { "zh": "不伤害自己，不伤害他人，不被他人伤害，保护他人不被伤害。", "ms": "Tidak mencederakan diri sendiri, tidak mencederakan orang lain, tidak dicederakan orang lain, dan melindungi orang lain daripada cedera." } },
+        { "no": 3, "title": { "zh": "四不放过", "ms": "Empat Tidak Dilepaskan" }, "content": { "zh": "事故原因未查清不放过，责任人未处理不放过，整改措施未落实不放过，有关人员未受教育不放过。", "ms": "Kemalanganan tidak boleh ditutup selagi puncanya belum dikenal pasti, pihak bertanggungjawab belum diambil tindakan, langkah pembetulan belum dilaksanakan, dan kakitangan yang berkenaan belum menerima pendidikan keselamatan." } },
+        { "no": 7, "title": { "zh": "三把尺子", "ms": "Tiga Ukuran Penambahbaikan" }, "content": { "zh": "操作有没有提升的空间，管理有没有提升的空间，有没有改良改善的空间。", "ms": "Adakah operasi boleh dipertingkatkan? Adakah pengurusan boleh dipertingkatkan? Adakah masih ada ruang untuk penambahbaikan dan pembaikan?" } },
+        { "no": 8, "title": { "zh": "五个根基", "ms": "Lima Asas" }, "content": { "zh": "思想，现场，制度，文化，人员。", "ms": "Asas pemikiran, asas tapak operasi, asas sistem, asas budaya, asas sumber manusia." } },
+        { "no": 11, "title": { "zh": "2026安全月主题", "ms": "Tema Bulan Keselamatan 2026" }, "content": { "zh": "人人讲安全，个个会应急，排查整治风险隐患。", "ms": "Semua orang bercakap tentang keselamatan, semua orang tahu cara bertindak balas terhadap kecemasan — menyiasat dan membetulkan potensi risiko." } },
+        { "no": 6, "title": { "zh": "安全承诺书目标", "ms": "Matlamat Ikrar Keselamatan" }, "content": { "zh": "工伤为0，火灾为0，职业病为0。", "ms": "0 kemalangan pekerjaan, 0 kebakaran, 0 penyakit pekerjaan." } }
+      ]
+    },
+    {
+      "id": "protection",
+      "name": { "zh": "作业防护要点", "ms": "Poin Perlindungan Kerja" },
+      "icon": "🦺",
+      "items": [
+        { "no": 4, "title": { "zh": "安全带使用规范", "ms": "Peraturan Menggunakan Tali Keselamatan" }, "content": { "zh": "2米以上高空作业，五点式双钩，高挂低用，双钩不能挂同一位置。", "ms": "Kerja di tempat tinggi melebihi 2 meter mesti memakai tali pinggang keselamatan 5 titik dengan 2 cangkuk, amalkan ikat tinggi guna rendah, dan kedua-dua cangkuk tidak boleh dipasang pada titik sauh yang sama." } },
+        { "no": 1, "title": { "zh": "3.5.10米", "ms": "3.5.10 Meter" }, "content": { "zh": "静止吊物保持3米以上距离，移动吊物保持5米以上距离，移动车辆10米以上距离。", "ms": "Kekalkan jarak sekurang-kurangnya 3 meter daripada objek bergantung statik, 5 meter daripada objek gantung bergerak, dan 10 meter daripada kenderaan bergerak." } },
+        { "no": 5, "title": { "zh": "煤气三大特性", "ms": "Tiga Ciri Utama Gas" }, "content": { "zh": "易燃性，易爆性，有毒性。", "ms": "Mudah terbakar, mudah meletup dan beracun." } },
+        { "no": 15, "title": { "zh": "煤气浓度和工作时间的关系", "ms": "Hubungan Kepekatan Gas CO & Tempoh Kerja" }, "content": { "zh": "不超过24ppm可长时间工作；不超过40ppm工作时长不超过1小时；不超过80ppm工作时长不超过30分钟；不超过160ppm工作时长不超过15~20分钟。", "ms": "Tidak melebihi 24 ppm: boleh bekerja lama; tidak melebihi 40 ppm: tempoh kerja tidak melebihi 1 jam; tidak melebihi 80 ppm: tidak melebihi 30 minit; tidak melebihi 160 ppm: tidak melebihi 15~20 minit." } },
+        { "no": 17, "title": { "zh": "安全设施“六有”", "ms": "Kemudahan Keselamatan “Enam Ada”" }, "content": { "zh": "轮有罩，轴有套，坑孔沟池有防护，梯子平台有栏杆，危险场所有标记，厂房内有通道。", "ms": "Roda mempunyai penutup, aci mempunyai sarung pelindungan, lubang mempunyai pagar perlindungan, tangga dan platform mempunyai pagar penghadang, tempat berbahaya mempunyai papan tanda amaran, laluan dalam kilang sentiasa teratur dan lancar." } }
+      ]
+    },
+    {
+      "id": "management",
+      "name": { "zh": "管理常识", "ms": "Pengetahuan Pengurusan" },
+      "icon": "📋",
+      "items": [
+        { "no": 9, "title": { "zh": "四级教育", "ms": "Pendidikan Empat Peringkat" }, "content": { "zh": "公司，分厂，作业区，班组。", "ms": "Syarikat, kilang, kawasan operasi dan kumpulan kerja." } },
+        { "no": 10, "title": { "zh": "三大制度", "ms": "Tiga Sistem Utama" }, "content": { "zh": "确认，挂牌，互保。", "ms": "Pengesahan, pemasangan tag, perlindungan bersama." } },
+        { "no": 12, "title": { "zh": "三违", "ms": "Tiga Larangan" }, "content": { "zh": "违章指挥，违反操作规程，违反劳动纪律。", "ms": "Melanggar peraturan, melanggar prosedur operasi, melanggar disiplin kerja." } },
+        { "no": 16, "title": { "zh": "生产事故三要素", "ms": "Tiga Elemen Kemalangan Pengeluaran" }, "content": { "zh": "人的不安全行为，物的不安全状态，管理上的缺陷。", "ms": "Tindakan tidak selamat oleh manusia, keadaan objek yang tidak selamat, dan kekurangan pengurusan." } }
+      ]
+    },
+    {
+      "id": "risk",
+      "name": { "zh": "岗位安全风险辨识", "ms": "Pengenalpastian Risiko Jawatan" },
+      "icon": "⚠️",
+      "items": [
+        { "no": 14, "title": { "zh": "岗位安全风险辨识（12类）", "ms": "Risiko Jawatan (12 Jenis)" }, "content": { "zh": "高处坠落，煤气中毒，触电，皮带绞伤，车辆伤害，中暑，高温烫伤，溺水，石灰呛眼，噪声，粉尘，滑跌。", "ms": "Jatuh dari tempat tinggi, keracunan gas CO, renjatan elektrik, kecederaan tali sawat, kecederaan kenderaan, strok haba, lecur suhu tinggi, lemas, percikan kapur ke mata, bunyi bising, habuk, tergelincir." } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>应急处置卡 · Kad Kecemasan</title>
+<meta name="description" content="CO中毒、高温灼烫、有限空间、火灾爆炸、触电、机械伤害六类应急处置卡，步骤化处置流程，可打印塑封">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='18' font-size='18'>🆘</text></svg>">
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="page">
+  <div class="breadcrumb"><a href="../index.html">首页 Utama</a><span>›</span><a href="safety.html">安全管理 Keselamatan</a><span>›</span>应急处置卡 Kad kecemasan</div>
+
+  <div class="panel panel-pad" style="border-left:5px solid var(--c-danger)">
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <h1 style="font-size:21px;font-weight:800">🆘 应急处置卡 <span class="ms" style="font-size:14px">Kad Tindakan Kecemasan</span></h1>
+      <span class="badge danger">条款31 Klausa 31 · 事故与应急预案 Kemalangan &amp; pelan</span>
+    </div>
+    <p class="mt-8" style="font-size:14px;color:var(--c-text-2)">
+      六类情景处置卡覆盖麦尔兹窑作业区主要风险。处置次序以人身安全为先：<b>先撤离、再报告、后科学施救</b>；严禁盲目施救。建议打印塑封后放置于操作室、配电室及现场应急物资柜。
+      <span class="ms">Enam kad senario meliputi risiko utama kawasan tanur Maerz. Keutamaan tindakan: <b>keluar dahulu, laporkan, baru selamatkan secara saintifik</b>; selamat secara membuta tuli adalah dilarang. Disyorkan dicetak &amp; dilaminasi, diletak di bilik operasi, bilik suis dan kabinet kecemasan tapak.</span>
+    </p>
+    <div class="mt-14 no-print" style="display:flex;gap:10px;flex-wrap:wrap">
+      <button class="btn danger" id="btnPrintCards">🖨️ 打印全部处置卡<span class="ms">Cetak semua</span></button>
+      <a class="btn ghost" href="quiz.html">📝 应急处置专项试卷<span class="ms">Ujian</span></a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><h2>六类情景处置卡<span class="ms">6 Kad Senario</span></h2><span class="sub">点击打印可按 A4 双面排版<span class="ms">Cetak susun atur A4 dua muka</span></span></div>
+    <div class="card-grid" id="cardsGrid"></div>
+  </div>
+
+  <div class="section no-print">
+    <div class="alert warn"><span class="a-icon">⚠️</span><div><b>应急联络提示 Hubungan kecemasan：</b>厂内急救、煤防站、调度电话请以作业区当日公布的应急联络卡为准；发现事故后 <b>不得迟报、漏报、谎报、瞒报</b>，轻伤及以上事故按验收否决项处理。<span class="ms">Nombor kecemasan kilang, stesen pencegah gas &amp; penyelaras — rujuk kad hubungan kecemasan harian kawasan. Selepas kemalangan <b>dilarang lewat lapor, tertinggal lapor, lapor palsu atau sembunyi</b>; kemalangan cedera ringan ke atas dikira item veto.</span></div></div>
+  </div>
+</main>
+
+<div id="app-tabbar" class="tabbar"></div>
+<div id="app-footer"></div>
+
+<script src="../assets/js/main.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  Promise.all([
+    fetch("../assets/data/cards.json").then(function (r) { return r.json(); }),
+    fetch("../assets/data/cards-ms.json").then(function (r) { return r.json(); }).catch(function () { return {}; })
+  ])
+    .then(function (res) {
+      var data = res[0];
+      var MS = (res[1] || {}).cards || {};
+      var SEC = (res[1] || {}).sections || {};
+      var wrap = document.getElementById("cardsGrid");
+      wrap.innerHTML = data.cards.map(function (c) {
+        var m = MS[c.id] || {};
+        var mF = m.feature || [], mS = m.steps || [], mX = m.forbid || [];
+        return (
+          '<article class="emergency-card">' +
+          '<div class="ec-head"><span class="ec-icon">' + c.icon + '</span><h3>' + c.title +
+          (m.title ? '<span class="ms">' + m.title + "</span>" : "") + '</h3><span class="ec-level">' + c.level +
+          (m.level ? '<span class="ms">' + m.level + "</span>" : "") + "</span></div>" +
+          '<div class="ec-body">' +
+          '<div class="ec-sec"><h4>风险特征<span class="ms">' + (SEC.feature || "Ciri Risiko") + '</span></h4><ul>' +
+          c.feature.map(function (f, i) { return "<li>" + f + (mF[i] ? '<span class="ms">' + mF[i] + "</span>" : "") + "</li>"; }).join("") + "</ul></div>" +
+          '<div class="ec-sec"><h4>处置步骤<span class="ms">' + (SEC.steps || "Langkah") + '</span></h4><ol class="ec-steps">' +
+          c.steps.map(function (st, i) { return "<li>" + st + (mS[i] ? '<span class="ms">' + mS[i] + "</span>" : "") + "</li>"; }).join("") + "</ol></div>" +
+          '<div class="ec-sec"><h4>报告流程<span class="ms">' + (SEC.report || "Laporan") + '</span></h4><p>' + c.report +
+          (m.report ? '<span class="ms">' + m.report + "</span>" : "") + "</p></div>" +
+          '<div class="ec-sec"><h4>严禁事项<span class="ms">' + (SEC.forbid || "Dilarang") + '</span></h4><ul class="ec-forbid">' +
+          c.forbid.map(function (f, i) { return "<li>" + f + (mX[i] ? '<span class="ms">' + mX[i] + "</span>" : "") + "</li>"; }).join("") + "</ul></div>" +
+          "</div></article>"
+        );
+        }).join("");
+        if (window.refreshMotion) window.refreshMotion();
+      })
+    .catch(function () {
+      document.getElementById("cardsGrid").innerHTML =
+        '<div class="alert danger"><span class="a-icon">✕</span><div>处置卡数据加载失败，请确认 assets/data/cards.json 文件存在。<span class="ms">Gagal memuat data kad; pastikan fail wujud.</span></div></div>';
+    });
+  var btn = document.getElementById("btnPrintCards");
+  if (btn) btn.addEventListener("click", function () { window.print(); });
+});
+</script>
+</body>
+</html>

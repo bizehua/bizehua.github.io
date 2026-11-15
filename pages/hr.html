@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>人员管理板块 · Pengurusan Personel</title>
+<meta name="description" content="焦电部石灰作业区人员管理板块：组织管理、人员管理、出勤管理、薪酬绩效管理、培训管理">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='18' font-size='18'>👷</text></svg>">
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="page">
+  <div class="breadcrumb"><a href="../index.html">首页 Utama</a><span>›</span>人员管理 Pengurusan Personel</div>
+
+  <div class="panel panel-pad" style="border-left:5px solid var(--c-primary)">
+    <h1 style="font-size:21px;font-weight:800">👷 人员管理板块 <span class="ms" style="font-size:14px">Pengurusan Personel</span></h1>
+    <p class="mt-8" style="font-size:14px;color:var(--c-text-2)">组织机构、人员、出勤、薪酬绩效与培训管理。组织机构图与岗位说明书须<b>中英文双语</b>；培训管理执行一人一档，与安全培训档案要求一致。
+    <span class="ms">Organisasi, personel, kehadiran, gaji &amp; prestasi, serta latihan. Carta organisasi dan deskripsi tugas mesti <b>dwibahasa Cina–Inggeris</b>; pengurusan latihan guna konsep satu orang satu fail, selaras dengan keperluan fail latihan keselamatan.</span></p>
+  </div>
+
+  <section class="section">
+    <div class="section-head"><h2>管理要点<span class="ms">Perkara Pengurusan</span></h2></div>
+    <div class="grid g-2">
+      <div class="panel">
+        <div class="panel-title"><span class="dot"></span>组织与人员<span class="ms">Organisasi &amp; Personel</span></div>
+        <div class="panel-pad"><ul>
+          <li>组织机构图（中英文）张贴合理位置，无破损、无遮挡、不过期；<span class="ms">Carta organisasi (dwibahasa) ditampal di lokasi sesuai, tidak rosak, tidak terlindung &amp; tidak tamat tempoh.</span></li>
+          <li>岗位职责明确，中英文版岗位说明书格式统一、版本受控；<span class="ms">Tanggungjawab jelas; deskripsi tugas dwibahasa seragam formatnya &amp; versi terkawal.</span></li>
+          <li>编制变更、架构调整后 7 个工作日内完成资料同步更新；<span class="ms">Kemas kini dokumen dalam 7 hari bekerja selepas perubahan bilangan atau struktur.</span></li>
+          <li>随机抽查员工：须掌握直属上级岗位名称及姓名、本岗位职责。<span class="ms">Semakan rawak: pekerja mesti tahu nama &amp; jawatan penyelia langsung serta tanggungjawab sendiri.</span></li>
+        </ul></div>
+      </div>
+      <div class="panel">
+        <div class="panel-title"><span class="dot"></span>出勤与绩效<span class="ms">Kehadiran &amp; Prestasi</span></div>
+        <div class="panel-pad"><ul>
+          <li>纸质请销假记录与 ERP 考勤系统相符，证件附件齐全；<span class="ms">Rekod cuti kertas sepadan sistem ERP; dokumen sokongan lengkap.</span></li>
+          <li>缺勤 3 个工作日内完成处理（奖惩/改进提醒）；<span class="ms">Ketidakhadiran diurus dalam 3 hari bekerja (ganjaran/hukuman atau teguran).</span></li>
+          <li>奖金类分配/扣除规则上墙，绩效面谈与改进计划留痕；<span class="ms">Peraturan agihan/potongan bonus dipapar; temuduga prestasi &amp; pelan penambahbaikan berdokumen.</span></li>
+          <li>绩效结果公示，申诉流程畅通、记录归档。<span class="ms">Keputusan prestasi dipamer; aliran rayuan lancar &amp; rekod difailkan.</span></li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="mt-14"><a class="btn" href="training.html">🎓 查看安全培训课程与一人一档要求 <span class="ms">Lihat kursus &amp; keperluan satu orang satu fail</span></a></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>5项标准条款<span class="ms">5 Klausa Standard</span></h2><a class="right" href="standards.html">查看全部条款 Lihat semua →</a></div>
+    <div id="clauseList"></div>
+  </section>
+</main>
+
+<div id="app-tabbar" class="tabbar"></div>
+<div id="app-footer"></div>
+
+<script src="../assets/js/main.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("../assets/data/standards.json")
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var b = data.boards.filter(function (x) { return x.id === "hr"; })[0];
+      document.getElementById("clauseList").innerHTML = b.items.map(function (it) {
+        return '<div class="clause-board" style="margin-bottom:12px"><div class="clause-item" style="border:none">' +
+          '<div class="ci-head"><span class="ci-no">' + it.no + '</span><span class="ci-name">' + it.name +
+          (it.nameMs ? '<span class="ms">' + it.nameMs + "</span>" : "") + "</span>" +
+          (it.veto ? '<span class="badge danger">⚠ 否决项 Item veto：' + it.veto +
+            (it.vetoMs ? '<span class="ms">' + it.vetoMs + "</span>" : "") + "</span>" : "") + "</div>" +
+          '<div class="ci-body">' + it.req +
+          (it.reqMs ? '<span class="ms">' + it.reqMs + "</span>" : "") + "</div></div></div>";
+      }).join("");
+      if (window.refreshMotion) window.refreshMotion();
+    });
+});
+</script>
+</body>
+</html>

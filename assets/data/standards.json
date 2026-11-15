@@ -1,0 +1,305 @@
+{
+ "meta": {
+  "title": "焦电石灰标准化作业区标准",
+  "source": "依据《2026年东钢集团有限公司“标准化作业区”验收标准》主表（62项条款）编制",
+  "updated": "2026-10",
+  "note": "本页为作业区标准化建设条款总览，供培训、迎检与日常对照使用；标注“否决项”的条款为验收一票否决项，必须确保落实。"
+ },
+ "boards": [
+  {
+   "id": "hr",
+   "name": "人员管理",
+   "icon": "👷",
+   "focus": false,
+   "page": "pages/hr.html",
+   "summary": "组织机构、人员、出勤、薪酬绩效与培训管理，夯实作业区组织与人员基础。",
+   "items": [
+    {
+     "no": 1,
+     "name": "组织管理",
+     "req": "组织机构清晰，组织机构图（中英文）张贴在作业区合理位置，无破损、无遮挡；岗位职责明确，有中英文版岗位说明书，涵盖职责齐全、版本格式统一；编制变更、组织架构调整后7个工作日内完成资料同步更新。",
+     "veto": "无张贴组织机构图",
+     "nameMs": "Pengurusan Organisasi",
+     "vetoMs": "Tiada carta organisasi ditampal",
+     "reqMs": "Struktur organisasi jelas; carta organisasi (dwibahasa) ditampal di lokasi sesuai tanpa kerosakan dan tidak terlindung; tanggungjawab jawatan jelas dengan deskripsi tugas dwibahasa yang lengkap dan format seragam; kemas kini dokumen dalam 7 hari bekerja selepas perubahan bilangan atau struktur organisasi."
+    },
+    {
+     "no": 2,
+     "name": "人员管理",
+     "req": "劳动纪律管理合规、有依据、留痕迹；离职管理按制度流程执行；有奖惩记录，奖惩合规；外包人员名单及出勤记录齐全。",
+     "veto": "",
+     "nameMs": "Pengurusan Pekerja",
+     "reqMs": "Pengurusan disiplin kerja patuh, berasas dan berdokumen; pengurusan pekerja keluar ikut sistem & aliran; ada rekod ganjaran dan hukuman yang sah; senarai dan rekod kehadiran pekerja luar (kontraktor) lengkap."
+    },
+    {
+     "no": 3,
+     "name": "出勤管理",
+     "req": "严格执行请销假流程，有请销假记录；缺勤有管理；病假、婚假、产假/陪产假、丧假、灾难假等附有关法证件；纸质记录与ERP考勤系统相符。",
+     "veto": "无请销假记录",
+     "nameMs": "Pengurusan Kehadiran",
+     "vetoMs": "Tiada rekod permohonan cuti",
+     "reqMs": "Laksana aliran permohonan dan lapor cuti dengan tegas serta ada rekod; ketidakhadiran diurus; cuti sakit, cuti kahwin, cuti bersalin/pasangan, cuti kematian dan cuti bencana disertakan dokumen sokongan; rekod kertas sepadan dengan sistem kehadiran ERP."
+    },
+    {
+     "no": 4,
+     "name": "薪酬绩效管理",
+     "req": "有奖金类分配/扣除规则；全员绩效管理有痕迹、有指导和错误指出、有员工确认签字；绩效结果公示透明，绩效申诉流程畅通，申诉记录完整归档。",
+     "veto": "奖金类分配/扣除规则无",
+     "nameMs": "Gaji & Prestasi",
+     "vetoMs": "Tiada peraturan agihan/potongan bonus",
+     "reqMs": "Ada peraturan agihan dan potongan bonus; pengurusan prestasi semua pekerja berdokumen, ada bimbingan dan teguran kesilapan serta tandatangan pengesahan pekerja; keputusan prestasi dipamer secara telus; aliran rayuan prestasi lancar dan rekod rayuan difailkan lengkap."
+    },
+    {
+     "no": 5,
+     "name": "培训管理",
+     "req": "建立培训档案，一人一档；有人员培训记录、培训课件、签到表、月度培训人员名单、培训记录等材料，存档清晰规范；新入职人员有入职培训及师带徒培训记录。",
+     "veto": "无台账记录",
+     "nameMs": "Pengurusan Latihan",
+     "vetoMs": "Tiada daftar atau rekod",
+     "reqMs": "Wujudkan fail latihan dengan konsep satu orang satu fail; ada rekod latihan, slaid kursus, borang kehadiran, senarai peserta bulanan dan bahan latihan; disimpan kemas dan teratur; pekerja baru mempunyai rekod latihan masuk serta latihan mentor (师带徒)."
+    }
+   ],
+   "nameMs": "Pengurusan Personel",
+   "summaryMs": "Organisasi, personel, kehadiran, gaji & prestasi serta latihan — mengukuhkan asas organisasi dan tenaga kerja kawasan."
+  },
+  {
+   "id": "equipment",
+   "name": "设备管理",
+   "icon": "🔧",
+   "focus": false,
+   "page": "pages/equipment.html",
+   "summary": "点检、台账、备件、检修、制度、绩效、卫生七位一体，保障麦尔兹窑系统设备稳定运行。",
+   "items": [
+    {
+     "no": 6,
+     "name": "设备点检",
+     "req": "有点检标准、给油脂标准、维修技术标准；有点检计划并按计划点检、记录存档；有三方分工制度，点检对岗检有专业培训、检查、考核；设备异常有记录、有维修更换计划；设备温度、压力写数字；有操作规程并有培训、考核。",
+     "veto": "无点检卡",
+     "nameMs": "Pemeriksaan Peralatan",
+     "vetoMs": "Tiada kad pemeriksaan",
+     "reqMs": "Ada standard pemeriksaan, standard pelinciran gris dan standard teknikal penyelenggaraan; ada pelan pemeriksaan dan dilaksana mengikut pelan dengan rekod difailkan; ada sistem pembahagian tiga pihak, pemeriksaan profesional memberi latihan, semakan dan penilaian kepada pemeriksaan jawatan; kerosakan peralatan ada rekod dan pelan pembaikan/penggantian; suhu dan tekanan peralatan ditulis dengan nombor; ada prosedur operasi berserta latihan dan penilaian."
+    },
+    {
+     "no": 7,
+     "name": "设备台账",
+     "req": "重点设备有设备台账，天车、电葫芦、电机、减速机均有台账；台账定期更新，设备更换、维修有记录；对关键设备进行风险评估；有工具台账；台账有编号和更新时间，有编制、审核和批准人员并标注时间。",
+     "veto": "无设备台账",
+     "nameMs": "Daftar Peralatan",
+     "vetoMs": "Tiada daftar peralatan",
+     "reqMs": "Peralatan utama mempunyai daftar; kren overhead, hoist elektrik, motor dan gearbox semuanya berdaftar; daftar dikemas kini berkala, penggantian dan pembaikan ada rekod; penilaian risiko dibuat ke atas peralatan kritikal; ada daftar alatan; daftar bernombor dan bertarikh kemas kini serta ada penyedia, penyemak dan pelulus dengan tarikh."
+    },
+    {
+     "no": 8,
+     "name": "设备备件",
+     "req": "机旁备件管理有台账、使用有记录、有专人管理；现场备件摆放整齐；消耗有记录，机旁库账物一致；有日常保养维护记录；有备件申报计划及备件计划评审记录。",
+     "veto": "无台账",
+     "nameMs": "Alat Ganti Peralatan",
+     "vetoMs": "Tiada daftar",
+     "reqMs": "Alat ganti sampingan mesin ada daftar, penggunaan ada rekod dan ada penanggungjawab; alat ganti di tapak disusun kemas; penggunaan ada rekod dan stok sampingan sepadan dengan daftar; ada rekod penyelenggaraan harian; ada pelan permohonan alat ganti dan rekod semakan pelan."
+    },
+    {
+     "no": 9,
+     "name": "设备检修",
+     "req": "有检修计划、检修总结；有日修、周修、月修计划；设备事故有分析报告和学习记录，严格按照岗检、专业点检、包机巡检三个方面追溯分析，整改措施落实有记录；有月设备运行状况总结；有维修作业标准及培训、执行情况检查记录。",
+     "veto": "未按要求进行事故（故障）分析",
+     "nameMs": "Penyelenggaraan & Pembaikan",
+     "vetoMs": "Analisis kemalangan (kerosakan) tidak dibuat seperti ditetapkan",
+     "reqMs": "Ada pelan penyelenggaraan dan laporan penyelenggaraan; ada pelan pembaikan harian, mingguan dan bulanan; kemalangan peralatan ada laporan analisis dan rekod pembelajaran, dikesan dari tiga aspek: pemeriksaan jawatan, pemeriksaan profesional dan rondaan mesin; langkah pembetulan ada rekod penutupan; ada ringkasan status operasi bulanan; ada standard kerja pembaikan berserta latihan dan rekod semakan pelaksanaan."
+    },
+    {
+     "no": 10,
+     "name": "设备制度",
+     "req": "公司设备制度有承接、有培训；有内部考核制度并落实。",
+     "veto": "未承接公司设备制度",
+     "nameMs": "Sistem Peralatan",
+     "vetoMs": "Tidak menerima pakai sistem peralatan syarikat",
+     "reqMs": "Sistem peralatan syarikat diterima pakai dan dilatih; ada sistem penilaian dalaman yang dilaksanakan."
+    },
+    {
+     "no": 11,
+     "name": "设备绩效",
+     "req": "生产作业长、生产班长和岗位操作人员绩效中有设备方面绩效考评；点检作业长、专业点检员每月有设备绩效考评；检修作业长、维修班组长和维修人员绩效中有设备方面绩效考评。",
+     "veto": "无设备绩效",
+     "nameMs": "Prestasi Peralatan",
+     "vetoMs": "Tiada prestasi peralatan",
+     "reqMs": "Prestasi ketua pengeluaran, ketua pasukan pengeluaran dan operator mengandungi penilaian prestasi peralatan; ketua pemeriksaan dan pemeriksa profesional ada penilaian prestasi peralatan setiap bulan; ketua penyelenggaraan, ketua pasukan penyelenggaraan dan krew penyelenggaraan turut dinilai aspek peralatan."
+    },
+    {
+     "no": 12,
+     "name": "设备卫生",
+     "req": "设备露本色，油漆露亮光；液压站本体、管路、仪表无灰尘污渍；设备无灰尘且有清扫擦拭痕迹。",
+     "veto": "看不见设备本色、油漆",
+     "nameMs": "Kebersihan Peralatan",
+     "vetoMs": "Warna asal dan cat peralatan tidak kelihatan",
+     "reqMs": "Peralatan menampakkan warna asal, cat berkilat; badan stesen hidraulik, paip dan instrumen bebas habuk dan kotoran; peralatan bebas habuk dan ada tanda pembersihan."
+    }
+   ],
+   "nameMs": "Pengurusan Peralatan",
+   "summaryMs": "Pemeriksaan, daftar, alat ganti, penyelenggaraan, sistem, prestasi dan kebersihan — tujuh dalam satu bagi menjamin kestabilan sistem tanur Maerz."
+  },
+  {
+   "id": "safety",
+   "name": "安全管理",
+   "icon": "🛡️",
+   "focus": true,
+   "page": "pages/safety.html",
+   "summary": "安全生产责任、规程、培训、危险源、有限空间、应急、检查、劳保、特种设备与相关方管理，是标准化作业区建设的核心板块。",
+   "items": [
+    {
+     "no": 13,
+     "name": "安全生产责任分解",
+     "req": "制定作业区安全生产责任制，梳理本作业区设备、设施、生产工具，安全生产责任分解至各岗位人员（作业长、班组长、岗位员工、实习人员、外协人员），保证所有安全设备、设施、生产工具都有专人负责；签订安全生产承诺书。",
+     "veto": "无文件化安全生产责任制度及安全生产奖惩制度",
+     "nameMs": "Pembahagian Tanggungjawab Keselamatan",
+     "vetoMs": "Tiada sistem tanggungjawab keselamatan & ganjaran/hukuman bertulis",
+     "reqMs": "Wujudkan sistem tanggungjawab keselamatan kawasan; senaraikan peralatan, kemudahan dan alat pengeluaran; tanggungjawab keselamatan diagih hingga ke setiap jawatan (ketua kawasan, ketua pasukan, pekerja, pelatih, kontraktor) supaya semua kemudahan keselamatan ada penanggungjawab; tandatangan ikrar keselamatan pengeluaran."
+    },
+    {
+     "no": 16,
+     "name": "安全操作规程",
+     "req": "有安全操作规程台账；安全操作规程、作业区看板、安全宣誓牌等上墙；员工掌握本岗位安全操作规程；有检查记录；现场无违章行为。",
+     "veto": "无安全操作规程",
+     "nameMs": "Prosedur Operasi Selamat",
+     "vetoMs": "Tiada prosedur operasi selamat",
+     "reqMs": "Ada daftar prosedur operasi selamat; prosedur, papan kawasan dan papan ikrar keselamatan ditampal di dinding; pekerja menguasai prosedur jawatan masing-masing; ada rekod semakan; tiada perbuatan melanggar peraturan di tapak."
+    },
+    {
+     "no": 17,
+     "name": "安全培训",
+     "req": "安全培训档案人手一份，安全培训记录、台账齐全；有入厂安全培训、专项安全培训记录；有安全培训教材；培训档案填写全面正确。",
+     "veto": "无安全培训档案",
+     "nameMs": "Latihan Keselamatan",
+     "vetoMs": "Tiada fail latihan keselamatan",
+     "reqMs": "Fail latihan keselamatan satu salinan bagi setiap orang; rekod dan daftar latihan lengkap; ada rekod latihan masuk kilang dan latihan keselamatan khas; ada bahan latihan keselamatan; fail latihan diisi lengkap dan betul."
+    },
+    {
+     "no": 18,
+     "name": "安全会议",
+     "req": "班组交接班安全交底，将本班排查的隐患且未整改项、检修遗留等安全事项向接班人员说明；班前会辨识本班危险较大作业、布置安全措施、组织集体安全宣誓；班后会清点人数、点评安全措施落实情况、通报“三违”；每周开展一次安全活动；作业区、班组组织月安全例会；签到、内容、记录齐全。",
+     "veto": "",
+     "nameMs": "Mesyuarat Keselamatan",
+     "reqMs": "Taklimat keselamatan serah tugas syif: bahaya yang belum dibaiki dan kerja penyelenggaraan tertunggak diterangkan kepada pasukan ganti; mesyuarat pra-syif mengenal pasti kerja berisiko tinggi, menetapkan langkah keselamatan dan mengadakan ikrar keselamatan bersama; mesyuarat pasca-syif mengira kehadiran, menilai pelaksanaan langkah dan mengumumkan “tiga pelanggaran”; aktiviti keselamatan mingguan sekali seminggu; mesyuarat keselamatan bulanan peringkat kawasan dan pasukan; kehadiran, kandungan dan rekod lengkap."
+    },
+    {
+     "no": 23,
+     "name": "危险源管理",
+     "req": "进行危险源的识别、汇总、评价、确定控制措施，每年评审一次并保存最新版本；确定重点危险源并分级管控；建立健全危险源台账，制定并落实安全管理措施；检查落实救援器材装备及维护、重要参数测量远传连续记录、危险作业审批与过程检查。",
+     "veto": "无危险源台账",
+     "nameMs": "Pengurusan Bahaya",
+     "vetoMs": "Tiada daftar bahaya",
+     "reqMs": "Kenal pasti, kumpulkan, nilaikan bahaya dan tentukan langkah kawalan; semakan sekali setahun dan simpan versi terkini; tentukan bahaya utama dan kawal secara berperingkat; wujudkan dan lengkapkan daftar bahaya serta laksana langkah pengurusan keselamatan; semak kelengkapan penyelamat dan penyelenggaraannya, rakaman berterusan parameter penting, kelulusan kerja berbahaya dan semakan semasa kerja."
+    },
+    {
+     "no": 25,
+     "name": "特殊作业管理：有限空间作业",
+     "req": "建立本作业区有限空间台账及有限空间作业台账；作业前对作业负责人、监护人、作业人员、应急救援人员进行安全告知、技术交底、培训并考试；严格执行作业审批（作业方案、安全措施、应急预案、作业票据、出入登记）；执行作业前、作业过程、作业后安全检查；完善相关资料存档。",
+     "veto": "无有限空间台账",
+     "nameMs": "Kerja Ruang Terhad",
+     "vetoMs": "Tiada daftar ruang terhad",
+     "reqMs": "Wujudkan daftar ruang terhad dan daftar kerja ruang terhad kawasan; sebelum kerja beri taklimat keselamatan, taklimat teknikal, latihan dan peperiksaan kepada ketua kerja, pengawas, pekerja dan pasukan penyelamat; laksana kelulusan kerja (pelan kerja, langkah keselamatan, pelan kecemasan, borang kerja, daftar keluar-masuk); semakan keselamatan sebelum, semasa dan selepas kerja; lengkapkan pemfailan dokumen."
+    },
+    {
+     "no": 30,
+     "name": "对错表",
+     "req": "有岗位操作对错表并上墙；对错表齐全，重点存在危险因素岗位必须有对错表；员工掌握对错表内容。",
+     "veto": "无岗位对错表",
+     "nameMs": "Jadual Betul / Salah",
+     "vetoMs": "Tiada jadual betul/salah jawatan",
+     "reqMs": "Ada jadual operasi betul vs salah dan ditampal di dinding; jadual lengkap dan wajib bagi jawatan berisiko tinggi; pekerja menguasai kandungan jadual."
+    },
+    {
+     "no": 31,
+     "name": "事故与应急预案",
+     "req": "组织编制应急响应预案并发放到岗位、记录存档；现场处置方案至少每半年组织演练一次；配备必要的、合格的应急救援器材物资并建立台账（位置、数量、负责人、联系电话）；定期检验维护保养应急设施器材；相关人员每年进行一次应急培训，关键岗位每年至少2次、每次不少于两学时；建立事故台账，有事故调查报告、责任追究记录、防范措施落实追踪记录；演练资料即时存档（预案文本、演练方案、培训记录、演练签到、过程记录、总结评估、影像资料），发现问题一周内更新预案并8天内全员培训考试。",
+     "veto": "无应急预案；发生轻伤及以上事故",
+     "nameMs": "Kemalangan & Pelan Kecemasan",
+     "vetoMs": "Tiada pelan kecemasan; berlaku kemalangan cedera ringan ke atas",
+     "reqMs": "Sediakan pelan tindak balas kecemasan dan edarkan ke jawatan dengan rekod pemfailan; latihan amali pelan tindakan tapak sekurang-kurangnya setiap enam bulan; sediakan kelengkapan penyelamat yang mencukupi & layak dan wujudkan daftar (lokasi, kuantiti, penanggungjawab, telefon); semak dan selenggara kemudahan kecemasan secara berkala; latihan kecemasan setahun sekali bagi kakitangan berkaitan, jawatan kritikal ≥2 kali setahun dan ≥2 jam setiap kali; wujudkan daftar kemalangan berserta laporan siasatan, rekod pengenaan tanggungjawab dan rekod susulan langkah pencegahan; failkan bahan latihan serta-merta (teks pelan, skrip, rekod latihan, kehadiran, rekod proses, ringkasan penilaian, bahan visual); jika ada masalah, kemas kini pelan dalam seminggu dan latih serta uji semua pekerja dalam 8 hari."
+    },
+    {
+     "no": 32,
+     "name": "现场管理、定置管理",
+     "req": "作业区管理区域现场整洁，有定置管理，卫生有分区、有责任人；建立现场管理网络图，责任分解至各岗位，保证全部现场专人负责；物料、备件、工器具摆放整齐、定置牌标识明确；办公室、会议室、操作室、休息室物品定置有序；库房、道路、皮带通廊、料场料棚、绿化带按标准管理。",
+     "veto": "",
+     "nameMs": "Pengurusan Tapak & Susun Atur",
+     "reqMs": "Kawasan sentiasa bersih, ada pengurusan susun atur tetap, kebersihan berzon dan berpenanggungjawab; wujudkan carta rangkaian pengurusan tapak, tanggungjawab diagih ke setiap jawatan supaya semua kawasan ada penanggungjawab; bahan, alat ganti dan perkakas disusun kemas dengan papan tanda yang jelas; pejabat, bilik mesyuarat, bilik operasi dan bilik rehat tersusun; stor, jalan, koridor tali sawat, gudang bahan dan kawasan hijau diurus mengikut standard."
+    },
+    {
+     "no": 43,
+     "name": "安全检查表",
+     "req": "安全检查表具有检查项目、检查标准、检查情况、检查时间、检查人五要素；覆盖作业长、值班作业长（班组长）、岗位、作业区联查、专项检查；编制年度、月度安全检查计划并按计划执行；白班作业长每天至少检查三个岗位并互签；班组长每班逐岗检查一次；岗位员工每班对本岗位安全防护装置、工器具检查不少于3次，“两重点一重大”部位不间断巡检；建立隐患整改台账，能整改的落实措施时间责任人，不能整改的逐级上报并跟踪复查；检查结果与奖惩挂钩。",
+     "veto": "无安全检查台账",
+     "nameMs": "Senarai Semak Keselamatan",
+     "vetoMs": "Tiada daftar semakan keselamatan",
+     "reqMs": "Senarai semak mesti ada lima elemen: item semakan, standard, keadaan, masa dan pemeriksa; meliputi ketua kawasan, ketua syif (ketua pasukan), jawatan, semakan bersama kawasan dan semakan khas; sediakan pelan semakan tahunan dan bulanan serta laksana mengikut pelan; ketua kawasan syif siang memeriksa sekurang-kurangnya tiga jawatan sehari dan tandatangan silang; ketua pasukan memeriksa setiap jawatan sekali setiap syif; pekerja memeriksa peranti keselamatan dan alat jawatan tidak kurang 3 kali setiap syif, rondaan berterusan di bahagian “dua utama satu besar”; wujudkan daftar pembaikan bahaya — yang boleh dibaiki tentukan langkah, masa dan penanggungjawab, yang tidak boleh dibaiki laporkan naik dan susul semak; keputusan semakan dikait dengan ganjaran dan hukuman."
+    },
+    {
+     "no": 50,
+     "name": "劳保管理",
+     "req": "有劳保台账，发放有记录、员工签字；按发放标准执行，超发有以旧换新记录；现场劳保穿戴符合要求。",
+     "veto": "无劳保台账",
+     "nameMs": "Pengurusan PPE",
+     "vetoMs": "Tiada daftar PPE",
+     "reqMs": "Ada daftar PPE, pengagihan ada rekod dan tandatangan pekerja; laksana mengikut standard agihan, lebihan ada rekod tukar baru ganti lama; pemakaian PPE di tapak mematuhi keperluan."
+    },
+    {
+     "no": 51,
+     "name": "特种设备、应急器材安全管理",
+     "req": "建立天车、起重机、锅炉、压力容器、电梯等特种设备台账；建立空气呼吸器、煤气报警器、灭火器、安全阀、压力表等应急器材台账；台账更新及时。",
+     "veto": "无特种设备台账",
+     "nameMs": "Peralatan Khas & Kelengkapan Kecemasan",
+     "vetoMs": "Tiada daftar peralatan khas",
+     "reqMs": "Wujudkan daftar peralatan khas: kren overhead, kren, dandang, bekas tekanan dan lif; wujudkan daftar kelengkapan kecemasan: alat pernafasan udara, penggera gas, pemadam api, injap keselamatan dan tolok tekanan; daftar dikemas kini tepat pada masa."
+    },
+    {
+     "no": 52,
+     "name": "相关方管理",
+     "req": "建立健全相关方管理台账；相关方进场作业前进行安全告知、安全培训（长期服务方每年一次、环境变化后及时重新告知，短期检修项目检修前告知）；作业前确认施工方安全措施，作业过程监护检查，作业后检查现场清理与安全设施恢复；相关方危险作业许可；劳务外协人员纳入作业区日常安全管理。",
+     "veto": "无相关方管理台账",
+     "nameMs": "Pengurusan Kontraktor",
+     "vetoMs": "Tiada daftar pengurusan kontraktor",
+     "reqMs": "Wujudkan dan lengkapkan daftar pengurusan kontraktor; sebelum masuk kerja beri taklimat keselamatan dan latihan (kontraktor jangka panjang sekali setahun, ulang semula jika persekitaran berubah, projek penyelenggaraan singkat dimaklumkan sebelum kerja); sebelum kerja sahkan langkah keselamatan pihak pembinaan, semasa kerja adakan pengawasan, selepas kerja semak pembersihan dan pemulihan kemudahan keselamatan; permit kerja berbahaya kontraktor; pekerja luar dimasukkan ke dalam pengurusan keselamatan harian kawasan."
+    }
+   ],
+   "nameMs": "Pengurusan Keselamatan",
+   "summaryMs": "Tanggungjawab, prosedur, latihan, bahaya, ruang terhad, kecemasan, semakan, PPE, peralatan khas dan kontraktor — teras pembinaan kawasan kerja standard.",
+   "focusMs": "Tanggungjawab, prosedur, latihan, bahaya, ruang terhad, kecemasan, semakan, PPE, kontraktor"
+  },
+  {
+   "id": "process",
+   "name": "工艺技术管理",
+   "icon": "⚙️",
+   "focus": false,
+   "page": "pages/process.html",
+   "summary": "操作规程、生产记录与事故管理，保障麦尔兹双膛窑工艺过程受控。",
+   "items": [
+    {
+     "no": 56,
+     "name": "操作规程",
+     "req": "有《麦尔兹石灰窑工艺技术操作规程》等工艺/技术操作规程；有操作规程培训记录；新设备新工艺投产前规程同步上报审批并更新；转岗人员开展新岗位规程培训并考试。",
+     "veto": "",
+     "nameMs": "Prosedur Operasi",
+     "reqMs": "Ada prosedur operasi proses/teknikal seperti《Prosedur Operasi Teknikal Tanur Kapur Maerz》; ada rekod latihan prosedur; sebelum peralatan atau proses baru beroperasi, prosedur dikemukakan untuk kelulusan dan dikemas kini; pekerja pindah jawatan dilatih dan diuji bagi prosedur jawatan baru."
+    },
+    {
+     "no": 57,
+     "name": "生产记录",
+     "req": "生产工艺过程有记录（主控操作记录、窑体测温记录等），工艺检查有记录，工艺异常有评审和整改措施落实。",
+     "veto": "",
+     "nameMs": "Rekod Pengeluaran",
+     "reqMs": "Proses pengeluaran ada rekod (rekod operasi kawalan utama, rekod suhu badan tanur dan lain-lain), semakan proses ada rekod, keabnormalan proses ada semakan dan langkah pembetulan yang dilaksana."
+    },
+    {
+     "no": 58,
+     "name": "事故管理",
+     "req": "有工艺质量事故台账；工艺事故、质量事故有分析报告和整改措施；工艺质量事故有培训记录。",
+     "veto": "",
+     "nameMs": "Pengurusan Kemalangan",
+     "reqMs": "Ada daftar kemalangan kualiti proses; kemalangan proses dan kemalangan kualiti ada laporan analisis dan langkah pembetulan; kemalangan kualiti proses ada rekod latihan."
+    }
+   ],
+   "nameMs": "Pengurusan Teknologi Proses",
+   "summaryMs": "Prosedur operasi, rekod pengeluaran dan pengurusan kemalangan — memastikan proses tanur berkembar Maerz terkawal."
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>安全基础知识 · Pengetahuan Asas Keselamatan</title>
+<meta name="description" content="石灰作业区安全基础知识：安全生产方针、四不伤害、四不放过、安全带规范、煤气三大特性、岗位风险辨识等17条核心知识，中马双语对照">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='18' font-size='18'>📗</text></svg>">
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="page">
+  <div class="breadcrumb"><a href="../index.html">首页 Utama</a><span>›</span><a href="safety.html">安全学习 Keselamatan</a><span>›</span>安全基础知识 Asas</div>
+
+  <div class="panel panel-pad" style="border-left:5px solid var(--c-cyan)">
+    <h1 style="font-size:21px;font-weight:900">📗 安全基础知识 <span class="ms" style="font-size:14px">Pengetahuan Asas Keselamatan</span></h1>
+    <p class="mt-8" style="font-size:14px;color:var(--c-text-2)">
+      全员必须掌握的 <b>17 条安全基础知识</b>，按主题分为四组，中马双语对照——中方员工与马来员工互学互助。学完后可参加 <a href="quiz.html" style="font-weight:700">在线模拟考试 Peperiksaan</a> 检验掌握情况。
+      <span class="ms"><b>17 pengetahuan asas keselamatan</b> yang mesti dikuasai semua pekerja, dibahagikan kepada empat kumpulan, dalam dwibahasa Cina–Melayu — pekerja China dan pekerja Malaysia saling belajar &amp; membantu. Selepas belajar, boleh mengambil peperiksaan dalam talian untuk menguji kefahaman.</span>
+    </p>
+    <p class="muted mt-8" id="basicsSource" style="font-size:11.5px"></p>
+  </div>
+
+  <div id="basicsRoot" class="mt-20"></div>
+
+  <div class="section no-print">
+    <div class="panel panel-pad" style="border-left:5px solid var(--c-accent)">
+      <h3 style="font-size:16px;font-weight:900">🎯 学完自测 / Ujian Kendiri</h3>
+      <p class="mt-8" style="font-size:13.5px;color:var(--c-text-2)">安全基础知识已编入考试题库：<b>安全知识综合试卷</b>（安全生产法规、动火作业、有限空间、起重吊装、煤气安全、劳保与职业健康，30题）。<span class="ms">Pengetahuan asas keselamatan telah dimasukkan ke dalam kertas ujian: Kertas Ujian Komprehensif Pengetahuan Keselamatan (undang-undang keselamatan, kerja api, ruang terhad, mengangkat, keselamatan gas, PPE &amp; kesihatan pekerjaan — 30 soalan).</span></p>
+      <div class="mt-14" style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn accent" href="quiz.html">📝 参加安全知识综合试卷 <span class="ms">Ambil ujian</span></a>
+        <a class="btn ghost" href="risk-library.html">⚠️ 工艺风险知识库 <span class="ms">Pangkalan risiko</span></a>
+        <a class="btn ghost" href="emergency-cards.html">🆘 应急处置卡 <span class="ms">Kad kecemasan</span></a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div id="app-tabbar" class="tabbar"></div>
+<div id="app-footer"></div>
+
+<script src="../assets/js/main.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("../assets/data/safety-basics.json")
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      document.getElementById("basicsSource").textContent = data.meta.source.zh + " ｜ " + data.meta.source.ms;
+      var root = document.getElementById("basicsRoot");
+      var total = 0;
+      root.innerHTML = data.groups.map(function (g) {
+        total += g.items.length;
+        var cards = g.items.map(function (it) {
+          return (
+            '<div class="panel panel-pad" style="display:flex;gap:14px;align-items:flex-start">' +
+            '<div style="flex:none;width:44px;height:44px;border-radius:11px;background:var(--grad-steel);color:#fff;display:grid;place-items:center;font-family:var(--font-num);font-weight:900;font-size:15px;box-shadow:0 4px 12px rgba(30,58,95,.3)">' + it.no + "</div>" +
+            '<div style="flex:1"><h3 style="font-size:15.5px;font-weight:900">' + it.title.zh +
+            '<span class="ms" style="font-size:12px">' + it.title.ms + "</span></h3>" +
+            '<p class="mt-8" style="font-size:13.5px;color:var(--c-text-2)">' + it.content.zh + "</p>" +
+            '<p class="ms">' + it.content.ms + "</p>" +
+            "</div></div>"
+          );
+        }).join("");
+        return (
+          '<section class="course-cat"><div class="course-cat-head"><div class="cc-icon">' + g.icon + "</div>" +
+          "<h2>" + g.name.zh + '<span class="ms" style="display:inline;font-size:13px">' + g.name.ms + "</span>" +
+          '<span class="badge info" style="margin-left:8px">' + g.items.length + " 条<span class=\"ms\">perkara</span></span></h2></div>" +
+          '<div class="grid g-2">' + cards + "</div></section>"
+        );
+      }).join("");
+      if (window.refreshMotion) window.refreshMotion();
+    })
+    .catch(function () {
+      document.getElementById("basicsRoot").innerHTML =
+        '<div class="alert danger"><span class="a-icon">✕</span><div>基础知识数据加载失败，请确认 assets/data/safety-basics.json 文件存在。<span class="ms">Gagal memuat data; pastikan fail assets/data/safety-basics.json wujud.</span></div></div>';
+    });
+});
+</script>
+</body>
+</html>

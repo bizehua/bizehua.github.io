@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>事故案例警示 · Kes Kemalangan</title>
+<meta name="description" content="焦电部2026年真实事故通报案例：干熄焦两炉装一罐事故、旋密卡异物事故、焦罐粘焦事故，含事情经过、原因分析与改善措施">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='18' font-size='18'>📕</text></svg>">
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="page">
+  <div class="breadcrumb"><a href="../index.html">首页 Utama</a><span>›</span><a href="safety.html">安全管理 Keselamatan</a><span>›</span>事故案例 Kes kemalangan</div>
+
+  <div class="panel panel-pad" style="border-left:5px solid var(--c-danger)">
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <h1 style="font-size:21px;font-weight:800">📕 事故案例警示 <span class="ms" style="font-size:14px">Kes Kemalangan &amp; Pengajaran</span></h1>
+      <span class="badge danger">条款31 / 条款58 Klausa 31/58</span>
+    </div>
+    <p class="mt-8" style="font-size:14px;color:var(--c-text-2)">
+      以下案例来自焦电部 2026 年事故通报（干熄焦作业区），虽非石灰作业区事发，但同属焦电部、同类型风险（检修违章、异常处置、设备卡滞、工艺异常），对石灰作业区具有直接警示意义。事故案例须纳入班组安全活动学习，留存培训记录。
+      <span class="ms">Kes di bawah daripada laporan kemalangan Jabatan Kok &amp; Kuasa 2026 (kawasan CDQ). Walaupun bukan di kawasan kapur, ia masih dalam jabatan yang sama dan risiko sejenis (pelanggaran penyelenggaraan, pengendalian keabnormalan, tersangkut peralatan, keabnormalan proses) — amaran langsung untuk kawasan kapur. Kes kemalangan mesti dimasukkan dalam aktiviti keselamatan pasukan dan rekod latihan disimpan.</span>
+    </p>
+    <div class="alert danger mt-14"><span class="a-icon">⚠️</span><div><b>红线提醒：</b>作业区管理不到位导致责任区域内发生<b>轻伤及以上事故按否决项处理</b>；相关方重伤及以上同按否决项处理。事故后必须保护现场、立即报告，严禁迟报、漏报、谎报、瞒报。
+      <span class="ms"><b>Peringatan garis merah:</b> pengurusan kawasan yang lemah sehingga berlaku <b>kemalangan cedera ringan ke atas di kawasan tanggungjawab dianggap item veto</b>; kecederaan serius kontraktor juga item veto. Selepas kemalangan mesti lindungi lokasi &amp; laporkan serta-merta; dilarang lewat lapor, tertinggal lapor, lapor palsu atau menyembunyikan.</span></div></div>
+  </div>
+
+  <div id="caseList"></div>
+
+  <!-- 事故管理要求 -->
+  <section class="section">
+    <div class="section-head"><h2>事故管理要求<span class="ms">Keperluan Pengurusan Kemalangan</span></h2><span class="sub">验收标准第31⑥项 / 第58项<span class="ms">Klausa 31⑥ / 58</span></span></div>
+    <div class="grid g-2">
+      <div class="panel">
+        <div class="panel-title"><span class="dot"></span>事故台账与记录<span class="ms">Daftar &amp; Rekod Kemalangan</span></div>
+        <div class="panel-pad"><ul>
+          <li>建立本作业区<b>事故台账</b>，无事故台账扣分；<span class="ms">Wujudkan <b>daftar kemalangan</b> kawasan; tiada daftar = potongan markah.</span></li>
+          <li>事故<b>调查报告</b>、<b>责任追究记录</b>、<b>防范措施落实追踪记录</b>齐全，少一项扣分；<span class="ms">Laporan siasatan, rekod pengenaan tanggungjawab &amp; rekod susulan langkah pencegahan lengkap; kurang satu = potongan.</span></li>
+          <li>工艺质量事故有分析报告、整改措施与培训记录；<span class="ms">Kemalangan kualiti proses ada laporan analisis, tindakan pembetulan &amp; rekod latihan.</span></li>
+          <li>事故学习记录纳入班组安全活动，与班后会通报衔接。<span class="ms">Rekod pembelajaran kemalangan dimasukkan dalam aktiviti keselamatan pasukan &amp; diumumkan pada mesyuarat pasca-syif.</span></li>
+        </ul></div>
+      </div>
+      <div class="panel">
+        <div class="panel-title"><span class="dot"></span>事故处理原则（四不放过）<span class="ms">Prinsip “Empat Tidak Lepas”</span></div>
+        <div class="panel-pad">
+          <ol class="ec-steps" style="counter-reset:step">
+            <li>事故原因未查清不放过；<span class="ms">Punca kemalangan belum disiasat jelas — tidak lepas.</span></li>
+            <li>责任人员未处理不放过；<span class="ms">Pihak bertanggungjawab belum diambil tindakan — tidak lepas.</span></li>
+            <li>整改措施未落实不放过；<span class="ms">Langkah pembetulan belum dilaksana — tidak lepas.</span></li>
+            <li>有关人员未受到教育不放过。<span class="ms">Kakitangan berkaitan belum menerima pendidikan — tidak lepas.</span></li>
+          </ol>
+          <div class="alert info mt-14"><span class="a-icon">💡</span><div>演练或事故发现问题，预案文本一周内更新，8天内对全员培训考试。
+            <span class="ms">Jika masalah ditemui semasa latihan atau kemalangan, kemas kini teks pelan dalam seminggu dan latih serta uji semua pekerja dalam 8 hari.</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="app-tabbar" class="tabbar"></div>
+<div id="app-footer"></div>
+
+<script src="../assets/js/main.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  Promise.all([
+    fetch("../assets/data/cases.json").then(function (r) { return r.json(); }),
+    fetch("../assets/data/cases-ms.json").then(function (r) { return r.json(); }).catch(function () { return {}; })
+  ])
+    .then(function (res) {
+      var data = res[0];
+      var msData = res[1] || {};
+      document.getElementById("caseList").innerHTML = data.meta.principle +
+        data.cases.map(function (c) {
+          var ms = msData[c.id] || {};
+          var msCourse = ms.course || [], msCauses = ms.causes || [], msLessons = ms.lessons || [];
+          return (
+            '<section class="section"><div class="section-head"><h2>' + c.title +
+            (ms.title ? '<span class="ms" style="font-size:13px">' + ms.title + "</span>" : "") + "</h2>" +
+            '<span class="sub">' + c.date + " ｜ " + c.shift + " ｜ " + c.area + "</span></div>" +
+            '<article class="panel panel-pad case-card">' +
+            '<div class="cc-meta">' +
+            '<span class="badge danger">' + c.severity + (ms.severity ? '<span class="ms">' + ms.severity + "</span>" : "") + "</span>" +
+            '<span class="badge warn">' + c.type + (ms.type ? '<span class="ms">' + ms.type + "</span>" : "") + "</span>" +
+            '<span class="badge info">' + c.shift + (ms.shift ? '<span class="ms">' + ms.shift + "</span>" : "") + "</span>" +
+            '<span class="badge info">' + c.date + "</span>" +
+            "</div>" +
+            '<div class="cc-block"><h4>事情经过 Peristiwa</h4><ol>' +
+            c.course.map(function (x, i) { return "<li>" + x + (msCourse[i] ? '<span class="ms">' + msCourse[i] + "</span>" : "") + "</li>"; }).join("") + "</ol></div>" +
+            '<div class="cc-block"><h4>原因分析 Analisis Punca</h4><ol>' +
+            c.causes.map(function (x, i) { return "<li>" + x + (msCauses[i] ? '<span class="ms">' + msCauses[i] + "</span>" : "") + "</li>"; }).join("") + "</ol></div>" +
+            '<div class="cc-block"><h4>教训与改善措施 Pengajaran &amp; Penambahbaikan</h4><ul>' +
+            c.lessons.map(function (x, i) { return "<li>" + x + (msLessons[i] ? '<span class="ms">' + msLessons[i] + "</span>" : "") + "</li>"; }).join("") + "</ul></div>" +
+            '<div class="cc-foot"><span class="badge info">' + c.clause + "</span>" +
+            '<span class="muted" style="font-size:11.5px">来源 Sumber：' + c.doc + "</span>" +
+            '<a class="btn ghost" style="margin-left:auto;padding:5px 12px;font-size:12.5px" href="quiz.html">📝 应急处置专项试卷 Kertas ujian</a></div>' +
+            "</article></section>"
+          );
+        }).join("");
+      if (window.refreshMotion) window.refreshMotion();
+    })
+    .catch(function () {
+      document.getElementById("caseList").innerHTML =
+        '<div class="alert danger"><span class="a-icon">✕</span><div>案例数据加载失败，请确认 assets/data/cases.json 文件存在。<span class="ms">Gagal memuat data kes; pastikan fail assets/data/cases.json wujud.</span></div></div>';
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>焦电石灰标准化作业区标准 · 条款总览</title>
+<meta name="description" content="焦电部石灰作业区标准化作业区建设标准条款总览，含人员管理、设备管理、安全管理、工艺技术管理四大板块及否决项标注">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='18' font-size='18'>📋</text></svg>">
+</head>
+<body>
+
+<div id="app-header"></div>
+
+<main class="page">
+  <div class="breadcrumb"><a href="../index.html">首页 Utama</a><span>›</span>标准化作业区标准 Standard</div>
+
+  <div class="panel panel-pad" style="border-left:5px solid var(--c-primary)">
+    <h1 style="font-size:21px;font-weight:800">焦电石灰标准化作业区标准 · 条款总览 <span class="ms" style="font-size:14px">Standard Kawasan Kerja (Rujukan)</span></h1>
+    <p class="muted mt-8">（验收参考附录 · 课程学习请见<a href="courses.html">课程库 Senarai kursus</a>）<span class="ms">Lampiran rujukan penerimaan</span></p>
+    <p class="muted mt-8" id="stdSource"></p>
+    <div class="alert warn mt-14"><span class="a-icon">⚠️</span><div>标注 <b>“否决项”</b> 的条款为验收一票否决项，任何一项不落实将直接导致验收不通过，须优先保障。
+      <span class="ms">Klausa bertanda <b>“Item Veto”</b> ialah penolakan terus — jika mana-mana tidak dilaksana, penerimaan akan gagal; mesti diutamakan.</span></div></div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><h2>四大板块条款<span class="ms">Klausa Empat Bidang</span></h2><span class="sub">共4大板块 · 28项标准内容<span class="ms">4 bidang · 28 klausa standard</span></span></div>
+    <div id="stdBoards"></div>
+  </div>
+
+  <div class="section">
+    <div class="panel">
+      <div class="panel-title"><span class="dot"></span>使用说明<span class="ms">Cara Penggunaan</span></div>
+      <div class="panel-pad muted" style="font-size:13px">
+        本页条款依据《2026年东钢集团有限公司“标准化作业区”验收标准》主表整理，用于培训、迎检与日常对照。各条款配套表单、记录模板可在 <a href="downloads.html">资料下载 Muat turun</a> 页获取；安全条款的培训与考试见 <a href="training.html">安全培训课程 Kursus</a> 与 <a href="quiz.html">在线模拟考试 Peperiksaan</a>。
+        <span class="ms">Klausa di halaman ini disusun daripada jadual utama《Standard Penerimaan “Kawasan Kerja Standard” Kumpulan Dongsteel 2026》, untuk latihan, audit dan semakan harian. Borang &amp; templat rekod boleh didapati di halaman Muat Turun; latihan dan peperiksaan klausa keselamatan ada di halaman Kursus dan Peperiksaan Dalam Talian.</span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div id="app-tabbar" class="tabbar"></div>
+<div id="app-footer"></div>
+
+<script src="../assets/js/main.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("../assets/data/standards.json")
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      document.getElementById("stdSource").innerHTML = data.meta.source + " ｜ 更新：" + data.meta.updated + " ｜ " + data.meta.note +
+        '<span class="ms">Sumber: ' + data.meta.source + ' ｜ Dikemas kini: ' + data.meta.updated + '</span>';
+      var wrap = document.getElementById("stdBoards");
+      wrap.innerHTML = "";
+      data.boards.forEach(function (b) {
+        var vetoCount = b.items.filter(function (i) { return i.veto; }).length;
+        var board = document.createElement("section");
+        board.className = "clause-board" + (b.focus ? " safety" : "");
+        var itemsHtml = b.items.map(function (it) {
+          var vetoHtml = it.veto
+            ? '<div class="veto"><span class="badge danger">⚠ 否决项 Item veto</span> <span style="font-size:12.5px;color:var(--c-danger)">' + it.veto +
+              (it.vetoMs ? '<span class="ms">' + it.vetoMs + "</span>" : "") + "</span></div>"
+            : "";
+          return '<div class="clause-item"><div class="ci-head"><span class="ci-no">' + it.no +
+            '</span><span class="ci-name">' + it.name +
+            (it.nameMs ? '<span class="ms">' + it.nameMs + "</span>" : "") +
+            '</span></div><div class="ci-body">' + it.req +
+            (it.reqMs ? '<span class="ms">' + it.reqMs + "</span>" : "") +
+            "</div>" + vetoHtml + "</div>";
+        }).join("");
+        board.innerHTML =
+          '<div class="clause-board-head"><h3>' + b.icon + " " + b.name +
+          (b.nameMs ? '<span class="ms">' + b.nameMs + "</span>" : "") + "</h3>" +
+          (b.focus ? '<span class="badge danger">核心板块 Teras</span>' : "") +
+          '<span class="c-no">' + b.items.length + "项条款 ｜ 否决项 " + vetoCount + "项" +
+          '<span class="ms">' + b.items.length + " klausa ｜ " + vetoCount + " item veto</span></span>" +
+          '<a class="right" style="margin-left:auto;font-size:13px" href="' + b.page + '">进入板块 Masuk →</a></div>' +
+          '<div class="panel-pad" style="padding-top:10px;padding-bottom:4px"><p class="muted" style="font-size:13px">' + b.summary +
+          (b.summaryMs ? '<span class="ms">' + b.summaryMs + "</span>" : "") + "</p></div>" +
+          itemsHtml;
+        wrap.appendChild(board);
+      });
+      if (window.refreshMotion) window.refreshMotion();
+    })
+    .catch(function () {
+      document.getElementById("stdBoards").innerHTML =
+        '<div class="alert danger"><span class="a-icon">✕</span><div>条款数据加载失败，请确认 assets/data/standards.json 文件存在。<span class="ms">Gagal memuat data klausa; pastikan fail assets/data/standards.json wujud.</span></div></div>';
+    });
+});
+</script>
+</body>
+</html>
